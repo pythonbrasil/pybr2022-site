@@ -6,6 +6,8 @@ SITENAME = 'Python Brasil 2022'
 SITEURL = ''
 
 PATH = 'content'
+PORT = 8081
+
 
 TIMEZONE = 'Europe/Paris'
 
