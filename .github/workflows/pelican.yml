@@ -18,4 +18,5 @@ jobs:
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         PELICAN_THEME_FOLDER: themes/pybr
+        PELICAN_CONFIG_FILE: publishconf.py
         
