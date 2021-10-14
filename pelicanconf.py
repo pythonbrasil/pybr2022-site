@@ -3,15 +3,17 @@
 
 AUTHOR = 'Organização da Python Brasil 2022'
 SITENAME = 'Python Brasil 2022'
-SITEURL = ''
+
+PORT = 8081
+SITEURL = 'http://localhost:{}'.format(PORT)
 
 PATH = 'content'
-PORT = 8081
-
 
 TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = 'pt'
+THEME = 'themes/pybr'
+DEFAULT_BG = 'images/logo/pythonmao_1.png'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
