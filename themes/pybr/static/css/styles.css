@@ -11437,7 +11437,7 @@ header.masthead h1, header.masthead .h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(244, 98, 58, 0.9);
+  background: rgb(0 0 0 / 90%);
   transition: opacity 0.25s ease;
   text-align: center;
 }
@@ -11456,7 +11456,7 @@ header.masthead h1, header.masthead .h1 {
 
 
 .pessoas-box{
-  padding-top: 10rem;
+  padding-top: 15rem;
   padding-bottom: calc(10rem - 4.5rem);
   background: url(../assets/img/1.jpg); 
   background-position: center;
@@ -11464,3 +11464,14 @@ header.masthead h1, header.masthead .h1 {
   background-attachment: scroll;
   background-size: cover;
 }
+
+.pessoas-box-2{
+  padding-top: 15rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: url(../assets/img/bg-manaus.jpg); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
