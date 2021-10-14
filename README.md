@@ -1,6 +1,11 @@
 # Python Brasil 2022
 
 
+https://pythonbrasil.github.io/pybr2022-site/
+
+https://2022.pythonbrasil.org.br/
+
+
 ## Ambiente de desenvolvimento
 
 Primeiro instale a [virtualenv](https://gist.github.com/Geoyi/d9fab4f609e9f75941946be45000632b) em sua máquina. Logo em seguida, siga os passos seguintes para fazer a instalação das dependências: 
