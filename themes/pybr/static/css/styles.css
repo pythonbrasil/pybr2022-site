@@ -234,7 +234,7 @@ sup {
   top: -0.5em;
 }
 
-a {
+/* a {
   color: #f4623a;
   text-decoration: underline;
 }
@@ -245,7 +245,7 @@ a:hover {
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
   color: inherit;
   text-decoration: none;
-}
+} */
 
 pre,
 code,
@@ -11389,7 +11389,7 @@ hr.divider-light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgb(245 245 245 / 65%) 0%, rgb(0 63 93) 100%), url(../assets/img/bg-manaus-2.jpg);
+  background: linear-gradient(to bottom, rgb(0 0 0 / 78%) 0%, rgb(0 0 0) 100%), url(../assets/img/bg-manaus.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11450,6 +11450,17 @@ header.masthead h1, header.masthead .h1 {
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-name {
   font-size: 1.2rem;
 }
-#portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box-caption, #portfolio .container-md .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box-caption, #portfolio .container-xxl .portfolio-box-caption {
   opacity: 1;
+}
+
+
+.pessoas-box{
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: url(../assets/img/1.jpg); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 }
