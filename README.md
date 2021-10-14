@@ -16,7 +16,7 @@ $ pip install -r requirements.txt
 Para executar o projeto, digite o seguinte comando em seu terminal:
 
 ```
-$ make devserver
+$ make html & make serve
 ```
 
 Para ter acesso ao site em seu ambiente local, acesse: https://localhost:8081
@@ -32,3 +32,6 @@ $ docker-compose up -d
 ```
 
 Para ter acesso ao site em seu ambiente local, acesse: https://localhost:8081
+
+
+sudo lsof -i tcp:8081
