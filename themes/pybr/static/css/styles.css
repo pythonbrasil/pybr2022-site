@@ -650,10 +650,27 @@ progress {
   margin-left: auto;
 }
 
+@media only screen and (min-width: 300px) {
+
+  .map-responsive {
+    overflow: hidden;
+    position: relative;
+    height: 350px;
+    margin-top: 5%; }
+  
+  .map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute; }
+}
+
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
   }
+  
 }
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
@@ -663,6 +680,7 @@ progress {
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
     max-width: 960px;
+    
   }
 }
 @media (min-width: 1200px) {
