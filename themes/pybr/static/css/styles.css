@@ -11407,7 +11407,7 @@ hr.divider-light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgb(0 0 0 / 78%) 0%, rgb(0 0 0) 100%), url(../assets/img/bg-manaus.jpg);
+  background: linear-gradient(to bottom, rgb(0 0 0 / 18%) 0%, rgb(0 0 0) 108%), url(../assets/img/bg-manaus_otimizada.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
