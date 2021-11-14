@@ -11321,6 +11321,10 @@ body {
   color: rgba(255, 255, 255, 0.75) !important;
 }
 
+.text-white-23 {
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+
 .btn-xl {
   padding: 1.25rem 2.25rem;
   font-size: 0.85rem;
@@ -11431,6 +11435,9 @@ header.masthead h1, header.masthead .h1 {
   header.masthead h1, header.masthead .h1 {
     font-size: 3rem;
   }
+}
+.normal {
+  font-size: 1.75rem !important;
 }
 @media (min-width: 1200px) {
   header.masthead h1, header.masthead .h1 {
