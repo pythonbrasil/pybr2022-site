@@ -11,4 +11,4 @@ services:
     working_dir: /data
     ports:
       - 8081:8081
-    command: bash -c "pelican content -s pelicanconf.py && cd output && python -m http.server 8081"
+    command: bash -c "pelican --autoreload --listen -b 0.0.0.0 -p 8081"
