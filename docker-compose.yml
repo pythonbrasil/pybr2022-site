@@ -6,7 +6,7 @@ services:
     hostname: pybr2022-site
     build: .
     volumes:
-      - .:/data
+      - .:/data:z
 
     working_dir: /data
     ports:
