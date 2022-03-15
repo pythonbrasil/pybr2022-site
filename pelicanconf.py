@@ -1,8 +1,17 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 
-AUTHOR = 'Organização da Python Brasil 2022'
-SITENAME = 'Python Brasil 2022'
+import os
+import sys
+
+sys.path.append(os.curdir)
+
+from eventconf import *
+
+AUTHOR = (
+    'Organização do Congresso Nacional de Meio Ambiente de Ceará-Mirim 2022'
+)
+SITENAME = EVENTNAME
 
 PORT = 8081
 SITEURL = 'http://localhost:{}'.format(PORT)
