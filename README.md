@@ -1,14 +1,11 @@
-# Python Brasil 2022
+# Congresso Nacional de Meio Ambiente de Ceará-Mirim 2022
 
-
-https://pythonbrasil.github.io/pybr2022-site/
-
-https://2022.pythonbrasil.org.br/
+http://meioambiente.cm.ifrn.edu.br
 
 
 ## Ambiente de desenvolvimento
 
-Primeiro instale a [virtualenv](https://gist.github.com/Geoyi/d9fab4f609e9f75941946be45000632b) em sua máquina. Logo em seguida, siga os passos seguintes para fazer a instalação das dependências: 
+Primeiro instale a [virtualenv](https://gist.github.com/Geoyi/d9fab4f609e9f75941946be45000632b) em sua máquina. Logo em seguida, siga os passos seguintes para fazer a instalação das dependências:
 
 ```
 $ git clone https://github.com/pythonbrasil/pybr2022-site
@@ -40,3 +37,9 @@ Para ter acesso ao site em seu ambiente local, acesse: https://localhost:8081
 
 
 sudo lsof -i tcp:8081
+
+## Créditos
+
+Código-fonte original foi criado para o site da [Python Brasil 2022
+(https://2022.pythonbrasil.org.br/), pela comunidade brasileira de usuários de
+Python, em especial a comunidade do Amazonas.
