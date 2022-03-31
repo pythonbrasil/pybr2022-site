@@ -1,0 +1,33 @@
+#language-switch {
+  margin-top: 15px;
+
+  li {
+    border-left: 1px solid $white;
+    border-right: 1px solid $white;
+    padding: 1px 5px;
+
+    button {
+      cursor: pointer;
+      border: none;
+      background: none;
+      color: $white;
+      padding: 2px 5px;
+      transition: 150ms color;
+    }
+
+    &:first-child {
+      border-left: none;
+    }
+    &:last-child {
+      border-right: none;
+    }
+    &:hover button {
+      color: $light-white;
+    }
+
+    &.active button {
+      color: $full-white;
+      font-weight: 800;
+    }
+  }
+}

@@ -1,0 +1,62 @@
+.logo-container {
+  overflow: hidden;
+  width: 110px;
+  height: 85px;
+  position: relative;
+  display: inline-block;
+}
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 180px;
+}
+#header {
+  max-width: 100vw;
+  width: 100%;
+  max-height: 85px;
+  display: inline-block;
+  background-color: purple;
+
+  .header-inner {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+
+  nav ul {
+    display: flex;
+    flex-flow: row nowrap;
+
+    li {
+      font-size: 1em;
+      font-family: "Manrope", sans-serif;
+    }
+  }
+
+  .links {
+    margin-top: auto;
+
+    li {
+      background: $white;
+
+      a {
+        color: $opacity-black;
+        padding: 8px 55px 18px 58px;
+        display: inline-block;
+        transition: 150ms color;
+      }
+      &:hover a {
+        color: $black;
+      }
+      &.active {
+        border-bottom: 3px solid $dark-green;
+        a {
+          font-weight: 700;
+          color: $dark-green;
+        }
+      }
+    }
+  }
+}

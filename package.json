@@ -3,7 +3,13 @@
   "version": "1.0.0",
   "private": true,
   "description": "python-brasil-2022",
-  "author": "Felipe Alencar",
+  "contributors": [
+    {
+      "name": "Felipe Alencar",
+      "email": "alencar.dev@outlook.com",
+      "url": "https://linkedin.com/in/alencarftc"
+    }
+  ],
   "keywords": [
     "gatsby"
   ],
@@ -15,7 +21,9 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@reach/router": "^1.3.4",
     "gatsby": "^4.11.0",
+    "gatsby-plugin-alias-imports": "^1.0.5",
     "gatsby-plugin-google-analytics": "^4.11.0",
     "gatsby-plugin-image": "^2.11.0",
     "gatsby-plugin-manifest": "^4.11.0",
