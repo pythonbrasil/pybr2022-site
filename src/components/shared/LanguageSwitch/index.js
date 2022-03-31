@@ -14,7 +14,7 @@ const LanguageSwitch = () => {
   return (
     <GeneralContext.Consumer>
       {theme => (
-        <nav id="language-switch">
+        <div id="language-switch">
           <ul>
             {LANGUAGES.map(({id, label}) => (
               <li className={id === theme.state.languageId ? 'active' : ''}>
@@ -24,7 +24,7 @@ const LanguageSwitch = () => {
               </li>
             ))}
           </ul>
-        </nav>
+        </div>
       )}
     </GeneralContext.Consumer>
   )

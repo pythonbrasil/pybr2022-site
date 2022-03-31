@@ -5,8 +5,7 @@
   box-sizing: border-box;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&family=Montserrat:wght@700;900&display=swap");
 body {
   background: #fcf7eb;
 }
@@ -20,12 +19,26 @@ h6 {
   color: $dark-green;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Manrope", sans-serif;
+}
+
 li {
   list-style: none;
 }
 
 a {
   text-decoration: none;
+}
+
+button {
+  cursor: pointer;
 }
 
 .container,

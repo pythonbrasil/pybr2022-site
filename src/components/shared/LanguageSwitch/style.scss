@@ -1,33 +1,45 @@
 #language-switch {
-  margin-top: 15px;
+  padding: 0;
 
   li {
-    border-left: 1px solid $white;
-    border-right: 1px solid $white;
-    padding: 1px 5px;
+    background: #fff;
+    padding: inherit;
 
     button {
-      cursor: pointer;
       border: none;
       background: none;
-      color: $white;
-      padding: 2px 5px;
-      transition: 150ms color;
+      color: $opacity-black;
+      transition: 150ms background;
+      padding: 5px 7.5px;
     }
 
     &:first-child {
-      border-left: none;
+      border-top-left-radius: 8px;
+      border-bottom-left-radius: 8px;
+
+      button {
+        border-top-left-radius: inherit;
+        border-bottom-left-radius: inherit;
+      }
     }
+
     &:last-child {
-      border-right: none;
+      border-top-right-radius: 8px;
+      border-bottom-right-radius: 8px;
+
+      button {
+        border-top-right-radius: inherit;
+        border-bottom-right-radius: inherit;
+      }
     }
     &:hover button {
-      color: $light-white;
+      background: $light-white;
     }
 
     &.active button {
       color: $full-white;
       font-weight: 800;
+      background: $dark-green;
     }
   }
 }

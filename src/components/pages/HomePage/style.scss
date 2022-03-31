@@ -1,2 +1,109 @@
-#home {
+$button-color: #e88c27;
+$orange: #ea9d24;
+
+section {
+  padding: 80px 0;
+}
+
+#section-landing-page {
+  .call-to-action {
+    margin: 0 0 80px 0;
+    max-width: 440px;
+
+    h2 {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 900;
+      font-size: 48px;
+      text-transform: uppercase;
+    }
+
+    h4 {
+      margin: 16px 0 20px;
+      text-transform: uppercase;
+      color: $light-green;
+      font-weight: 400;
+      font-size: 28px;
+    }
+
+    button {
+      margin-top: 36px;
+      padding: 10px 23px;
+      background: $button-color;
+      color: #fff;
+      border-radius: 3px;
+      font-size: 12px;
+      border: none;
+      box-shadow: 0 0 3px 1px #00000030;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+  }
+}
+#section-info {
+  background-color: #4eb8b4;
+
+  p {
+    margin: 14px 0;
+    color: $white;
+  }
+}
+#section-sponsoring {
+  text-align: center;
+  background: $orange;
+
+  h3 {
+    background: #e67b2a;
+  }
+
+  button {
+    background: none;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+}
+#section-covid {
+  text-align: center;
+  background: $white;
+
+  h3 {
+    background: #269fa2;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+
+    li {
+      margin: 0 20px;
+
+      .card {
+        background: $dark-blue;
+        width: 100%;
+        height: 100%;
+
+        img {
+          display: inline-block;
+          width: 40px;
+          height: 40px;
+          background: #fff;
+        }
+
+        h5 {
+          color: #fff;
+        }
+      }
+
+      &:first-child {
+        margin-left: 0;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
 }
