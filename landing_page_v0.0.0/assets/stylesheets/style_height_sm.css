@@ -28,12 +28,24 @@
 
 }
 
+#info_logo{
+    position:absolute;
+    right:18%;
+    top:-18%;
+}
+
 #contato {
     position: absolute;
     left:0;
     bottom: 0;
     margin-left: 5%;
     top:80%;
+}
+
+.wrapper{
+    position:relative;
+    max-width:300px;
+    width:100%;
 }
 
 .text_title {

@@ -28,6 +28,17 @@
     text-align: left;
 
 }
+#info_logo{
+    position:absolute;
+    right:14%;
+    top:-50%;
+}
+
+.wrapper{
+    position:relative;
+    max-width:200px;
+    width:100%;
+}
 
 #contato {
     position: absolute;

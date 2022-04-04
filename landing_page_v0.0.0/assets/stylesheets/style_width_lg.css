@@ -23,6 +23,16 @@
         border-left: 1px solid rgba(4, 127, 77, 0.5);
     }
 
+
+
+    #info_logo{
+        position:absolute;
+        right:13%;
+        top:-5%;
+    }
+    
+
+
     #contato{
         position: absolute;
         left:0;
@@ -32,13 +42,20 @@
         
     }
 
+    .wrapper{
+        position:relative;
+        max-width:435px;
+        width:100%;
+    }
+
+
     .text_title{
 
         font-family: 'Proxima Nova Condensed';
         font-style: normal;
         font-weight: 900;
-        font-size: 44px;
-        line-height: 43px;
+        font-size: 60px;
+        line-height: 50px;
         color: var(--strong_green);
     }
 
