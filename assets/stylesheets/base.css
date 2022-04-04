@@ -1,0 +1,76 @@
+/*basic configs to all styles*/
+
+* {
+    margin:0;
+    padding: 0;
+}
+
+:root{
+    --strong_green:#047f4d;
+    --light_green:#27a058;
+    --info_green:#356C59;
+}
+
+
+/*import fonts*/
+@font-face {
+    font-family: "Manrope Normal";
+    src: url("/assets/fonts/Manrope-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Manrope Bold";
+    src: url("/assets/fonts/Manrope-Bold.ttf");
+}
+
+
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("/assets/fonts/Proxima-Nova-Cond-Black.otf");
+}
+
+
+li{
+    list-style: none;
+}
+
+#patrocinio {
+    color: var(--info_green)
+}
+
+
+
+#background {
+    position: absolute;
+    padding:0;
+    min-width: 100vw;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    background: #FDF7E9;
+}
+
+#logo{
+    max-width: 300px;
+    width: 100%;
+}
+
+
+.text_title span{
+    color:var(--light_green);
+}
+.pattern_left{
+    position: absolute;
+    max-width: 580px;
+    width: 100%;
+    left:0;
+    z-index:1;
+}
+.pattern_right{
+    position: absolute;
+    max-width: 870px;
+    width: 100%;
+    bottom:0;
+    right: 0;
+    z-index:1;
+}
