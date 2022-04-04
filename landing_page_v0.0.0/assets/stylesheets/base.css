@@ -34,6 +34,10 @@ li{
     list-style: none;
 }
 
+#patrocinio {
+    color: var(--info_green)
+}
+
 
 
 #background {
