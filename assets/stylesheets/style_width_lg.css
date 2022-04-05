@@ -1,0 +1,79 @@
+
+    
+    #principal{
+        position:absolute;
+        top:35%;
+        width:100%;
+        max-width: 100%;
+        z-index:2;
+    
+    }
+    
+    #logo_header{
+        max-width: 520px;
+        width:100%;
+        padding-right: 52px;
+        text-align: right;
+    }
+
+    #info{
+        max-width: 520px;
+        width: 100%;
+        padding-left: 52px;
+        border-left: 1px solid rgba(4, 127, 77, 0.5);
+    }
+
+
+
+    #info_logo{
+        position:absolute;
+        right:13%;
+        top:-5%;
+    }
+    
+
+
+    #contato{
+        position: absolute;
+        left:0;
+        bottom: 0;
+        margin-left:5%;
+        margin-bottom: 2%;
+        
+    }
+
+    .wrapper{
+        position:relative;
+        max-width:435px;
+        width:100%;
+    }
+
+
+    .text_title{
+
+        font-family: 'Proxima Nova Condensed';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 60px;
+        line-height: 50px;
+        color: var(--strong_green);
+    }
+
+    .text_info{
+        font-family: "Manrope Normal";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10.8px;
+        line-height: 16px;
+        color: var(--info_green);
+    }
+    .text_info b {
+        font-family: "Manrope Bold";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10.8px;
+        line-height: 16px;
+        color: var(--info_green);
+    }
+
+
