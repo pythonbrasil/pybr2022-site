@@ -20,7 +20,8 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.3.0
         with:
-          branch: gh-pages # The branch the action should deploy to.          
+          branch: gh-pages # The branch the action should deploy to.
+          folder: .
     env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         GH_PAGES_CNAME: 2022.pythonbrasil.org.br
