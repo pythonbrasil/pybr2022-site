@@ -20,7 +20,7 @@
         max-width: 520px;
         width: 100%;
         padding-left: 52px;
-        border-left: 1px solid rgba(4, 127, 77, 0.5);
+        border-left: 0.2em solid rgba(4, 127, 77, 0.5);
     }
 
 
@@ -28,7 +28,7 @@
     #info_logo{
         position:absolute;
         right:13%;
-        top:-5%;
+        top: 0.7rem;
     }
     
 

@@ -29,6 +29,11 @@
     src: url("/assets/fonts/Proxima-Nova-Cond-Black.otf");
 }
 
+@font-face {
+    font-family: "Montserrat Bold";
+    src: url("/assets/fonts/Montserrat/static/Montserrat-Bold.ttf");
+}
+
 
 li{
     list-style: none;
@@ -37,8 +42,6 @@ li{
 #patrocinio {
     color: var(--info_green)
 }
-
-
 
 #background {
     position: absolute;
@@ -51,7 +54,7 @@ li{
 }
 
 #logo{
-    max-width: 300px;
+    max-width: 520px;
     width: 100%;
 }
 
@@ -61,16 +64,20 @@ li{
 }
 .pattern_left{
     position: absolute;
-    max-width: 580px;
+    max-width: 66rem;
     width: 100%;
     left:0;
     z-index:1;
 }
 .pattern_right{
     position: absolute;
-    max-width: 870px;
+    max-width: 89rem;
     width: 100%;
     bottom:0;
     right: 0;
     z-index:1;
+}
+
+.text_size{
+    font-size: 0.9rem !important;
 }
