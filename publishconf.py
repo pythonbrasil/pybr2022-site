@@ -11,8 +11,8 @@ sys.path.append(os.curdir)
 from pelicanconf import *
 
 # If your site is available via HTTPS, make sure SITEURL begins with https://
-SITEURL = 'http://meioambiente.cm.ifrn.edu.br/cm'
-RELATIVE_URLS = False
+SITEURL = 'http://meioambiente.cm.ifrn.edu.br'
+RELATIVE_URLS = True
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'

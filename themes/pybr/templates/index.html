@@ -22,20 +22,22 @@
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
-            <div class="container px-4 px-lg-5">
+            <div class="container px4 px-lg-5">
                 <a class="navbar-brand" href="#page-top">
-                  <a class="navbar-brand" href="#page-top">{{ EVENTNAME }}</a>
-                  <!-- <img class="img-fluid-header" src="{{ SITEURL }}/theme/assets/img/logo/pythonmao_2.png" alt="Python Brasil Logo" /> -->
+                  <img class="img-fluid-header" src="{{ SITEURL }}/theme/assets/img/logo/logo_topo.png" alt="{{ EVENTNAME }}" />
                 </a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#about">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#ofi_mini">Oficinas e Minicursos</a></li>
+                        <!--
                         <li class="nav-item"><a class="nav-link" href="#keynotes">Keynotes</a></li>
                         <li class="nav-item"><a class="nav-link" href="#local">Local do Evento</a></li>
                         <li class="nav-item"><a class="nav-link" href="#patrocinadores">Patrocinadores</a></li>
                         <li class="nav-item"><a class="nav-link" href="#apoio">Apoio</a></li>
                         <li class="nav-item"><a class="nav-link" href="https://python.org.br/cdc/">Código de Conduta</a></li>
+                        -->
                     </ul>
                 </div>
             </div>
@@ -47,22 +49,19 @@
                     <div class="col-lg-8 align-self-end">
                         <!-- <img class="img-fluid" src="assets/img/portfolio/thumbnails/3.jpg" alt="..." /> -->
                         <!-- <div class="col-6"><a href="#" class="image fit"><img src="images/pic01.jpg" alt="" /></a></div> -->
-                        <img class="img-fluid-principal" src="{{ SITEURL }}/theme/assets/img/logo/logo_1.png" alt=" Logo do evento" />
-                        <h1 class="text-white font-weight-bold">{{ EVENTNAME }}</h1>
-                        <h3 class="text-white font-weight-bold">{{ EVENTCITY }} - {{ EVENTSTATE }}</h3>
-                        <hr class="divider" />
+                        <img class="img-fluid-principal" src="{{ SITEURL }}/theme/assets/img/logo/logo_banner_completo.png" alt=" Logo do evento" />
                     </div>
                     <div class="col-lg-8 align-self-baseline">
-                        <p class="text-white normal mb-5">{{ EVENTDATE }}</p>
+                        <!-- <p class="text-black normal mb-5">{{ EVENTDATE }}</p> -->
                         <!-- <a class="btn btn-primary btn-xl" href="#about">Find Out More</a> -->
                     </div>
                 </div>
             </div>
         </header>
 
-        <section class="page-section" id="about">
+        <section class="page-section" id="sobre">
           <div class="container px-4 px-lg-5">
-              <h2 class="text-center mt-0">Saiba Mais</h2>
+              <h4 class="text-center mt-0">Sobre</h4>
               <hr class="divider" />
               <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-lg-8 text-center">
@@ -72,12 +71,95 @@
                       {{  ABOUT }}
 
                     </p>
-                     <!-- <a class="btn btn-light btn-xl" href="#services">Get Started!</a>  -->
                 </div>
             </div>
           </div>
       </section>
 
+      <div id="portfolio">
+        <div class="container-fluid p-0">
+            <div class="row g-0">
+                <div class="col-lg-12 col-sm-12">
+                    <div class="portfolio-box pessoas-box">
+                        <div class="portfolio-box-caption">
+                          <div class="row gx-4 gx-lg-5 justify-content-center">
+                          <div class="col-lg-8 text-left">
+                            <h4 class="text-center mt-0">Programação Geral</h4>
+                            <hr class="divider divider-light" />
+                            <p class="mb-4 text-sm-start">
+                              Nosso Congresso terá atividades como palestras,
+                              oficinas, minicursos, comunicações orais,
+                              encontros, trilhas, mutirão, lançamentos de
+                              livros, conferência, mesas redondas nacionais e
+                              internacionais, rituais e outras atividades que
+                              enriquecerão a formação e conhecimento dos
+                              participantes.
+
+                              <br><br>
+
+                              Divulgação da lista de Oficinas e Minicursos: 06 a 09 de maio <br>
+                              Inscrições dos participantes nas Oficinas e Minicursos: 09 a 15 de maio <br>
+                              Inscição nas demais atividades do Congresso: 15 de abril a 15 de maio <br>
+
+                              <br>
+
+                              Confira a programação completa: <a href="{{ SITEURL }}/theme/assets/programacao.pdf">Programação Completa!</a>
+
+                            </p>
+                        </div>
+                        </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <section class="page-section" id="ofi_mini">
+        <div class="container px-4 px-lg-5">
+            <h4 class="text-center mt-0">Oficinas e Minicursos</h4>
+            <hr class="divider" />
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+              <div class="col-lg-8 text-center">
+                  <hr class="divider divider-light" />
+                  <p class="mb-4">
+
+                    Quer ministrar um Minicurso ou conduzir uma Oficina no I
+                    Congresso Nacional de Meio Ambiente em Ceará-Mirim?
+
+                    <br><br>
+
+                    Submeta sua Inscrição no prazo de 04 a 17 de Abril.
+
+                    <br><br>
+
+                    <b>Oficinas:</b> Apresentações de um tema seguido
+                    por atividade prática, troca de experiência sobre
+                    uma tarefa, assunto ou tecnologia na qual
+                    participantes aplicam o conhecimento adquirido ao
+                    final.
+
+                    <br><br>
+
+                    <b>Minicursos:</b> Atividades em formato compacto,
+                    que têm por objetivo a formação em curto espaço de
+                    tempo, carga horária máxima de 8 horas, iniciando
+                    uma discussão sobre um assunto específico. Para
+                    ofertar minicurso, o ministrante deve ser professor
+                    ou servidor ligado a instituição de ensino ou de
+                    área ligada ao meio ambiente.
+
+                    <br><br>
+
+                  <a class="btn btn-dark btn-xl" href="https://forms.gle/expKLSK9pES9HtSy5">Submeta sua proposta!</a>
+
+                  </p>
+              </div>
+          </div>
+        </div>
+    </section>
+
+      <!--
       <section class="page-section" id="services">
         <div class="container px-4 px-lg-5">
             <h2 class="text-center mt-0">Recomendações Importantes</h2>
@@ -107,15 +189,17 @@
             </div>
         </div>
     </section>
+  -->
 
+      <!--
         <div id="portfolio">
           <div class="container-fluid p-0">
               <div class="row g-0">
                   <div class="col-lg-12 col-sm-12">
                       <div class="portfolio-box pessoas-box">
-                          <!-- <img class="img-fluid" src="{{ SITEURL }}/theme/assets/img/portfolio/thumbnails/1.jpg" alt="..." /> -->
+                          <img class="img-fluid" src="{{ SITEURL }}/theme/assets/img/portfolio/thumbnails/1.jpg" alt="..." />
                           <div class="portfolio-box-caption">
-                              <!-- <div class="project-category text-white-50">Category</div> -->
+                              <div class="project-category text-white-50">Category</div>
                               <div class="project-name">Chega de meio-ambiente. Vamos lugar por um inteiro. Sim, é cliché, mas é o que tem para hoje.</div>
                           </div>
                         </div>
@@ -124,6 +208,9 @@
           </div>
       </div>
 
+      -->
+
+      <!--
       <section class="page-section" id="keynotes">
         <div class="container px-4 px-lg-5">
             <h2 class="text-center mt-0">Keynotes</h2>
@@ -132,23 +219,8 @@
           </div>
         </div>
       </section>
-
-<div id="portfolio">
-    <div class="container-fluid p-0">
-        <div class="row g-0">
-            <div class="col-lg-12 col-sm-12">
-                <div class="portfolio-box pessoas-box">
-                    <!-- <img class="img-fluid" src="{{ SITEURL }}/theme/assets/img/portfolio/thumbnails/1.jpg" alt="..." /> -->
-                    <div class="portfolio-box-caption">
-                        <!-- <div class="project-category text-white-50">Category</div> -->
-                        <div class="project-name">Venha conhecer {{ EVENTCITY }}!</div>
-                    </div>
-                  </div>
-            </div>
-        </div>
-    </div>
-</div>
-
+    -->
+<!--
 <section class="page-section" id="local">
   <div class="container px-4 px-lg-5">
       <h2 class="text-center mt-0">Local do Evento</h2>
@@ -169,16 +241,15 @@
       </div>
   </div>
 </section>
+-->
 
-
+<!--
 <div id="portfolio">
   <div class="container-fluid p-0">
       <div class="row g-0">
           <div class="col-lg-12 col-sm-12">
               <div class="portfolio-box pessoas-box-2">
-                  <!-- <img class="img-fluid" src="{{ SITEURL }}/theme/assets/img/portfolio/thumbnails/1.jpg" alt="..." /> -->
                   <div class="portfolio-box-caption">
-                      <!-- <div class="project-category text-white-50">Category</div> -->
                       <br>
                       <div class="project-name">Ouça a playlist oficial do evento! </div>
                       <br>
@@ -190,7 +261,9 @@
       </div>
   </div>
 </div>
+-->
 
+    <!--
     <section class="page-section" id="patrocinadores">
       <div class="container px-4 px-lg-5">
           <h2 class="text-center mt-0">Patrocinadores</h2>
@@ -206,16 +279,16 @@
             <h3 class="text-center mt-0">Em breve!</h3>
         </div>
       </section>
-
+    -->
       <!-- Footer-->
       <footer class="bg-light py-5">
           <div class="container px-4 px-lg-5">
               <div class="small text-center text-muted">{{ FOOTERTEXT }}</div>
-
+<!--
               <br><br>
               <div class="small text-center text-muted"> Créditos: <a href="https://www.behance.net/barbaragnes">Bárbara Agnes</a> (designer da logo)  e <a href="https://github.com/jailsonpj">Jailson Pereira</a> (foto utilizada no banner) </div>
             </div>
-
+-->
         </footer>
       <!-- Bootstrap core JS-->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
