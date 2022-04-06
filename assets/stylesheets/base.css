@@ -25,15 +25,9 @@
 
 
 @font-face {
-    font-family: "Proxima Nova";
+    font-family: "Proxima Nova Condensed";
     src: url("/assets/fonts/Proxima-Nova-Cond-Black.otf");
 }
-
-@font-face {
-    font-family: "Montserrat Bold";
-    src: url("/assets/fonts/Montserrat/static/Montserrat-Bold.ttf");
-}
-
 
 li{
     list-style: none;
