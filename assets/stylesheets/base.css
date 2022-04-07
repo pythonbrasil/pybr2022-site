@@ -1,77 +1,290 @@
 /*basic configs to all styles*/
 
 * {
-    margin:0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-:root{
-    --strong_green:#047f4d;
-    --light_green:#27a058;
-    --info_green:#356C59;
+:root {
+  --strong_green: #047f4d;
+  --light_green: #27a058;
+  --info_green: #356c59;
+  --black: #3a3a3c;
+  --white: #fdf7e9;
 }
 
-
+body {
+  height: 100vh;
+  width: 100vw;
+  background: #fdf7e9 !important;
+}
 /*import fonts*/
 @font-face {
-    font-family: "Manrope Normal";
-    src: url("/assets/fonts/Manrope-Regular.ttf");
+  font-family: "Manrope Normal";
+  src: url("/assets/fonts/Manrope-Regular.ttf");
 }
 
 @font-face {
-    font-family: "Manrope Bold";
-    src: url("/assets/fonts/Manrope-Bold.ttf");
+  font-family: "Manrope Bold";
+  src: url("/assets/fonts/Manrope-Bold.ttf");
 }
-
 
 @font-face {
-    font-family: "Proxima Nova Condensed";
-    src: url("/assets/fonts/Proxima-Nova-Cond-Black.otf");
+  font-family: "Proxima Nova Condensed";
+  src: url("/assets/fonts/Proxima-Nova-Cond-Black.otf");
 }
-
-li{
-    list-style: none;
+li {
+  list-style: none;
 }
 
 #patrocinio {
-    color: var(--info_green)
+  color: var(--info_green);
 }
 
-#background {
-    position: absolute;
-    padding:0;
-    min-width: 100vw;
+.text_title span {
+  color: var(--light_green);
+}
+
+#principal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 380px;
+  z-index: 2;
+}
+
+#logo_header {
+  max-width: 300px;
+  width: 100%;
+  margin: 30px auto;
+  text-align: center;
+}
+#logo {
+  max-width: 240px;
+  width: 60vw;
+  margin: 0 auto;
+}
+#info h2 {
+  font-family: "Proxima Nova Condensed";
+  color: var(--strong_green);
+  text-transform: uppercase;
+  font-weight: 900;
+  margin: 0 auto;
+  /* max-width: inherit; */
+  font-size: 32px;
+  line-height: 32px;
+  text-align: center;
+}
+#info span {
+  color: var(--light_green);
+}
+#info p {
+  color: var(--info_green);
+  text-align: center;
+  line-height: 18px;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+#info_logo {
+  position: absolute;
+  right: 52px;
+  top: 0;
+  width: 42px;
+}
+
+#contato {
+  text-align: center;
+  z-index: 2;
+  position: absolute;
+  bottom: -270px;
+  left: 50%;
+  transform: translate(-50%);
+}
+#contato p {
+  text-align: center;
+  font-family: "Manrope Normal";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  color: var(--info_green);
+  font-size: 12px;
+  margin: 0;
+}
+#contato img {
+  width: 24px;
+}
+#contato ul {
+  padding: 0;
+}
+.wrapper {
+  padding: 0 20px;
+  max-width: 360px;
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text_title {
+  font-family: "Proxima Nova Condensed";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 37px;
+  line-height: 37px;
+  color: var(--strong_green);
+}
+
+.text_aside {
+  position: relative;
+  width: 100%;
+}
+.text_aside p {
+  margin: 30px 0;
+}
+
+.text_info {
+  font-family: "Manrope Normal";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 8px;
+  line-height: 13px;
+  color: var(--info_green);
+  padding-top: 2%;
+}
+
+.text_info b {
+  font-family: "Manrope Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 8px;
+  line-height: 13px;
+  color: var(--info_green);
+}
+
+.pattern_left {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  z-index: 1;
+}
+.pattern_right {
+  position: fixed;
+  width: 140%;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+@media screen and (min-width: 768px) {
+  #logo_header {
+    margin: 30px;
+  }
+  .pattern_left,
+  .pattern_right {
     width: 100%;
-    min-height: 100vh;
+  }
+  .wrapper {
+    padding: 0;
+    display: flex;
+    max-width: 800px;
+    align-items: center;
+    justify-content: center;
+  }
+  .text_aside {
+    max-width: 440px;
+    border-left: 2px solid rgb(4 127 77 / 50%);
+    padding: 30px;
+  }
+  .text_aside p {
+    text-align: left !important;
+    margin: 0;
+  }
+
+  #principal {
+    max-width: unset;
     height: 100%;
-    background: #FDF7E9;
+  }
+
+  #info {
+    max-width: unset;
+  }
+  #info p {
+    margin: 10px 0 0;
+    font-size: 14px;
+  }
+  #info h2 {
+    font-size: 32px;
+    line-height: 34px;
+    text-align: left;
+  }
+
+  #info_logo {
+    right: 40px;
+  }
+
+  #contato {
+    bottom: 30px;
+    left: 60px;
+    transform: none;
+  }
+  #contato p {
+    text-align: left;
+  }
+  #contato img {
+    width: 32px;
+  }
 }
 
-#logo{
+@media screen and (min-width: 1020px) {
+  .wrapper {
+    max-width: 1080px;
+  }
+  .pattern_left {
+    width: 60%;
+  }
+  .pattern_right {
+    width: 80%;
+  }
+  #info h2 {
+    font-size: 48px;
+    line-height: 52px;
+  }
+  #info p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .text_aside {
     max-width: 520px;
+    padding: 30px 0 30px 60px;
+  }
+  #logo_header {
+    max-width: 320px;
+    margin: 30px 60px;
+  }
+  #logo {
+    max-width: unset;
     width: 100%;
+  }
 }
 
-
-.text_title span{
-    color:var(--light_green);
-}
-.pattern_left{
-    position: absolute;
-    max-width: 66rem;
-    width: 100%;
-    left:0;
-    z-index:1;
-}
-.pattern_right{
-    position: absolute;
-    max-width: 89rem;
-    width: 100%;
-    bottom:0;
-    right: 0;
-    z-index:1;
-}
-
-.text_size{
-    font-size: 0.9rem !important;
+@media screen and (min-width: 1200px) {
+  .text_aside {
+    max-width: 600px;
+  }
+  .wrapper {
+    max-width: 1080px;
+  }
+  #info h2 {
+    font-size: 56px;
+    line-height: 60px;
+  }
+  #info p {
+    font-size: 16px;
+    line-height: 20px;
+  }
 }
