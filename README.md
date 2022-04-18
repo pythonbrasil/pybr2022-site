@@ -22,11 +22,10 @@ Para executar o projeto, digite o seguinte comando em seu terminal:
 $ make html & make serve
 ```
 
-Para ter acesso ao site em seu ambiente local, acesse: https://localhost:8081
+Para ter acesso ao site em seu ambiente local, acesse: http://localhost:8081
 
 
 ## Créditos
 
-Código-fonte original foi criado para o site da [Python Brasil 2022
-(https://2022.pythonbrasil.org.br/), pela comunidade brasileira de usuários de
-Python, em especial a comunidade do Amazonas.
+Código-fonte original foi criado para o site da [Python Brasil 2022](https://2022.pythonbrasil.org.br/),
+pela comunidade brasileira de usuários de Python, em especial a comunidade do Amazonas.
