@@ -13,7 +13,7 @@ export const TEXT_ES = {
 }
 
 export const TEXT_EN = {
-  LANDING_PAGE_TITLE: `From october 17 to 23 2022`,
+  LANDING_PAGE_TITLE: `From 17 to oct 23 2022`,
   LANDING_PAGE_INFO: `Lecture submission to Python Brazil
   2022 can be done by the button below.`,
   LANDING_PAGE_ACTION_BUTTON: `Submeta sua palestra aqui`
