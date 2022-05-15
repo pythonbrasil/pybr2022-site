@@ -17,6 +17,8 @@ import FacebookIcon from "@images/home/footer/facebook.svg";
 import TwitterIcon from "@images/home/footer/twitter.svg";
 import YoutubeIcon from "@images/home/footer/youtube.svg";
 
+import PDFLink from "../../../static/pdf/patrocinio_python_brasil.pdf"
+
 import "./style.scss";
 
 const emptyFaqItem = {
@@ -89,7 +91,7 @@ const HomePage = ({ text }) => {
               <h4>#PYTHONBRASIL2022</h4>
               <p>{text.LANDING_PAGE_INFO}</p>
               <button>
-                <Link to="https://pretalx.com/python-brasil-2022/cfp">{text.LANDING_PAGE_ACTION_BUTTON}</Link>
+              <Link to="https://pretalx.com/python-brasil-2022/cfp">{text.LANDING_PAGE_ACTION_BUTTON}</Link>
               </button>
             </div>
           </div>
@@ -131,7 +133,10 @@ const HomePage = ({ text }) => {
         <div className="container">
           <div className="row">
             <TitleChip>Saiba como patrocinar o evento</TitleChip>
-            <button>Ver plano de patrocínio</button>
+            <button>
+            <a  href= {PDFLink}>
+               {text.LANGING_PAGE_BUTTON_PATROCINIO_TEXT}  </a>
+            </button>
           </div>
         </div>
         <img src={SponsoringBackground} className="background" alt="" />

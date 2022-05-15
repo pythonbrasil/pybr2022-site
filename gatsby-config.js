@@ -20,14 +20,16 @@ module.exports = {
     options: {
       "icon": "src/assets/images/icon.png"
     }
-  }, "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
+  }, "gatsby-plugin-sharp", "gatsby-transformer-sharp", 
+  {
     resolve: 'gatsby-source-filesystem',
     options: {
       "name": "images",
       "path": "./src/assets/images/"
     },
     __key: "images"
-  },{
+  },
+  {
     resolve: `gatsby-plugin-alias-imports`,
     options: {
       alias: {
