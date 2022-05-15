@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "gatsby"
 import TitleChip from "@components/shared/TitleChip";
 import LandingBackground from "@images/home/bg_landing_page.svg"
 import SponsoringBackground from "@images/home/bg_cta.svg"
@@ -87,7 +88,9 @@ const HomePage = ({ text }) => {
               <h2>{text.LANDING_PAGE_TITLE}</h2>
               <h4>#PYTHONBRASIL2022</h4>
               <p>{text.LANDING_PAGE_INFO}</p>
-              <button>{text.LANDING_PAGE_ACTION_BUTTON}</button>
+              <button>
+                <Link to="https://pretalx.com/python-brasil-2022/cfp">{text.LANDING_PAGE_ACTION_BUTTON}</Link>
+              </button>
             </div>
           </div>
         </div>
