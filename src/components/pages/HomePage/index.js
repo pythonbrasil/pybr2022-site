@@ -38,25 +38,13 @@ const HomePage = ({ text }) => {
   ]
   const faqItems = [
     {
-      question: "What is a Payment Gateway?",
-      response: ''
+      question: "Evento será presencial ou on-line?",
+      response: 'Em 2022 teremos a primeira Python Brasil em formato híbrido, iremos transmitir online e ao vivo todas as palestras, keynotes, mesas redondas e palestras relâmpago.'
     },
     {
-      question: "Do I need to pay to Instapay even when there is no transaction going on in my business?",
-      response: 'No, you do not need to pay Instapay where there is no transaction happening. With one of the lowest transaction charges in the industry, pay only when you get paid!'
-    },
-    {
-      question: "What platforms does ACME payment gateway support?",
-      response: 'No, you do not need to pay Instapay where there is no transaction'
-    },
-    {
-      question: "Does ACME provide international payments support?",
-      response: ''
-    },
-    {
-      question: "Is there any setup fee or annual maintainance fee that I need to pay regularly?",
-      response: ''
-    },
+      question: "Preciso estar vacinado para participar presencialmente do evento?",
+      response: 'Sim! A apresentação do comprovante de vacina será necessário para a participação do evento.'
+    }
   ]
   const covidCards = [
     {
@@ -88,10 +76,10 @@ const HomePage = ({ text }) => {
             <div className="call-to-action col-12 col-sm-6">
               <img src={CalendarIcon} alt="Ícone de calendário" />
               <h2>{text.LANDING_PAGE_TITLE}</h2>
-              <h4>#PYTHONBRASIL2022</h4>
+              <h4>#pybr2022</h4>
               <p>{text.LANDING_PAGE_INFO}</p>
               <button>
-              <Link to="https://pretalx.com/python-brasil-2022/cfp">{text.LANDING_PAGE_ACTION_BUTTON}</Link>
+                <a className="link-sponsor" href="https://pretalx.com/python-brasil-2022/cfp">{text.LANDING_PAGE_ACTION_BUTTON}</a>
               </button>
             </div>
           </div>
@@ -134,7 +122,7 @@ const HomePage = ({ text }) => {
           <div className="row">
             <TitleChip>Saiba como patrocinar o evento</TitleChip>
             <button>
-            <a  href= {PDFLink}>
+            <a className="link-sponsor" href= {PDFLink}>
                {text.LANGING_PAGE_BUTTON_PATROCINIO_TEXT}  </a>
             </button>
           </div>
@@ -202,7 +190,7 @@ const HomePage = ({ text }) => {
               </ul>
             </div>
             <div className="col-12 col-sm-3">
-              <p>PythonBrasil is a non-profit volunteer-driven conference for promoting the open-source Python programming language. It is supported by the Brazilian Python Association (APyB) and by the Python Software Foundation (PSF).</p>
+                <p>{text.LANDING_TEXT_RODAPE} </p>
             </div>
             <div className="col-12 col-sm-3">
               <h4>Link rápidos</h4>

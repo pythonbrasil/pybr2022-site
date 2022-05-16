@@ -3,6 +3,7 @@ import Header from "@components/shared/Header";
 import { Router } from '@reach/router';
 import GeneralContext from "@configs/context";
 import ProgramacaoPage from "@components/pages/ProgramacaoPage";
+import CodigoDeConduta from "@components/pages/CodigoDeConduta";
 import { LANGUAGES_TEXTS } from "@configs/languages";
 import HomePage from "@components/pages/HomePage";
 
@@ -22,8 +23,10 @@ const IndexPage = () => (
         <Header />
         <Router>
           <HomePage path="/" text={LANGUAGES_TEXTS[state.languageId]} />
-          <LazyComponent Component={ProgramacaoPage} path="/programacao" />
-          {/* <LazyComponent Component={About} path="about-us" /> */}
+          <LazyComponent Component={CodigoDeConduta} text={LANGUAGES_TEXTS[state.languageId]} path="/cdc" />
+  
+          {/* <LazyComponent Component={About} path="about-us" /> 
+          <LazyComponent Component={ProgramacaoPage} path="/programacao" />*/}
         </Router>
       </div>
     )}

@@ -9,6 +9,15 @@ section {
   color: #fff;
 }
 
+.text-size-cdc {
+  margin-bottom: 2em;
+}
+
+.list-style-cdc{
+  list-style: inside;
+  margin-bottom: 2em;
+}
+
 #section-landing-page {
   position: relative;
   padding: 75px 0;
@@ -21,8 +30,7 @@ section {
     width: 100%;
   }
   .call-to-action {
-    margin: 0 0 80px 0;
-    max-width: 440px;
+    margin: 0 0 23px 0;
     position: relative;
 
     h2 {

@@ -7,9 +7,7 @@ import './style.scss'
 const Header = () => {
   const links = [
     { href: "/", label: "Home" },
-    { href: "/programacao", label: "Programação" },
-    { href: "/eventos", label: "Eventos" },
-    { href: "/faq", label: "FAQ" },
+    { href: "/cdc", label: "Código de Conduta" }  
   ]
 
   return (
