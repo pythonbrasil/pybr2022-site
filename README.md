@@ -9,14 +9,14 @@ A versão mínima do nodejs é a v14.19.2. Logo verifique se a sua versão é co
 
 ```shell
 $ git clone https://github.com/pythonbrasil/pybr2022-site.git
+$ cd pybr2022-site
 $ git checkout develop
+$ yarn install
 ```
 
 2.  **Comece a desenvolver**
 
 ```shell
-$ cd pybr2022-site
-$ yarn install
 $ yarn develop
 ```
 
