@@ -16,6 +16,7 @@ $ git checkout v1-gatsby
 
 ```shell
 $ cd pybr2022-site
+$ yarn install
 $ yarn develop
 ```
 
