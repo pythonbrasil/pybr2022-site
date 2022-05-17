@@ -1,4 +1,7 @@
-import { TEXT_PTBR, TEXT_ES, TEXT_EN } from './texts';
+import { TEXT_PTBR } from './text-ptbr';
+import { TEXT_ES } from './text-es';
+import { TEXT_EN } from './text-en';
+
 
 const LANGUAGES = [
   {
