@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from '@reach/router';
 import LogoImage from "@images/logo.svg"
+import LogoImageMobile from "@images/logo_mobile.svg"
 import LanguageSwitch from "@components/shared/LanguageSwitch";
 import './style.scss'
 
@@ -15,7 +16,10 @@ const Header = () => {
       <div className="header-inner container">
         <div className="logo-container">
           <Link to="/">
-            <img className="logo" src={LogoImage} alt="Logo da Python Brasil 2022" />
+            ​<picture>
+              <source srcset={LogoImageMobile} media="(max-width: 700px)" type="image/svg+xml"/>
+              <img className="logo" src={LogoImage} alt="Logo da Python Brasil 2022"/>
+            </picture>
           </Link>
         </div>
         <nav className="links">
