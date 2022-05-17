@@ -3,6 +3,8 @@ import { Link } from '@reach/router';
 import LogoImage from "@images/logo.svg"
 import LanguageSwitch from "@components/shared/LanguageSwitch";
 import './style.scss'
+import { window, document } from "browser-monads";
+
 
 const Header = () => {
   const links = [
