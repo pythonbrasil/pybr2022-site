@@ -9,7 +9,7 @@ A versão mínima do nodejs é a v14.19.2. Logo verifique se a sua versão é co
 
 ```shell
 $ git clone https://github.com/pythonbrasil/pybr2022-site.git
-$ git checkout v1-gatsby
+$ git checkout develop
 ```
 
 2.  **Comece a desenvolver**
@@ -29,5 +29,5 @@ Acesse o endereço http://localhost:8000! e veja as suas modificações!
 
 As modificações que entram na branch v1-gatsby são vistas no nosso ambiente de staging!
 
-Acesse https://v1-gatsby--stg-pybr-2022.netlify.app/ para verificar.
+Acesse https:/stg-pybr-2022.netlify.app/ para verificar.
 
