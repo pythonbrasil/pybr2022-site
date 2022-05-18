@@ -4,6 +4,7 @@ import LogoImage from "@images/logo.svg"
 import LogoImageMobile from "@images/logo_mobile.svg"
 import LanguageSwitch from "@components/shared/LanguageSwitch";
 import './style.scss'
+import { window, document } from "browser-monads";
 
 const Header = () => {
   const links = [
