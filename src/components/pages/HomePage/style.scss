@@ -58,8 +58,44 @@ section {
       right: 67.5px;
       top: 0;
     }
+
+    @media only screen and (max-width: 768px) {
+      margin: auto;
+      max-width: 375px;
+      position: relative;
+      h2, h4, p {
+        font-family: "Montserrat", sans-serif;
+        color: #FFFFFF;
+      }
+      h2 {
+        font-weight: 900;
+        font-size: 50px;
+      }
+      h4 {
+        font-family: "Manrope", sans-serif;
+        font-size: 5vw;
+        font-style: lighter;
+      }
+      p {
+        font-family: "Manrope", sans-serif;
+      }
+      img {
+        position: absolute;
+        right: 25px;
+        top: 23px;
+      }
+      button {
+        margin: auto;
+        position: relative;
+        top: 45px;
+        left: 55px;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+      }
+    }
   }
 }
+
 #section-info {
   background-color: #4eb8b4;
 

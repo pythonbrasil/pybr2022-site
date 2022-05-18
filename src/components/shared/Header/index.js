@@ -17,7 +17,7 @@ const Header = () => {
         <div className="logo-container">
           <Link to="/">
             ​<picture>
-              <source srcset={LogoImageMobile} media="(max-width: 700px)" type="image/svg+xml"/>
+              <source srcset={LogoImageMobile} media="(max-width: 768px)" type="image/svg+xml"/>
               <img className="logo" src={LogoImage} alt="Logo da Python Brasil 2022"/>
             </picture>
           </Link>
