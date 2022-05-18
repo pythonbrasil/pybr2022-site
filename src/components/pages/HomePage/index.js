@@ -6,6 +6,7 @@ import LandingBackgroundMobile from "@images/home/bg_landing_page_mobile.svg"
 import SponsoringBackground from "@images/home/bg_cta.svg"
 import GirlImage from "@images/home/girl.svg"
 import CalendarIcon from "@images/home/calendar.svg"
+import CalendarIconWhite from "@images/home/calendar_white.svg"
 import LogoImage from "@images/logo.svg"
 
 import VirusIcon from "@images/home/covid/virus.svg";
@@ -75,7 +76,10 @@ const HomePage = ({ text }) => {
         <div className="container">
           <div className="row">
             <div className="call-to-action col-12 col-sm-6">
-              <img src={CalendarIcon} alt="Ícone de calendário" />
+              ​<picture>
+                <source srcset={CalendarIconWhite} media="(max-width: 768px)" type="image/svg+xml"/>
+                <img src={CalendarIcon} alt="Ícone de calendário" />
+              </picture>
               <h2>{text.LANDING_PAGE_TITLE}</h2>
               <h4>#pybr2022</h4>
               <p>{text.LANDING_PAGE_INFO}</p>
@@ -86,7 +90,7 @@ const HomePage = ({ text }) => {
           </div>
         </div>
         ​<picture>
-          <source srcset={LandingBackgroundMobile} media="(max-width: 700px)" type="image/svg+xml"/>
+          <source srcset={LandingBackgroundMobile} media="(max-width: 768px)" type="image/svg+xml"/>
           <img src={LandingBackground} className="background" alt="" />
         </picture>
         
