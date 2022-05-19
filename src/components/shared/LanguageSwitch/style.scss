@@ -1,5 +1,12 @@
 #language-switch {
-  padding: 0;
+  margin: 45px;
+  font-size: 1em;
+  font-family: "Manrope", sans-serif;
+
+  ul {
+    display: flex;
+    flex-flow: row nowrap;
+  }
 
   li {
     background: #fff;
