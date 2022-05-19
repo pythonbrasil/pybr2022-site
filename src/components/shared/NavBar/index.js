@@ -3,6 +3,7 @@ import styled from "styled-components"
 import './style.scss';
 import NavbarLinks from "@components/shared/NavLinks";
 import Logo from "@components/shared/Logo";
+import LanguageSwitch from "@components/shared/LanguageSwitch";
 
 const Toggle = styled.div`
   display: none;
@@ -76,10 +77,12 @@ const NavBar = () => {
             {navbarOpen ? (
                 <Navbox>
                     <NavbarLinks />
+                    <LanguageSwitch />
                 </Navbox>
             ) : (
                 <Navbox open>
                     <NavbarLinks />
+                    <LanguageSwitch />
                 </Navbox>
             )}
         </nav>
