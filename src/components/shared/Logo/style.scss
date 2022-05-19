@@ -1,8 +1,13 @@
 .logo {
-  width: 100%;
-  max-width: 150px;
-  height: auto;
+  max-width: 300px;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
   @media (max-width: 768px) {
-    display: flex;
+    max-width: 250px;
+  }
+
+  @media (max-width: 375px) {
+    padding: 5px;
   }
 }
