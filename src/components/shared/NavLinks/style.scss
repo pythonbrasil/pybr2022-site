@@ -1,0 +1,35 @@
+.links {
+  margin-top: auto;
+  margin-bottom: auto;
+
+  li {
+    background: rgba(255, 255, 255, 0.7);
+
+    &:first-child {
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+
+    &:last-child {
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+
+    a {
+      color: $opacity-black;
+      padding: 16px 55px 16px 58px;
+      display: inline-block;
+      transition: 150ms color;
+    }
+    &:hover a {
+      color: $black;
+    }
+    &.active {
+      border-bottom: 3px solid $dark-green;
+      a {
+        font-weight: 700;
+        color: $dark-green;
+      }
+    }
+  }
+}
