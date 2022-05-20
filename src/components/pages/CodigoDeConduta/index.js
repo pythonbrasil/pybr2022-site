@@ -22,7 +22,7 @@ const CodigoDeConduta = ({ text }) => {
 
   return (
     <div id="home">
-      <section id="section-landing-page">
+      <section id="section-code-conduct">
         <div className="container">
           <div className="row">
             <div className="call-to-action col-12 col-sm-6">
