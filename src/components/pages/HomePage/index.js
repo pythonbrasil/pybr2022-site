@@ -1,13 +1,14 @@
 import React, { useState } from "react";
-import { Link } from "gatsby"
 import TitleChip from "@components/shared/TitleChip";
-import LandingBackground from "@images/home/bg_landing_page.svg"
-import LandingBackgroundMobile from "@images/home/bg_landing_page_mobile.svg"
 import SponsoringBackground from "@images/home/bg_cta.svg"
 import GirlImage from "@images/home/girl.svg"
+import LogoImage from "@images/logo.svg"
+
+import LandingBackground from "@images/home/bg_landing_page.svg"
+import LandingBackgroundMobile from "@images/home/bg_landing_page_mobile.svg"
+
 import CalendarIcon from "@images/home/calendar.svg"
 import CalendarIconWhite from "@images/home/calendar_white.svg"
-import LogoImage from "@images/logo.svg"
 
 import VirusIcon from "@images/home/covid/virus.svg";
 import GearIcon from "@images/home/covid/gear.svg";
@@ -76,7 +77,7 @@ const HomePage = ({ text }) => {
         <div className="container">
           <div className="row">
             <div className="call-to-action col-12 col-sm-6">
-              ​<picture>
+              <picture>
                 <source srcset={CalendarIconWhite} media="(max-width: 768px)" type="image/svg+xml"/>
                 <img src={CalendarIcon} alt="Ícone de calendário" />
               </picture>
@@ -93,8 +94,8 @@ const HomePage = ({ text }) => {
           <source srcset={LandingBackgroundMobile} media="(max-width: 768px)" type="image/svg+xml"/>
           <img src={LandingBackground} className="background" alt="" />
         </picture>
-        
       </section>
+
       <section id="section-info">
         <div className="container">
           <div className="row">

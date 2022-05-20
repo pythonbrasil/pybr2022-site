@@ -3,6 +3,7 @@ import { Link } from '@reach/router';
 import LogoImage from "@images/logo.svg"
 import LogoImageMobile from "@images/logo_mobile.svg"
 import LanguageSwitch from "@components/shared/LanguageSwitch";
+import NavBar from "@components/shared/NavBar";
 import './style.scss'
 import { window, document } from "browser-monads";
 
@@ -14,8 +15,10 @@ const Header = () => {
 
   return (
     <header id="header">
-      <div className="header-inner container">
-        <div className="logo-container">
+      <NavBar />
+      {/*<div className="header-inner container">
+
+         <div className="logo-container">
           <Link to="/">
             ​<picture>
               <source srcset={LogoImageMobile} media="(max-width: 768px)" type="image/svg+xml"/>
@@ -35,8 +38,8 @@ const Header = () => {
 
         <nav className="languages">
           <LanguageSwitch />
-        </nav>
-      </div>
+        </nav> 
+      </div> */}
     </header>
   )
 }

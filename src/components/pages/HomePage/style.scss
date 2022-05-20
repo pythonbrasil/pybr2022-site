@@ -1,39 +1,61 @@
 $button-color: #e88c27;
 $orange: #ea9d24;
 
-section {
-  padding: 80px 0;
-}
-
-.link-sponsor{
-  color: #fff;
-}
-
 #section-landing-page {
-  position: relative;
-  padding: 75px 0;
+  padding: 70px 0;
+  height: 720px;
+  max-height: 720px;
+  top: 50%;
+
+  .container {
+    padding: 70px 85px;
+    display: flex;
+    justify-content: left;
+    @media only screen and (max-width: 768px) {
+      padding: 30px 0;
+      justify-content: center;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .col-sm-6 {
+      width: auto;
+    }
+  }
 
   .background {
     position: absolute;
     bottom: 0;
     right: 0;
     z-index: -1;
-    width: 100%;
+    width: auto;
+    height: 100%;
+    @media only screen and (max-width: 768px) {
+      width: 100%;
+    }
+    @media only screen and (max-width: 414px) {
+      width: auto;
+    }
   }
+
   .call-to-action {
-    margin: 0 0 80px 0;
-    max-width: 440px;
-    position: relative;
+    max-width: 640px;
+    max-height: 440px;
 
     h2 {
+      max-width: 285px;
       font-family: "Montserrat", sans-serif;
       font-weight: 900;
       font-size: 48px;
       text-transform: uppercase;
     }
 
+    img {
+      float: right;
+    }
+
     h4 {
-      margin: 16px 0 20px;
+      // margin: 16px 0 20px;
       text-transform: uppercase;
       color: $light-green;
       font-weight: 400;
@@ -53,47 +75,51 @@ section {
       text-transform: uppercase;
     }
 
-    img {
-      position: absolute;
-      right: 67.5px;
-      top: 0;
-    }
-
     @media only screen and (max-width: 768px) {
-      margin: auto;
-      max-width: 375px;
-      position: relative;
+      max-width: 385px;
+      max-height: 385px;
+
       h2, h4, p {
         font-family: "Montserrat", sans-serif;
         color: #FFFFFF;
       }
+
       h2 {
         font-weight: 900;
         font-size: 50px;
       }
+
       h4 {
         font-family: "Manrope", sans-serif;
         font-size: 5vw;
         font-style: lighter;
       }
+
       p {
         font-family: "Manrope", sans-serif;
       }
-      img {
-        position: absolute;
-        right: 25px;
-        top: 23px;
-      }
+
       button {
-        margin: auto;
+        margin: 0 auto;
+        display: block;
         position: relative;
         top: 45px;
-        left: 55px;
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
       }
     }
+
+    @media only screen and (max-width: 414px) {
+      max-width: 315px;
+      h2 {
+        font-size: 36px;
+      }
+    }
   }
+}
+
+.link-sponsor{
+  color: #fff;
 }
 
 #section-info {
