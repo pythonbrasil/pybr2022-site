@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from '@reach/router';
+import { window, document } from "browser-monads";
 import './style.scss';
 
 const NavLinks = () => {
