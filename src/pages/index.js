@@ -3,7 +3,7 @@ import Header from "@components/shared/Header";
 import { Router } from "@reach/router";
 import GeneralContext from "@configs/context";
 import ProgramacaoPage from "@components/pages/ProgramacaoPage";
-import CodigoDeConduta from "@components/pages/CodigoDeConduta";
+import DutyPage from "@components/pages/DutyPage";
 import {
   LANGUAGES_TEXTS,
   LANGUAGES_SPONSORING_FILES,
@@ -33,7 +33,7 @@ const IndexPage = () => (
           <LazyComponent
             path="/cdc"
             text={LANGUAGES_TEXTS[state.languageId]}
-            Component={CodigoDeConduta}
+            Component={DutyPage}
           />
 
           {/* <LazyComponent Component={About} path="about-us" />

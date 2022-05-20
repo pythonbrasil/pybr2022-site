@@ -2,10 +2,11 @@ import React, { useState } from "react";
 
 import TitleChip from "@components/shared/TitleChip";
 import Footer from "@components/shared/Footer";
-import LandingBackground from "@images/home/bg_landing_page.svg";
-import SponsoringBackground from "@images/home/bg_cta.svg";
-import GirlImage from "@images/home/girl.svg";
-import CalendarIcon from "@images/home/calendar.svg";
+import IconTitle from '@components/shared/IconTitle';
+import LandingBackground from "@images/home/bg_landing_page.svg"
+import SponsoringBackground from "@images/home/bg_cta.svg"
+import GirlImage from "@images/home/girl.svg"
+import CalendarIcon from "@images/home/calendar.svg"
 
 import VirusIcon from "@images/home/covid/virus.svg";
 import GearIcon from "@images/home/covid/gear.svg";
@@ -65,9 +66,7 @@ const HomePage = ({ text, file }) => {
         <div className="container">
           <div className="row">
             <div className="call-to-action col-12 col-sm-6">
-              <img src={CalendarIcon} alt="Ícone de calendário" />
-              <h2>{text.HOME.LANDING.TITLE}</h2>
-              <h4>#pybr2022</h4>
+              <IconTitle icon={CalendarIcon} title={text.HOME.LANDING.TITLE} />
               <p>{text.HOME.LANDING.INFO}</p>
               <button>
                 <a

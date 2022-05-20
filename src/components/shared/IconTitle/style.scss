@@ -1,0 +1,26 @@
+.icon-title {
+  margin: 0 0 25px 0;
+  max-width: 420px;
+  position: relative;
+
+  h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    text-transform: uppercase;
+  }
+
+  h4 {
+    margin: 16px 0 20px;
+    text-transform: uppercase;
+    color: $light-green;
+    font-weight: 400;
+    font-size: 28px;
+  }
+
+  img {
+    position: absolute;
+    right: 40px;
+    top: 0;
+  }
+}
