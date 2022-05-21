@@ -3254,6 +3254,13 @@ braces@^3.0.2, braces@~3.0.2:
   dependencies:
     fill-range "^7.0.1"
 
+browser-monads@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/browser-monads/-/browser-monads-1.0.0.tgz#c9a210ef3793cae7016440d9a9adfedd9a5ad7bd"
+  integrity sha512-NgmpFaI9NtRKyzHYA+xVzPA5Bu+JgCBzgC3WJCXstlajCBB3fJTieBwImdG8JepK8GctHSnia866ceFLg1LLTQ==
+  dependencies:
+    nothing-mock "^1.0.0"
+
 browserslist@4.14.2:
   version "4.14.2"
   resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.14.2.tgz#1b3cec458a1ba87588cc5e9be62f19b6d48813ce"
@@ -7772,6 +7779,11 @@ normalize-url@^6.0.1, normalize-url@^6.1.0:
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-6.1.0.tgz#40d0885b535deffe3f3147bec877d05fe4c5668a"
   integrity sha512-DlL+XwOy3NxAQ8xuC0okPgK46iuVNAK01YN7RueYBqqFeGsBjV9XmCAzAdgt+667bCl5kPh9EqKKDwnaPG1I7A==
+
+nothing-mock@^1.0.0:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/nothing-mock/-/nothing-mock-1.0.4.tgz#470b6bd7f7e0dd900b101ed77178683db5141298"
+  integrity sha512-wl5hpQruSQHt5M15oY/akWd7hFPyec0uTCUHYQa3WhBeTxonsFnMKmixaCDvb4U7MN9UjS2UvXw3s4KxjrNjKg==
 
 npm-run-path@^2.0.0:
   version "2.0.2"
