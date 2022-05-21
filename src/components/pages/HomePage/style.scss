@@ -11,53 +11,26 @@ section {
 
 #section-landing-page {
   position: relative;
-  padding: 75px 0;
+  padding: 80px 0 12%;
 
   .background {
     position: absolute;
-    bottom: 0;
-    right: 0;
+    bottom: 0px;
+    right: 0px;
     z-index: -1;
-    width: 100%;
+    width: 100.35vw;
   }
-  .call-to-action {
-    margin: 0 0 80px 0;
-    max-width: 440px;
-    position: relative;
-
-    h2 {
-      font-family: "Montserrat", sans-serif;
-      font-weight: 900;
-      font-size: 48px;
-      text-transform: uppercase;
-    }
-
-    h4 {
-      margin: 16px 0 20px;
-      text-transform: uppercase;
-      color: $light-green;
-      font-weight: 400;
-      font-size: 28px;
-    }
-
-    button {
-      margin-top: 36px;
-      padding: 10px 23px;
-      background: $button-color;
-      color: #fff;
-      border-radius: 3px;
-      font-size: 12px;
-      border: none;
-      box-shadow: 0 0 3px 1px #00000030;
-      font-weight: 700;
-      text-transform: uppercase;
-    }
-
-    img {
-      position: absolute;
-      right: 67.5px;
-      top: 0;
-    }
+  button {
+    margin-top: 36px;
+    padding: 10px 23px;
+    background: $button-color;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 12px;
+    border: none;
+    box-shadow: 0 0 3px 1px #00000030;
+    font-weight: 700;
+    text-transform: uppercase;
   }
 }
 #section-info {

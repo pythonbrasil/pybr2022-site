@@ -1,54 +1,81 @@
 import React from "react";
 
-import CalendarIcon from "@images/home/calendar.svg";
+import BookIcon from "@images/duty/book.svg";
+import BackgroundImage from "@images/duty/background.svg";
 
 import Footer from "@components/shared/Footer";
+import IconTitle from "@components/shared/IconTitle";
 
 import "./style.scss";
 
-const CodigoDeConduta = ({ text }) => {
-
+const DutyPage = ({ text }) => {
   return (
-    <div id="home">
-      <section id="section-landing-page">
+    <div id="duty">
+      <main>
+        <img className="background" src={BackgroundImage} alt="Imagem de fundo" />
         <div className="container">
           <div className="row">
-            <div className="call-to-action col-12 col-sm-6">
-              <img src={CalendarIcon} alt="Ícone de calendário" />
-              <h2>{text.CDC.LANDING.TITLE}</h2>
-              <h4>#pybr2022</h4>
+            <div className="heading col-12 col-sm-9">
+              <IconTitle title={text.CDC.LANDING.TITLE} icon={BookIcon} />
             </div>
           </div>
           <div className="row">
-            <div className="col-8 col-sm-8 ">
-              <p className="text-size-cdc">
+            <div className="col-12 col-sm-9">
+              <p>
                 O evento Python Brasil é um ambiente amistoso, de boa
                 convivência, inclusivo e livre de intimidação, onde todas as
-                pessoas são bem-vindas e a civilidade é exigida.{" "}
+                pessoas são bem-vindas e a civilidade é exigida.
+                <br />
+                <br />
               </p>
-              <p className="text-size-cdc">
+              <p>
                 Com esta finalidade, a organização do evento conta com uma
                 Equipe de Resposta que atua para garantir um ambiente com essas
                 qualidades.
               </p>
 
-              <p className="text-size-cdc"> Por isso: </p>
+              <br />
+              <br />
+              <br />
 
+              <p> Por isso: </p>
+              <br />
               <ul>
-                <li className="list-style-cdc">
+                <li>
                   Não é tolerado nenhum tipo de assédio, discriminação
                   inapropriada ou humilhação pública;
                 </li>
-                <li className="list-style-cdc">
-                  Não é tolerado o descumprimento das leis brasileiras;
-                </li>
-                <li className="list-style-cdc">
+                <li>Não é tolerado o descumprimento das leis brasileiras;</li>
+                <li>
                   Toda pessoa presente no evento, independente do seu papel,
                   está sujeita a estas regras.
                 </li>
               </ul>
 
-              <p className="text-size-cdc">
+              <br />
+              <br />
+
+              <p>Desta forma, entendemos que:</p>
+              <br />
+              <ul>
+                <li>
+                  Assédio é a ação de insistir, perseguir ou coagir outra pessoa
+                  a um comportamento involuntário.
+                </li>
+                <li>
+                  Discriminação inapropriada é o ato de separar, injuriar ou
+                  humilhar alguém promovendo sua exclusão por atributo
+                  particular da mesma.
+                </li>
+                <li>
+                  Humilhação pública é o ato de submeter, rebaixar,
+                  ridicularizar ou promover o vexame de outro publicamente.
+                </li>
+              </ul>
+
+              <br />
+              <br />
+              <p>
                 O público alvo do evento também inclui crianças e adolescentes,
                 por isso buscamos manter um ambiente apropriado para todas as
                 faixas etárias. Sendo assim, linguagem e imagens sexualizadas
@@ -56,14 +83,17 @@ const CodigoDeConduta = ({ text }) => {
                 patrocinadores.
               </p>
 
-              <p className="text-size-cdc">
+              <br />
+              <br />
+              <p>
                 {" "}
                 Se você se sentiu assediado, discriminado indevidamente ou
                 humilhado, ou presenciou alguma destas atitudes, por favor entre
                 em contato com a Equipe de Resposta.{" "}
               </p>
-
-              <p className="text-size-cdc">
+              <br />
+              <br />
+              <p>
                 {" "}
                 Havendo um relato de violação destes princípios, a Equipe de
                 Resposta realizará a devida análise e, quando necessário, tomará
@@ -72,13 +102,19 @@ const CodigoDeConduta = ({ text }) => {
                 retratação até um convite a se retirar do evento por tempo
                 indeterminado.{" "}
               </p>
+
+              <br />
+              <br />
+              <span className="last-update">
+                Última atualização: 29 de Março de 2022
+              </span>
             </div>
           </div>
         </div>
-      </section>
+      </main>
       <Footer text={text} />
     </div>
   );
 };
 
-export default CodigoDeConduta;
+export default DutyPage;
