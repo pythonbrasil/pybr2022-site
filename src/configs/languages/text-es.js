@@ -2,19 +2,21 @@ export const TEXT_ES = {
   HOME: {
     LANDING: {
       TITLE: `17 al 23 de octubre 2022`,
-      INFO: `Envío de conferencias a Python Brasil 2022 se puede hacer con el botón de abajo.`,
+      INFO: `El envío de Charlas se puede hacer con el botón abajo.`,
       BUTTON: `Envía tu charla aquí`,
     },
     SPONSORING: {
-      BUTTON: 'See Sponsorship Options and Apply'
+      TITLE: `¿Cómo patrocinar el evento?`,
+      BUTTON: 'Acceda a nuestros Planes de Patrocinio'
     },
+    
     FOOTER: {
-      ABOUT_TEXT: 'PythonBrasil is a non-profit volunteer-driven conference for promoting the open-source Python programming language. It is supported by the Brazilian Python Association (APyB) and by the Python Software Foundation (PSF).'
+      ABOUT_TEXT: 'Python Brasil es una conferencia sin fines de lucro dirigida por voluntarios para promover el lenguaje de programación Python de código abierto. Cuenta con el apoyo de la Asociación Python Brasil (APyB) y la Python Software Foundation (PSF).'
     }
   },
   CDC: {
     LANDING: {
-      TITLE: `Código de Conduta`,
+      TITLE: `Código de Conducta`,
     },
   },
 };

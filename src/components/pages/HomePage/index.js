@@ -115,7 +115,7 @@ const HomePage = ({ text, file }) => {
       <section id="section-sponsoring">
         <div className="container">
           <div className="row">
-            <TitleChip>Saiba como patrocinar o evento</TitleChip>
+            <TitleChip>{text.HOME.SPONSORING.TITLE}</TitleChip>
             <button>
               <a className="link-sponsor" href={file}>
                 {text.HOME.SPONSORING.BUTTON}
