@@ -1,5 +1,4 @@
 #duty {
-
   main {
     position: relative;
     padding-bottom: 190px;
@@ -20,8 +19,9 @@
   p {
     font-size: 20px;
     line-height: 28px;
-    color: #3A3A3C;
-    font-family: 'Manrope', sans-serif;
+    color: #3a3a3c;
+    font-family: "Manrope", sans-serif;
+    margin: 20px 0;
   }
   ul li {
     list-style: disc;
@@ -32,6 +32,35 @@
     color: #6b7588;
     font-size: 14px;
     line-height: 20px;
-    font-family: 'Manrope', sans-serif;
+    font-family: "Manrope", sans-serif;
+  }
+
+  @media (max-width: ($tablet)) {
+    main {
+      padding: 0 28px 190px;
+      // Overflow hidden para poder escalar a imagem de adereço
+      overflow: hidden;
+    }
+
+    .heading {
+      margin-top: 55px;
+      margin-bottom: 25px;
+    }
+
+    .duty__adornment {
+      width: fit-content;
+      margin: 0 -28px;
+
+      img.background {
+        width: 165%;
+        object-fit: contain;
+        object-position: left bottom;
+      }
+    }
+
+    p,
+    ul li {
+      font-size: var(--p-size-mobile);
+    }
   }
 }

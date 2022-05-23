@@ -1,3 +1,12 @@
+:root {
+  // font-size variables
+  --h2-size-desktop: calc(48 / 16 * 1rem);
+  --h2-size-mobile: calc(40 / 16 * 1rem);
+  --h4-size-desktop: calc(28 / 16 * 1rem);
+  --h4-size-mobile: calc(16 / 16 * 1rem);
+  --p-size-mobile: calc(16 / 16 * 1rem);
+}
+
 * {
   margin: 0;
   padding: 0;
