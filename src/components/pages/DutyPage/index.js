@@ -12,7 +12,15 @@ const DutyPage = ({ text }) => {
   return (
     <div id="duty">
       <main>
-        <img className="background" src={BackgroundImage} alt="Imagem de fundo" />
+        <div className="duty__adornment">
+          <img
+            className="background"
+            src={BackgroundImage}
+            // Descrever adereços é uma má prática para acessibilidade. 
+            // https://www.ufrgs.br/acessibilidadedigital/atributo-alt/ 
+            alt=""
+          />
+        </div>
         <div className="container">
           <div className="row">
             <div className="heading col-12 col-sm-9">
