@@ -25,8 +25,6 @@ const DutyPage = ({ text }) => {
                 O evento Python Brasil é um ambiente amistoso, de boa
                 convivência, inclusivo e livre de intimidação, onde todas as
                 pessoas são bem-vindas e a civilidade é exigida.
-                <br />
-                <br />
               </p>
               <p>
                 Com esta finalidade, a organização do evento conta com uma
@@ -34,12 +32,8 @@ const DutyPage = ({ text }) => {
                 qualidades.
               </p>
 
-              <br />
-              <br />
-              <br />
-
               <p> Por isso: </p>
-              <br />
+
               <ul>
                 <li>
                   Não é tolerado nenhum tipo de assédio, discriminação
@@ -52,11 +46,8 @@ const DutyPage = ({ text }) => {
                 </li>
               </ul>
 
-              <br />
-              <br />
-
               <p>Desta forma, entendemos que:</p>
-              <br />
+
               <ul>
                 <li>
                   Assédio é a ação de insistir, perseguir ou coagir outra pessoa
@@ -73,8 +64,6 @@ const DutyPage = ({ text }) => {
                 </li>
               </ul>
 
-              <br />
-              <br />
               <p>
                 O público alvo do evento também inclui crianças e adolescentes,
                 por isso buscamos manter um ambiente apropriado para todas as
@@ -83,16 +72,13 @@ const DutyPage = ({ text }) => {
                 patrocinadores.
               </p>
 
-              <br />
-              <br />
               <p>
                 {" "}
                 Se você se sentiu assediado, discriminado indevidamente ou
                 humilhado, ou presenciou alguma destas atitudes, por favor entre
                 em contato com a Equipe de Resposta.{" "}
               </p>
-              <br />
-              <br />
+
               <p>
                 {" "}
                 Havendo um relato de violação destes princípios, a Equipe de
@@ -103,8 +89,6 @@ const DutyPage = ({ text }) => {
                 indeterminado.{" "}
               </p>
 
-              <br />
-              <br />
               <span className="last-update">
                 Última atualização: 29 de Março de 2022
               </span>

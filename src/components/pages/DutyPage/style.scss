@@ -1,5 +1,4 @@
 #duty {
-
   main {
     position: relative;
     padding-bottom: 190px;
@@ -20,8 +19,9 @@
   p {
     font-size: 20px;
     line-height: 28px;
-    color: #3A3A3C;
-    font-family: 'Manrope', sans-serif;
+    color: #3a3a3c;
+    font-family: "Manrope", sans-serif;
+    margin: 20px 0;
   }
   ul li {
     list-style: disc;
@@ -32,6 +32,28 @@
     color: #6b7588;
     font-size: 14px;
     line-height: 20px;
-    font-family: 'Manrope', sans-serif;
+    font-family: "Manrope", sans-serif;
+  }
+
+  @media (max-width: ($tablet)) {
+    main {
+      padding: 0 28px 190px;
+
+      img.background {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+      }
+    }
+
+    .heading {
+      margin-top: 55px;
+      margin-bottom: 25px;
+    }
+
+    p,
+    ul li {
+      font-size: var(--p-size-mobile);
+    }
   }
 }
