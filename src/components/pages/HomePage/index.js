@@ -2,11 +2,11 @@ import React, { useState } from "react";
 
 import TitleChip from "@components/shared/TitleChip";
 import Footer from "@components/shared/Footer";
-import IconTitle from '@components/shared/IconTitle';
-import LandingBackground from "@images/home/bg_landing_page.svg"
-import SponsoringBackground from "@images/home/bg_cta.svg"
-import GirlImage from "@images/home/girl.svg"
-import CalendarIcon from "@images/home/calendar.svg"
+import IconTitle from "@components/shared/IconTitle";
+import LandingBackground from "@images/home/bg_landing_page.svg";
+import SponsoringBackground from "@images/home/bg_cta.svg";
+import GirlImage from "@images/home/girl.svg";
+import CalendarIcon from "@images/home/calendar.svg";
 
 import VirusIcon from "@images/home/covid/virus.svg";
 import GearIcon from "@images/home/covid/gear.svg";
@@ -83,13 +83,24 @@ const HomePage = ({ text, file }) => {
       </section>
       <section id="section-info">
         <div className="container">
-          <div className="row">
-            <div className="col-6 image-column">
+          <div className="row section-info__content">
+            <div className="tablet-only section-info__title">
+              <TitleChip>Sobre a Python BR</TitleChip>
+            </div>
+            <div className="col-6 image-column desktop-only">
               <img src={GirlImage} alt="" />
             </div>
-            <div className="col-6">
-              <TitleChip>Sobre a Python BR</TitleChip>
+            <div className="col-6 section-info__about">
+              <div className="desktop-only">
+                <TitleChip>Sobre a Python BR</TitleChip>
+              </div>
               <div className="info">
+                <img
+                  src={GirlImage}
+                  alt=""
+                  className="section-info__image tablet-only"
+                />
+
                 <p>
                   A Python Brasil 2022 é a maior conferência sobre linguagem de
                   programação Python do Brasil e da América Latina.
