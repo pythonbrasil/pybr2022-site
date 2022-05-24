@@ -5,7 +5,7 @@ section {
   padding: 80px 0;
 }
 
-.link-sponsor{
+.link-sponsor {
   color: #fff;
 }
 
@@ -48,13 +48,51 @@ section {
     font-size: 18px;
     color: $white;
   }
+
+  @media (max-width: ($tablet)) {
+    padding: 80px 20px;
+
+    .info {
+      margin-top: 80px;
+      font-size: var(--p-size-mobile);
+    }
+
+    .section-info__image {
+      max-width: 200px;
+      line-height: 0;
+      float: right;
+      object-fit: cover;
+      object-position: 15px;
+    }
+    .section-info__about {
+      width: 100%;
+    }
+    .section-info__content {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .section-info__title {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  @media (max-width: ($mobile)) {
+    .section-info__image {
+      width: 150px;
+    }
+  }
 }
+
 #section-sponsoring {
   text-align: center;
   position: relative;
   background: $orange;
   padding: 64px 0;
-  overflow-x: hidden;
+  overflow: hidden;
 
   h3 {
     background: #e67b2a;
@@ -96,7 +134,6 @@ section {
     margin-top: 20px;
 
     li {
-
       .card {
         background: $dark-blue;
         width: 100%;
@@ -105,15 +142,16 @@ section {
         text-align: left;
         padding: 20px;
 
-        h2, p {
+        h2,
+        p {
           color: #fff;
         }
 
         img {
           width: 36px;
           height: 36px;
-          border: 6px solid #FFF;
-          background: #FFF;
+          border: 6px solid #fff;
+          background: #fff;
           border-radius: 20px;
           margin-bottom: 10px;
         }
@@ -173,8 +211,8 @@ section {
 
       li {
         &.active button {
-          background: #FAFBFF;
-          color: #3A3A3C;
+          background: #fafbff;
+          color: #3a3a3c;
 
           &::before {
             background: $dark-green;
@@ -186,24 +224,23 @@ section {
           outline: none;
           font-size: 18px;
           padding: 20px calc(8% + 20px);
-          background: #FFF;
-          color: #6B7588;
+          background: #fff;
+          color: #6b7588;
           font-weight: 400;
           position: relative;
           transition: color 250ms ease-in-out, background 250ms ease-in-out;
           width: 100%;
           text-align: left;
 
-
           &:hover,
           &:active {
-            background: #FAFBFF;
+            background: #fafbff;
           }
 
           &::before {
             content: "";
             display: inline-block;
-            background: #93D0AC;
+            background: #93d0ac;
             width: 20px;
             height: 20px;
             position: absolute;
@@ -215,7 +252,7 @@ section {
           }
           &:after {
             content: "";
-            background: url('../../../assets/images/home/faq/arrow.svg');
+            background: url("../../../assets/images/home/faq/arrow.svg");
             position: absolute;
             top: 50%;
             transform: translateY(-50%);
@@ -237,7 +274,8 @@ section {
     border-radius: 12px;
     left: 50%;
     transform: translateX(-50%);
-    transition: left 500ms ease, transform 500ms ease, max-width 500ms ease, height 500ms ease;
+    transition: left 500ms ease, transform 500ms ease, max-width 500ms ease,
+      height 500ms ease;
 
     .right-panel-inner {
       width: 68.5%;
@@ -256,16 +294,16 @@ section {
     h3 {
       font-size: 22px;
       line-height: 26px;
-      font-family: 'Montserrat', sans-serif;
+      font-family: "Montserrat", sans-serif;
       margin-bottom: 32px;
     }
 
-    h3, p {
-      color: #FFF;
+    h3,
+    p {
+      color: #fff;
     }
   }
 }
-
 
 footer {
   padding: 70px 0 50px;
@@ -297,19 +335,19 @@ footer {
     margin: 10px auto;
 
     a {
-      color: #047F4D;
+      color: #047f4d;
       text-decoration: none;
-      font-family: 'Manrope', sans-serif;
+      font-family: "Manrope", sans-serif;
     }
   }
 
   h4 {
-    font-family: 'Manrope', sans-serif;
+    font-family: "Manrope", sans-serif;
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 3px;
-    color: #3A3A3C;
+    color: #3a3a3c;
     margin-bottom: 30px;
   }
 
@@ -320,13 +358,13 @@ footer {
 }
 
 .privacy-policy {
-  background: #F4EDDB;
+  background: #f4eddb;
   padding: 50px 0 60px;
-  color: #3A3A3C;
-  font-family: 'Roboto', sans-serif;
+  color: #3a3a3c;
+  font-family: "Roboto", sans-serif;
 }
 @keyframes fadeOut {
-  0%{
+  0% {
     opacity: 0;
   }
   100% {
