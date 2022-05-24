@@ -21,7 +21,7 @@ const Footer = ({ text }) => {
       <footer>
         <div className="container">
           <div className="row">
-            <div className="col-12 col-sm-3 logo-and-social espacamento-responsivo">
+            <div className="col-12 col-sm-4 logo-and-social espacamento-responsivo card-1-responsivo">
               <img
                 className="footerLogo"
                 src={LogoImage}
@@ -42,10 +42,10 @@ const Footer = ({ text }) => {
                 ))}
               </ul>
             </div>
-            <div className="col-12 col-sm-3 espacamento-responsivo">
+            <div className="col-12 col-sm-4 espacamento-responsivo">
               <p>{text.HOME.FOOTER.ABOUT_TEXT} </p>
             </div>
-            <div className="col-12 col-sm-3 espacamento-responsivo">
+            <div className="col-12 col-sm-4 espacamento-responsivo">
               <h4>Link rápidos</h4>
 
               <ul className="links">
@@ -54,12 +54,6 @@ const Footer = ({ text }) => {
                 </li>
                 <li>
                   <a href="/palestras">Submissão de Palestras</a>
-                </li>
-                <li>
-                  <a href="/schedule">Programação</a>
-                </li>
-                <li>
-                  <a href="/faq">FAQ</a>
                 </li>
                 <li>
                   <a href="/duty">Código de Conduta</a>
