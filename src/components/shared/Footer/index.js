@@ -21,7 +21,7 @@ const Footer = ({ text }) => {
       <footer>
         <div className="container">
           <div className="row">
-            <div className="col-12 col-sm-3 logo-and-social">
+            <div className="col-12 col-sm-4 logo-and-social espacamento-responsivo card-1-responsivo">
               <img
                 className="footerLogo"
                 src={LogoImage}
@@ -42,10 +42,10 @@ const Footer = ({ text }) => {
                 ))}
               </ul>
             </div>
-            <div className="col-12 col-sm-3">
+            <div className="col-12 col-sm-4 espacamento-responsivo">
               <p>{text.HOME.FOOTER.ABOUT_TEXT} </p>
             </div>
-            <div className="col-12 col-sm-3">
+            <div className="col-12 col-sm-4 espacamento-responsivo">
               <h4>Link rápidos</h4>
 
               <ul className="links">
@@ -56,32 +56,13 @@ const Footer = ({ text }) => {
                   <a href="/palestras">Submissão de Palestras</a>
                 </li>
                 <li>
-                  <a href="/schedule">Programação</a>
-                </li>
-                <li>
-                  <a href="/faq">FAQ</a>
-                </li>
-                <li>
                   <a href="/duty">Código de Conduta</a>
                 </li>
               </ul>
             </div>
-            <div className="col-12 col-sm-3">
-              <h4>Endereço do Evento</h4>
-
-              <p>Centro de Convenções do Amazonas Vasco Vasques</p>
-              <br />
-
-              <p>Av. Constantino Nery, 5001 - Flores, Manaus - AM, 69058-795</p>
-            </div>
           </div>
         </div>
       </footer>
-      <div className="privacy-policy">
-        <div className="container">
-          <span>Política de privacidade</span>
-        </div>
-      </div>
     </>
   );
 };
