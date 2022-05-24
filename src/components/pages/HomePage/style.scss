@@ -146,6 +146,7 @@ section {
         border-radius: 8px;
         text-align: left;
         padding: 20px;
+        margin-bottom: 1em;
 
         h2,
         p {
@@ -169,6 +170,19 @@ section {
       &:last-child {
         margin-right: 0;
       }
+
+      @media (max-width: ($tablet)) { 
+        &{
+          margin-bottom: .5em;
+        }
+      }
+
+      @media (max-width: ($mobile)) { 
+        &{
+          margin-bottom: .5em;
+        }
+      }
+
     }
   }
 }
