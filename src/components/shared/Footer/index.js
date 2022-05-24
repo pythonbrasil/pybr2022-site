@@ -69,11 +69,6 @@ const Footer = ({ text }) => {
           </div>
         </div>
       </footer>
-      <div className="privacy-policy">
-        <div className="container">
-          <span>Política de privacidade</span>
-        </div>
-      </div>
     </>
   );
 };
