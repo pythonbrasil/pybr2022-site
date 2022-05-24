@@ -50,10 +50,11 @@ section {
   }
 
   @media (max-width: ($tablet)) {
+   
     padding: 80px 20px;
 
     .info {
-      margin-top: 80px;
+      margin-top: 40px;
       font-size: var(--p-size-mobile);
     }
 
@@ -77,6 +78,10 @@ section {
       display: flex;
       justify-content: center;
       align-items: center;
+    }
+
+    h3{
+      text-align: center;
     }
   }
 
