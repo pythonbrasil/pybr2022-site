@@ -30,7 +30,7 @@
 
   @media (max-width: ($tablet)) {
     display: flex;
-    gap: 8px;
+    gap: 24px;
     min-width: 100%;
     padding-top: 24px;
     margin: 0 0 5px 0;
@@ -40,6 +40,10 @@
     }
     .icon-title__desktop {
       display: none;
+    }
+
+    .icon-title--white {
+      color: white !important;
     }
 
     h2 {
@@ -58,5 +62,9 @@
       position: relative;
       align-self: flex-start;
     }
+  }
+
+  @media (max-width: ($mobile)) {
+    gap: 12px;
   }
 }
