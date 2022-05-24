@@ -2,11 +2,11 @@ import React, { useState } from "react";
 
 import TitleChip from "@components/shared/TitleChip";
 import Footer from "@components/shared/Footer";
-import IconTitle from '@components/shared/IconTitle';
-import LandingBackground from "@images/home/bg_landing_page.svg"
-import SponsoringBackground from "@images/home/bg_cta.svg"
-import GirlImage from "@images/home/girl.svg"
-import CalendarIcon from "@images/home/calendar.svg"
+import IconTitle from "@components/shared/IconTitle";
+import LandingBackground from "@images/home/bg_landing_page.svg";
+import SponsoringBackground from "@images/home/bg_cta.svg";
+import GirlImage from "@images/home/girl.svg";
+import CalendarIcon from "@images/home/calendar.svg";
 
 import VirusIcon from "@images/home/covid/virus.svg";
 import GearIcon from "@images/home/covid/gear.svg";
@@ -21,6 +21,9 @@ const emptyFaqItem = {
 
 const HomePage = ({ text, file }) => {
   const [faqItem, setFaqItem] = useState(emptyFaqItem);
+
+  const redirectToSponsor = () =>
+    window.location.replace("https://pretalx.com/python-brasil-2022/cfp");
 
   const faqItems = [
     {
@@ -64,22 +67,37 @@ const HomePage = ({ text, file }) => {
     <div id="home">
       <section id="section-landing-page">
         <div className="container">
-          <div className="row">
+          <div className="row desktop-only">
             <div className="call-to-action col-12 col-sm-6">
-              <IconTitle icon={CalendarIcon} title={text.HOME.LANDING.TITLE} />
+              <IconTitle
+                icon={CalendarIcon}
+                title={text.HOME.LANDING.TITLE}
+                isHome
+              />
               <p>{text.HOME.LANDING.INFO}</p>
-              <button>
-                <a
-                  className="link-sponsor"
-                  href="https://pretalx.com/python-brasil-2022/cfp"
-                >
-                  {text.HOME.LANDING.BUTTON}
-                </a>
+              <button onClick={redirectToSponsor}>
+                {text.HOME.LANDING.BUTTON}
               </button>
             </div>
           </div>
+
+          <div className="section-landing-page__content tablet-only">
+            <IconTitle
+              icon={CalendarIcon}
+              title={text.HOME.LANDING.TITLE}
+              isHome
+            />
+            <p>{text.HOME.LANDING.INFO}</p>
+            <button onClick={redirectToSponsor}>
+              {text.HOME.LANDING.BUTTON}
+            </button>
+          </div>
         </div>
-        <img src={LandingBackground} className="background" alt="" />
+        <img
+          src={LandingBackground}
+          className="desktop-only background"
+          alt=""
+        />
       </section>
       <section id="section-info">
         <div className="container">
