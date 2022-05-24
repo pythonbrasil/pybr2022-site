@@ -57,3 +57,20 @@ button {
 .container-xxl {
   max-width: 1134px;
 }
+
+.desktop-only {
+  display: revert;
+}
+
+.tablet-only {
+  display: none;
+}
+
+@media (max-width: ($tablet)) {
+  .desktop-only {
+    display: none;
+  }
+  .tablet-only {
+    display: revert;
+  }
+}
