@@ -1,0 +1,19 @@
+ul li,
+p {
+font-size: 20px;
+line-height: 28px;
+color: #3a3a3c;
+font-family: "Manrope", sans-serif;
+margin: 20px 0;
+}
+ul li {
+list-style: disc;
+margin-left: 20px;
+}
+
+@media (max-width: ($tablet)) {
+p,
+ul li {
+    font-size: var(--p-size-mobile);
+}
+}
