@@ -15,6 +15,18 @@
     margin: 70px 0;
   }
 
+  ul li,
+  p {
+    font-size: 20px;
+    line-height: 28px;
+    color: #3a3a3c;
+    font-family: "Manrope", sans-serif;
+    margin: 20px 0;
+  }
+  ul li {
+    list-style: disc;
+    margin-left: 20px;
+  }
 
   .last-update {
     color: #6b7588;
@@ -44,6 +56,10 @@
         object-fit: contain;
         object-position: left bottom;
       }
+    }
+    p,
+    ul li {
+      font-size: var(--p-size-mobile);
     }
 
   }
