@@ -24,7 +24,7 @@ const Header = () => {
 
   const links = [
     { href: "/", label: "Home" },
-    { href: "/cdc", label: "Código de Conduta" },
+    { href: "https://python.org.br/cdc/", label: "Código de Conduta" },
   ];
 
   const isHome = location.pathname === "/";
@@ -41,15 +41,6 @@ const Header = () => {
             />
           </Link>
         </div>
-        <nav className="links desktop-only">
-          <ul>
-            {links.map(({ href, label }) => (
-              <li className={href === window.location.pathname ? "active" : ""}>
-                <Link to={href}>{label}</Link>
-              </li>
-            ))}
-          </ul>
-        </nav>
 
         <nav className="languages desktop-only">
           <LanguageSwitch />

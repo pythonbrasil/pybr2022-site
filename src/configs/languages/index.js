@@ -7,7 +7,7 @@ import SponsoringDetailsES from "@files/patrocinio_python_brasil_es.pdf";
 import SponsoringDetailsEN from "@files/patrocinio_python_brasil_en.pdf";
 
 const LANGUAGES = [
-  {
+  /*{
     id: "pt-br",
     label: "PT"
   },
@@ -18,7 +18,7 @@ const LANGUAGES = [
   {
     id: "en",
     label: "EN"
-  },
+  },*/
 ]
 
 export const LANGUAGES_SPONSORING_FILES = {

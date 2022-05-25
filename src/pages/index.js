@@ -30,11 +30,11 @@ const IndexPage = () => (
             text={LANGUAGES_TEXTS[state.languageId]}
             file={LANGUAGES_SPONSORING_FILES[state.languageId]}
           />
-          <LazyComponent
+           {/*<LazyComponent
             path="/cdc"
             text={LANGUAGES_TEXTS[state.languageId]}
             Component={DutyPage}
-          />
+          />*/}
 
           {/* <LazyComponent Component={About} path="about-us" />
           <LazyComponent Component={ProgramacaoPage} path="/programacao" />*/}
