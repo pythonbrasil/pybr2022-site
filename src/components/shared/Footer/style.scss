@@ -1,0 +1,84 @@
+footer {
+  .footer__body {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    padding: 70px 20px;
+
+    .footer_logo-social {
+      display: flex;
+      flex-direction: column;
+      max-width: 500px;
+      flex: 1;
+      gap: 16px;
+      img {
+        max-width: 200px;
+      }
+    }
+    .links {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      gap: 8px;
+      flex: 1;
+    }
+
+    @media (max-width: ($tablet)) {
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+
+  .logo-and-social {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 36px;
+
+    img.footerLogo {
+      max-width: 200px;
+    }
+    img.icon {
+      width: 24px;
+    }
+  }
+  .social-platforms {
+    display: flex;
+    gap: 24px;
+    justify-content: flex-start;
+  }
+
+  .links li {
+    a {
+      color: #047f4d;
+      text-decoration: none;
+      font-family: "Manrope", sans-serif;
+    }
+  }
+
+  h4 {
+    font-family: "Manrope", sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #3a3a3c;
+    margin-bottom: 30px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  @media (max-width: ($tablet)) {
+    .espacamento-responsivo {
+      margin-bottom: 2em;
+    }
+  }
+
+  @media (max-width: ($mobile)) {
+    .espacamento-responsivo {
+      margin-bottom: 2em;
+    }
+  }
+}
