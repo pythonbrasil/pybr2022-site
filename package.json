@@ -19,7 +19,7 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "gatsby build && gh-pages -d public -b main"
+    "deploy": "gatsby build && cp CNAME public/ && gh-pages -d public"
   },
   "dependencies": {
     "@reach/router": "^1.3.4",

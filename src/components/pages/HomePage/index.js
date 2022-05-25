@@ -103,14 +103,14 @@ const HomePage = ({ text, file }) => {
         <div className="container">
           <div className="row section-info__content">
             <div className="tablet-only section-info__title">
-              <TitleChip>Sobre a Python BR</TitleChip>
+              <TitleChip>Sobre a Python Brasil</TitleChip>
             </div>
             <div className="col-6 image-column desktop-only">
               <img src={GirlImage} alt="" />
             </div>
             <div className="col-6 section-info__about">
               <div className="desktop-only">
-                <TitleChip>Sobre a Python BR</TitleChip>
+                <TitleChip>Sobre a Python Brasil</TitleChip>
               </div>
               <div className="info">
                 <img
@@ -120,21 +120,13 @@ const HomePage = ({ text, file }) => {
                 />
 
                 <p>
-                  A Python Brasil 2022 é a maior conferência sobre linguagem de
-                  programação Python do Brasil e da América Latina.
+                  A Python Brasil 2022 é a maior conferência sobre linguagem de programação Python do Brasil e da América Latina.
                 </p>
                 <p>
-                  Serão 6 dias de imersão onde os participantes poderão
-                  contribuir para projetos de software livre, participar de
-                  treinamentos e adquirir novos conhecimentos com
-                  desenvolvedores renomados da comunidade. A programação está
-                  organizada da seguinte forma: Tutoriais (15.10 e 16.10),
-                  Palestras e Keynotes(17.10 a 22.10) e Sprints (23.10).
+                  Serão 7 dias de imersão onde os participantes poderão contribuir para projetos de software livre, participar de treinamentos e adquirir novos conhecimentos com desenvolvedores renomados da comunidade. A programação está organizada da seguinte forma: Tutoriais e Sṕrints (17.10 a 19.10) e Palestras e Keynotes(20.10 a 23.10).
                 </p>
                 <p>
-                  A edição de 2022 está sendo organizada pela comunidade Python
-                  de Manaus/AM (PyNorte) com o apoio da APyB (Associação Python
-                  Brasil).
+                  A edição de 2022 está sendo organizada pela comunidade Python de Manaus/AM (PyNorte) com o apoio da APyB (Associação Python Brasil).
                 </p>
               </div>
             </div>
