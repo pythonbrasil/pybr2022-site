@@ -91,6 +91,9 @@ const Header = () => {
               </li>
             ))}
           </ul>
+          <nav className="languages">
+            <LanguageSwitch />
+          </nav>
           <button className="menu__close-button" onClick={toggleMenu}>
             X
           </button>
