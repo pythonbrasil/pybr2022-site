@@ -98,9 +98,7 @@ const HomePage = ({ text, file }) => {
                   alt=""
                   className="section-info__image tablet-only"
                 />
-
                 {text.HOME.ABOUT.CONTENT.map((item) => <p>{item} </p>)}
-
               </div>
             </div>
           </div>

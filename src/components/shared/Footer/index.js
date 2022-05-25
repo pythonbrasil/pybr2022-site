@@ -11,11 +11,11 @@ import "./style.scss";
 
 const Footer = ({ text }) => {
   const socialPlatforms = [
-    { name: "Instagram", icon: InstagramIcon, href: "" },
-    { name: "Facebook", icon: FacebookIcon, href: "" },
-    { name: "Linkedin", icon: LinkedinIcon, href: "" },
-    { name: "Twitter", icon: TwitterIcon, href: "" },
-    { name: "Youtube", icon: YoutubeIcon, href: "" },
+    { name: "Instagram", icon: InstagramIcon, href: "https://instagram.com/pythonbrasil" },
+    { name: "Facebook", icon: FacebookIcon, href: "https://www.facebook.com/pythonbrasil" },
+    { name: "LinkedIn", icon: LinkedinIcon, href: "https://www.linkedin.com/company/33193243/" },
+    { name: "Twitter", icon: TwitterIcon, href: "https://twitter.com/pythonbrasil/" },
+    { name: "Youtube", icon: YoutubeIcon, href: "https://www.youtube.com/c/pythonbrasiloficial" },
   ];
 
   return (
@@ -55,10 +55,10 @@ const Footer = ({ text }) => {
                   <a href="/">Python Brasil 2022</a>
                 </li>
                 <li>
-                  <a href="/palestras">Submissão de Palestras</a>
+                  <a href="https://pretalx.com/python-brasil-2022/cfp">Submissão de Palestras</a>
                 </li>
                 <li>
-                  <a href="/duty">Código de Conduta</a>
+                  <a href="/cdc">Código de Conduta</a>
                 </li>
               </ul>
             </div>

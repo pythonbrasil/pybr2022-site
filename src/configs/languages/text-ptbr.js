@@ -53,7 +53,7 @@ export const TEXT_PTBR = {
       ]
     },
     FOOTER: {
-      ABOUT_TEXT: `PythonBrasil é uma conferência sem fins lucrativos dirigida por voluntários para promover a linguagem de programação Python de código aberto. É apoiado pela Associação Python Brasil (APyB) e pela Python Software Foundation (PSF).`,
+      ABOUT_TEXT: `Python Brasil é uma conferência sem fins lucrativos dirigida por voluntários para promover a linguagem de programação Python de código aberto. É apoiado pela Associação Python Brasil (APyB).`,
     },
   },
   CDC: {

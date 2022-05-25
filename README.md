@@ -30,4 +30,3 @@ Acesse o endereço http://localhost:8000! e veja as suas modificações!
 As modificações que entram na branch v1-gatsby são vistas no nosso ambiente de staging!
 
 Acesse https://stg-pybr-2022.netlify.app/ para verificar.
-

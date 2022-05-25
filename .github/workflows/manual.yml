@@ -1,0 +1,27 @@
+name: Build and Deploy
+on:
+  workflow_dispatch:
+    # Inputs the workflow accepts.
+    inputs:
+      name:
+        # Friendly description to be shown in the UI instead of 'name'
+        description: "Running again"
+        # Default value if no value is explicitly provided
+        default: "Running again"
+        # Input has to be provided for the workflow to run
+        required: False
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4.3.0
+        with:
+          branch: gh-pages # The branch the action should deploy to.
+          folder: .
+    env:
+      GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      GH_PAGES_CNAME: 2022.pythonbrasil.org.br
