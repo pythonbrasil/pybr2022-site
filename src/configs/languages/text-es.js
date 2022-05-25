@@ -78,4 +78,9 @@ export const TEXT_ES = {
     ],
     },
   },
+  GUIA: {
+    LANDING: {
+      TITLE: `Guia de saúde para turistas`,
+    },
+  },
 };

@@ -83,4 +83,9 @@ export const TEXT_PTBR = {
     ],
     },
   },
+  GUIA: {
+    LANDING: {
+      TITLE: `Guia de saúde para turistas`,
+    },
+  },
 };

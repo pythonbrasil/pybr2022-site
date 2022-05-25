@@ -60,6 +60,9 @@ const Footer = ({ text }) => {
                 <li>
                   <a href="/duty">Código de Conduta</a>
                 </li>
+                <li>
+                  <a href="/guia">Guia de saúde para turistas</a>
+                </li>
               </ul>
             </div>
           </div>
