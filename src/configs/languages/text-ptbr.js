@@ -18,4 +18,9 @@ export const TEXT_PTBR = {
       TITLE: `Código de Conduta`,
     },
   },
+  GUIA: {
+    LANDING: {
+      TITLE: `Guia de saúde para turistas`,
+    },
+  },
 };

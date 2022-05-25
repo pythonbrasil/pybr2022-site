@@ -9,7 +9,8 @@ import { window, document } from "browser-monads";
 const Header = () => {
   const links = [
     { href: "/", label: "Home" },
-    { href: "/cdc", label: "Código de Conduta" }  
+    { href: "/cdc", label: "Código de Conduta" },
+    { href: "/guia", label: "Guia de Saúde" }  
   ]
 
   return (

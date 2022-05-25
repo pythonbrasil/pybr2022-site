@@ -46,7 +46,7 @@ const Footer = ({ text }) => {
               <p>{text.HOME.FOOTER.ABOUT_TEXT} </p>
             </div>
             <div className="col-12 col-sm-4 espacamento-responsivo">
-              <h4>Link rápidos</h4>
+              <h4>Links rápidos</h4>
 
               <ul className="links">
                 <li>
@@ -57,6 +57,9 @@ const Footer = ({ text }) => {
                 </li>
                 <li>
                   <a href="/duty">Código de Conduta</a>
+                </li>
+                <li>
+                  <a href="/guia">Guia de saúde para turistas</a>
                 </li>
               </ul>
             </div>

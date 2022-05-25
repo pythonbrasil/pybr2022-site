@@ -19,4 +19,9 @@ export const TEXT_ES = {
       TITLE: `Código de Conducta`,
     },
   },
+  GUIA: {
+    LANDING: {
+      TITLE: `Guia de saúde para turistas`,
+    },
+  },
 };
