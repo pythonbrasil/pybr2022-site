@@ -1,0 +1,68 @@
+#language-switch {
+  padding: 0;
+
+  li {
+    background: #fff;
+    padding: inherit;
+
+    button {
+      border: none;
+      background: none;
+      color: $opacity-black;
+      transition: 150ms background;
+      padding: 5px 7.5px;
+    }
+
+    &:first-child {
+      border-top-left-radius: 8px;
+      border-bottom-left-radius: 8px;
+
+      button {
+        border-top-left-radius: inherit;
+        border-bottom-left-radius: inherit;
+      }
+    }
+
+    &:last-child {
+      border-top-right-radius: 8px;
+      border-bottom-right-radius: 8px;
+
+      button {
+        border-top-right-radius: inherit;
+        border-bottom-right-radius: inherit;
+      }
+    }
+    &:hover button {
+      background: $light-white;
+    }
+
+    &.active button {
+      color: $full-white;
+      font-weight: 800;
+      background: $dark-green;
+    }
+  }
+}
+
+@media (max-width: ($tablet)) {
+  #language-switch .language-switch__list {
+    display: flex;
+    // usando !important porque está havendo conflito com o links ul {flex-direction: column}
+    // no mobile
+    flex-direction: row !important;
+    gap: 0;
+    li {
+      border-radius: 0;
+      border: none;
+      &:first-child {
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+      }
+
+      &:last-child {
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+      }
+    }
+  }
+}

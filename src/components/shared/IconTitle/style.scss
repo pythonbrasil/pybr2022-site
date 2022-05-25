@@ -1,0 +1,71 @@
+.icon-title {
+  margin: 0 0 25px 0;
+  max-width: 420px;
+  position: relative;
+
+  h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: var(--h2-size-desktop);
+    text-transform: uppercase;
+  }
+
+  h4 {
+    margin: 16px 0 20px;
+    text-transform: uppercase;
+    color: $light-green;
+    font-weight: 400;
+    font-size: var(--h4-size-desktop);
+  }
+
+  img {
+    position: absolute;
+    right: 40px;
+    top: 0;
+  }
+
+  .icon-title__mobile {
+    display: none;
+  }
+
+  @media (max-width: ($tablet)) {
+    display: flex;
+    gap: 24px;
+    min-width: 100%;
+    padding-top: 24px;
+    margin: 0 0 5px 0;
+    justify-content: space-between;
+
+    .icon-title__mobile {
+      display: revert;
+    }
+    .icon-title__desktop {
+      display: none;
+    }
+
+    .icon-title--white {
+      color: white !important;
+    }
+
+    h2 {
+      font-size: var(--h2-size-mobile);
+    }
+    h4 {
+      font-size: var(--h4-size-mobile);
+      line-height: var(--h4-size-mobile);
+      margin: 0;
+      position: absolute;
+      top: 0;
+    }
+    img {
+      line-height: 0;
+      right: 0;
+      position: relative;
+      align-self: flex-start;
+    }
+  }
+
+  @media (max-width: ($mobile)) {
+    gap: 12px;
+  }
+}
