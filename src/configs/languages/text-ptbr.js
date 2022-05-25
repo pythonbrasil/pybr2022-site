@@ -1,3 +1,7 @@
+import VirusIcon from "@images/home/covid/virus.svg";
+import GearIcon from "@images/home/covid/gear.svg";
+import BookIcon from "@images/home/covid/book.svg";
+
 export const TEXT_PTBR = {
   HOME: {
     LANDING: {
@@ -24,6 +28,29 @@ export const TEXT_PTBR = {
     SPONSORING: {
       TITLE: "Saiba como patrocinar o evento",
       BUTTON: `Veja nosso plano de patrocínio`,
+    },
+    COVID: {
+      TITLE: "Medidas sobre a COVID-19",
+      CONTENT: [
+        {
+          title: "Vacine-se!",
+          description:
+            "Acesse site do Conecte SUS e procure uma unidade básica de saúde para atualizar seu cartão de vacina.",
+          icon: VirusIcon,
+        },
+        {
+          title: "Temperatura",
+          description:
+            "Manaus é uma cidade úmida, logo durante o mês de Outubro a Temperatura vai em torno de 30° a 38°. Venham com roupas leves!",
+          icon: GearIcon,
+        },
+        {
+          title: "Código de Conduta",
+          description:
+            "Fique atento ao código de conduta pois nosso objetivo é criar um ambiente seguro para todas as pessoas",
+          icon: BookIcon,
+        },
+      ]
     },
     FOOTER: {
       ABOUT_TEXT: `PythonBrasil é uma conferência sem fins lucrativos dirigida por voluntários para promover a linguagem de programação Python de código aberto. É apoiado pela Associação Python Brasil (APyB) e pela Python Software Foundation (PSF).`,

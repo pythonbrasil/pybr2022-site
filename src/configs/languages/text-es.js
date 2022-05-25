@@ -1,3 +1,7 @@
+import VirusIcon from "@images/home/covid/virus.svg";
+import GearIcon from "@images/home/covid/gear.svg";
+import BookIcon from "@images/home/covid/book.svg";
+
 export const TEXT_ES = {
   HOME: {
     LANDING: {
@@ -24,7 +28,29 @@ export const TEXT_ES = {
       TITLE: `¿Cómo patrocinar el evento?`,
       BUTTON: 'Acceda a nuestros Planes de Patrocinio'
     },
-    
+    COVID: {
+      TITLE: "Medidas sobre a COVID-19",
+      CONTENT: [
+        {
+          title: "¡Vacúnate!",
+          description:
+            "Visita el sitio web de Conect SUS y busque una unidad básica de salud (UBS) para actualizar su tarjeta de vacunas.",
+          icon: VirusIcon,
+        },
+        {
+          title: "Temperatura",
+          description:
+            "Manaus es una ciudad húmeda, por lo que durante el mes de octubre la temperatura ronda los 30° a 38°. ¡Ven con ropa ligera!",
+          icon: GearIcon,
+        },
+        {
+          title: "Código de Conducta",
+          description:
+            "Preste atención al código de conducta ya que nuestro objetivo es crear un entorno seguro para todas las personas.",
+          icon: BookIcon,
+        },
+      ]
+    },
     FOOTER: {
       ABOUT_TEXT: 'Python Brasil es una conferencia sin fines de lucro dirigida por voluntarios para promover el lenguaje de programación Python de código abierto. Cuenta con el apoyo de la Asociación Python Brasil (APyB) y la Python Software Foundation (PSF).'
     }
