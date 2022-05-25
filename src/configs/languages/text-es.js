@@ -5,6 +5,21 @@ export const TEXT_ES = {
       INFO: `El envío de Charlas se puede hacer con el botón abajo.`,
       BUTTON: `Envía tu charla aquí`,
     },
+    ABOUT: {
+      TITLE: "Sobre el Python BR",
+      CONTENT: [
+        "Python Brasil 2022 es una importante conferencia  \
+        sobre el lenguaje de programación Python de Brasil y América Latina.",
+        "Serán 6 días de inmersión donde los participantes podrán  \
+        contribuir en proyectos de software libre, participar en  \
+        capacitaciones y adquirir nuevos conocimientos con desarrolladores  \
+        de renombre dentro de la comunidad. El programa está organizado  \
+        de la siguiente manera: Tutoriales (15.10 y 16.10), Lectures &  \
+        Keynotes (17.10 a 22.10) y Sprints (23.10)",
+        "La edición de 2022 está organizada por la comunidad Python de   \
+        Manaus/AM (PyNorte) con el apoyo de APyB (Asociación Python Brasil)."
+      ]
+    },
     SPONSORING: {
       TITLE: `¿Cómo patrocinar el evento?`,
       BUTTON: 'Acceda a nuestros Planes de Patrocinio'

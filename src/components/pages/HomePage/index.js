@@ -103,14 +103,14 @@ const HomePage = ({ text, file }) => {
         <div className="container">
           <div className="row section-info__content">
             <div className="tablet-only section-info__title">
-              <TitleChip>Sobre a Python BR</TitleChip>
+              <TitleChip>{text.HOME.ABOUT.TITLE}</TitleChip>
             </div>
             <div className="col-6 image-column desktop-only">
               <img src={GirlImage} alt="" />
             </div>
             <div className="col-6 section-info__about">
               <div className="desktop-only">
-                <TitleChip>Sobre a Python BR</TitleChip>
+                <TitleChip>{text.HOME.ABOUT.TITLE}</TitleChip>
               </div>
               <div className="info">
                 <img
@@ -119,7 +119,9 @@ const HomePage = ({ text, file }) => {
                   className="section-info__image tablet-only"
                 />
 
-                <p>
+                {text.HOME.ABOUT.CONTENT.map((item) => <p>{item} </p>)}
+
+                {/* <p>
                   A Python Brasil 2022 é a maior conferência sobre linguagem de
                   programação Python do Brasil e da América Latina.
                 </p>
@@ -135,7 +137,7 @@ const HomePage = ({ text, file }) => {
                   A edição de 2022 está sendo organizada pela comunidade Python
                   de Manaus/AM (PyNorte) com o apoio da APyB (Associação Python
                   Brasil).
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
