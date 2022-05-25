@@ -3,10 +3,8 @@ import React, { useState } from "react";
 import TitleChip from "@components/shared/TitleChip";
 import Footer from "@components/shared/Footer";
 import IconTitle from "@components/shared/IconTitle";
-import LandingBackground from "@images/home/bg_landing_page.svg";
 import SponsoringBackground from "@images/home/bg_cta.svg";
 import GirlImage from "@images/home/girl.svg";
-import CalendarIcon from "@images/home/calendar.svg";
 
 import LandingBackground from "@images/home/bg_landing_page.svg"
 import LandingBackgroundMobile from "@images/home/bg_landing_page_mobile.svg"
