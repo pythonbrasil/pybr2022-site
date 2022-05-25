@@ -121,23 +121,6 @@ const HomePage = ({ text, file }) => {
 
                 {text.HOME.ABOUT.CONTENT.map((item) => <p>{item} </p>)}
 
-                {/* <p>
-                  A Python Brasil 2022 é a maior conferência sobre linguagem de
-                  programação Python do Brasil e da América Latina.
-                </p>
-                <p>
-                  Serão 6 dias de imersão onde os participantes poderão
-                  contribuir para projetos de software livre, participar de
-                  treinamentos e adquirir novos conhecimentos com
-                  desenvolvedores renomados da comunidade. A programação está
-                  organizada da seguinte forma: Tutoriais (15.10 e 16.10),
-                  Palestras e Keynotes(17.10 a 22.10) e Sprints (23.10).
-                </p>
-                <p>
-                  A edição de 2022 está sendo organizada pela comunidade Python
-                  de Manaus/AM (PyNorte) com o apoio da APyB (Associação Python
-                  Brasil).
-                </p> */}
               </div>
             </div>
           </div>
