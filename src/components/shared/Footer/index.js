@@ -56,7 +56,7 @@ const Footer = ({ text }) => {
                   <a href="/palestras">Submissão de Palestras</a>
                 </li>
                 <li>
-                  <a href="/duty">Código de Conduta</a>
+                  <a href="https://python.org.br/cdc/">Código de Conduta</a>
                 </li>
               </ul>
             </div>

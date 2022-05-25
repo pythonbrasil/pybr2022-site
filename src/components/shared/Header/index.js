@@ -9,7 +9,7 @@ import { window, document } from "browser-monads";
 const Header = () => {
   const links = [
     { href: "/", label: "Home" },
-    { href: "/cdc", label: "Código de Conduta" }  
+    { href: "https://python.org.br/cdc/", label: "Código de Conduta" }  
   ]
 
   return (

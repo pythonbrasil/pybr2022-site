@@ -14,11 +14,7 @@ const LANGUAGES = [
   {
     id: "es",
     label: "ES"
-  },
-  {
-    id: "en",
-    label: "EN"
-  },
+  }
 ]
 
 export const LANGUAGES_SPONSORING_FILES = {
