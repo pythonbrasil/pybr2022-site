@@ -5,6 +5,22 @@ export const TEXT_PTBR = {
       INFO: `A submissão de palestras para o Python Brasil 2022 pode ser feita pelo botão abaixo.`,
       BUTTON: `Submeta sua palestra aqui`,
     },
+    ABOUT: {
+      TITLE: "Sobre a Python BR",
+      CONTENT: [
+        "A Python Brasil 2022 é a maior conferência sobre linguagem de \
+        programação Python do Brasil e da América Latina.",
+        "Serão 6 dias de imersão onde os participantes poderão \
+        contribuir para projetos de software livre, participar de \
+        treinamentos e adquirir novos conhecimentos com \
+        desenvolvedores renomados da comunidade. A programação está \
+        organizada da seguinte forma: Tutoriais (15.10 e 16.10), \
+        Palestras e Keynotes(17.10 a 22.10) e Sprints (23.10).",
+        "A edição de 2022 está sendo organizada pela comunidade Python \
+        de Manaus/AM (PyNorte) com o apoio da APyB (Associação Python \
+        Brasil)."
+      ]
+    },
     SPONSORING: {
       TITLE: "Saiba como patrocinar o evento",
       BUTTON: `Veja nosso plano de patrocínio`,
