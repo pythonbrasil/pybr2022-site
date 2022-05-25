@@ -101,13 +101,24 @@ const HomePage = ({ text, file }) => {
       </section>
       <section id="section-info">
         <div className="container">
-          <div className="row">
-            <div className="col-6 image-column">
+          <div className="row section-info__content">
+            <div className="tablet-only section-info__title">
+              <TitleChip>Sobre a Python BR</TitleChip>
+            </div>
+            <div className="col-6 image-column desktop-only">
               <img src={GirlImage} alt="" />
             </div>
-            <div className="col-6">
-              <TitleChip>Sobre a Python BR</TitleChip>
+            <div className="col-6 section-info__about">
+              <div className="desktop-only">
+                <TitleChip>Sobre a Python BR</TitleChip>
+              </div>
               <div className="info">
+                <img
+                  src={GirlImage}
+                  alt=""
+                  className="section-info__image tablet-only"
+                />
+
                 <p>
                   A Python Brasil 2022 é a maior conferência sobre linguagem de
                   programação Python do Brasil e da América Latina.

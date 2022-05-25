@@ -33,7 +33,6 @@ section {
     text-transform: uppercase;
   }
 
-
   // #section-landing-page responsiviness
   @media (max-width: ($tablet)) {
     background-image: url("../../../assets/images/home/bg_landing_page-mobile.svg");
@@ -53,7 +52,6 @@ section {
       // to avoid not centralized
       margin-top: -80px;
       justify-content: center;
-
     }
 
     button {
@@ -76,13 +74,55 @@ section {
     font-size: 18px;
     color: $white;
   }
+
+  @media (max-width: ($tablet)) {
+    padding: 80px 20px;
+
+    .info {
+      margin-top: 40px;
+      font-size: var(--p-size-mobile);
+    }
+
+    .section-info__image {
+      max-width: 200px;
+      line-height: 0;
+      float: right;
+      object-fit: cover;
+      object-position: 15px;
+    }
+    .section-info__about {
+      width: 100%;
+    }
+    .section-info__content {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .section-info__title {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h3 {
+      text-align: center;
+    }
+  }
+
+  @media (max-width: ($mobile)) {
+    .section-info__image {
+      width: 150px;
+    }
+  }
 }
+
 #section-sponsoring {
   text-align: center;
   position: relative;
   background: $orange;
   padding: 64px 0;
-  overflow-x: hidden;
+  overflow: hidden;
 
   h3 {
     background: #e67b2a;
@@ -131,6 +171,7 @@ section {
         border-radius: 8px;
         text-align: left;
         padding: 20px;
+        margin-bottom: 1em;
 
         h2,
         p {
@@ -153,6 +194,18 @@ section {
 
       &:last-child {
         margin-right: 0;
+      }
+
+      @media (max-width: ($tablet)) {
+        & {
+          margin-bottom: 0.5em;
+        }
+      }
+
+      @media (max-width: ($mobile)) {
+        & {
+          margin-bottom: 0.5em;
+        }
       }
     }
   }
@@ -318,7 +371,7 @@ footer {
     margin-top: 40px;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   .links li {
@@ -344,6 +397,41 @@ footer {
   p {
     font-size: 14px;
     padding: 0 24px;
+  }
+
+  @media (max-width: ($tablet)) {
+    .espacamento-responsivo {
+      margin-bottom: 2em;
+    }
+
+    p {
+      padding: 0 2em;
+    }
+    .links li {
+      padding: 0 2em;
+    }
+
+    .card-1-responsivo {
+      margin-left: 2.2em;
+    }
+  }
+
+  @media (max-width: ($mobile)) {
+    .espacamento-responsivo {
+      margin-bottom: 2em;
+    }
+
+    h4 {
+      padding: 0 2em;
+    }
+
+    .links li {
+      padding: 0 2em;
+    }
+
+    .card-1-responsivo {
+      margin-left: 2.2em;
+    }
   }
 }
 
