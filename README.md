@@ -1,54 +1,33 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a9da365c-570a-4ca9-bf9f-e36582197faf/deploy-status)](https://app.netlify.com/sites/stg-pybr-2022/deploys)
 
-## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
+## 🚀 Como contribuir
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+A versão mínima do nodejs é a v14.19.2. Logo verifique se a sua versão é compatível.
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+1.  **Configuração do ambiente local**
 
-2.  **Start developing.**
+```shell
+$ git clone https://github.com/pythonbrasil/pybr2022-site.git
+$ cd pybr2022-site
+$ git checkout develop
+$ yarn install
+```
 
-    Navigate into your new site’s directory and start it up.
+2.  **Comece a desenvolver**
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+```shell
+$ yarn develop
+```
 
-3.  **Open the code and start customizing!**
+3.  **Verique as suas modificações**
 
-    Your site is now running at http://localhost:8000!
+Acesse o endereço http://localhost:8000! e veja as suas modificações!
 
-    Edit `src/pages/index.js` to see your site update in real-time!
 
-4.  **Learn more**
+## 🚀 Ambiente de Staging
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+As modificações que entram na branch v1-gatsby são vistas no nosso ambiente de staging!
 
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+Acesse https://stg-pybr-2022.netlify.app/ para verificar.
 
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)

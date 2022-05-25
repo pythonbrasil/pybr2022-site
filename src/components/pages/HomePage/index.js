@@ -1,8 +1,12 @@
 import React, { useState } from "react";
+
 import TitleChip from "@components/shared/TitleChip";
-import SponsoringBackground from "@images/home/bg_cta.svg"
-import GirlImage from "@images/home/girl.svg"
-import LogoImage from "@images/logo.svg"
+import Footer from "@components/shared/Footer";
+import IconTitle from "@components/shared/IconTitle";
+import LandingBackground from "@images/home/bg_landing_page.svg";
+import SponsoringBackground from "@images/home/bg_cta.svg";
+import GirlImage from "@images/home/girl.svg";
+import CalendarIcon from "@images/home/calendar.svg";
 
 import LandingBackground from "@images/home/bg_landing_page.svg"
 import LandingBackgroundMobile from "@images/home/bg_landing_page_mobile.svg"
@@ -14,68 +18,62 @@ import VirusIcon from "@images/home/covid/virus.svg";
 import GearIcon from "@images/home/covid/gear.svg";
 import BookIcon from "@images/home/covid/book.svg";
 
-import InstagramIcon from "@images/home/footer/instagram.svg";
-import LinkedinIcon from "@images/home/footer/linkedin.svg";
-import FacebookIcon from "@images/home/footer/facebook.svg";
-import TwitterIcon from "@images/home/footer/twitter.svg";
-import YoutubeIcon from "@images/home/footer/youtube.svg";
-
-import PDFLink from "../../../static/pdf/patrocinio_python_brasil.pdf"
-
 import "./style.scss";
 
 const emptyFaqItem = {
-  question: '',
-  response: ''
-}
+  question: "",
+  response: "",
+};
 
-const HomePage = ({ text }) => {
+const HomePage = ({ text, file }) => {
   const [faqItem, setFaqItem] = useState(emptyFaqItem);
 
-  const socialPlatforms = [
-    { name: 'Instagram', icon: InstagramIcon, href: '' },
-    { name: 'Facebook', icon: FacebookIcon, href: '' },
-    { name: 'Linkedin', icon: LinkedinIcon, href: '' },
-    { name: 'Twitter', icon: TwitterIcon, href: '' },
-    { name: 'Youtube', icon: YoutubeIcon, href: '' },
-  ]
+  const redirectToSponsor = () =>
+    window.location.replace("https://pretalx.com/python-brasil-2022/cfp");
+
   const faqItems = [
     {
       question: "Evento será presencial ou on-line?",
-      response: 'Em 2022 teremos a primeira Python Brasil em formato híbrido, iremos transmitir online e ao vivo todas as palestras, keynotes, mesas redondas e palestras relâmpago.'
+      response:
+        "Em 2022 teremos a primeira Python Brasil em formato híbrido, iremos transmitir online e ao vivo todas as palestras, keynotes, mesas redondas e palestras relâmpago.",
     },
     {
-      question: "Preciso estar vacinado para participar presencialmente do evento?",
-      response: 'Sim! A apresentação do comprovante de vacina será necessário para a participação do evento.'
-    }
-  ]
+      question:
+        "Preciso estar vacinado para participar presencialmente do evento?",
+      response:
+        "Sim! A apresentação do comprovante de vacina será necessário para a participação do evento.",
+    },
+  ];
   const covidCards = [
     {
       title: "Vacine-se!",
-      description: "Acesse site do Conecte SUS e procure uma unidade básica de saúde para atualizar seu cartão de vacina.",
+      description:
+        "Acesse site do Conecte SUS e procure uma unidade básica de saúde para atualizar seu cartão de vacina.",
       icon: VirusIcon,
     },
     {
       title: "Temperatura",
-      description: "Manaus é uma cidade úmida, logo durante o mês de Outubro a Temperatura vai em torno de 30° a 38°. Venham com roupas leves!",
+      description:
+        "Manaus é uma cidade úmida, logo durante o mês de Outubro a Temperatura vai em torno de 30° a 38°. Venham com roupas leves!",
       icon: GearIcon,
     },
     {
       title: "Código de Conduta",
-      description: "Fique atento ao código de conduta pois nosso objetivo é criar um ambiente seguro para todas as pessoas",
+      description:
+        "Fique atento ao código de conduta pois nosso objetivo é criar um ambiente seguro para todas as pessoas",
       icon: BookIcon,
-    }
-  ]
+    },
+  ];
 
   const handleOnFaqQuestionClick = (item) => {
-    setFaqItem(faqItem.question === item.question ? emptyFaqItem : item)
-  }
+    setFaqItem(faqItem.question === item.question ? emptyFaqItem : item);
+  };
 
   return (
     <div id="home">
       <section id="section-landing-page">
         <div className="container">
-          <div className="row">
+          <div className="row desktop-only">
             <div className="call-to-action col-12 col-sm-6">
               <picture>
                 <source srcset={CalendarIconWhite} media="(max-width: 768px)" type="image/svg+xml"/>
@@ -89,6 +87,18 @@ const HomePage = ({ text }) => {
               </button>
             </div>
           </div>
+
+          <div className="section-landing-page__content tablet-only">
+            <IconTitle
+              icon={CalendarIcon}
+              title={text.HOME.LANDING.TITLE}
+              isHome
+            />
+            <p>{text.HOME.LANDING.INFO}</p>
+            <button onClick={redirectToSponsor}>
+              {text.HOME.LANDING.BUTTON}
+            </button>
+          </div>
         </div>
         ​<picture>
           <source srcset={LandingBackgroundMobile} media="(max-width: 768px)" type="image/svg+xml"/>
@@ -98,13 +108,24 @@ const HomePage = ({ text }) => {
 
       <section id="section-info">
         <div className="container">
-          <div className="row">
-            <div className="col-6 image-column">
+          <div className="row section-info__content">
+            <div className="tablet-only section-info__title">
+              <TitleChip>Sobre a Python BR</TitleChip>
+            </div>
+            <div className="col-6 image-column desktop-only">
               <img src={GirlImage} alt="" />
             </div>
-            <div className="col-6">
-              <TitleChip>Sobre a Python BR</TitleChip>
+            <div className="col-6 section-info__about">
+              <div className="desktop-only">
+                <TitleChip>Sobre a Python BR</TitleChip>
+              </div>
               <div className="info">
+                <img
+                  src={GirlImage}
+                  alt=""
+                  className="section-info__image tablet-only"
+                />
+
                 <p>
                   A Python Brasil 2022 é a maior conferência sobre linguagem de
                   programação Python do Brasil e da América Latina.
@@ -129,13 +150,14 @@ const HomePage = ({ text }) => {
       </section>
       <section id="section-sponsoring">
         <div className="container">
-          <div className="row">
-            <TitleChip>Saiba como patrocinar o evento</TitleChip>
-            <button>
-            <a className="link-sponsor" href= {PDFLink}>
-               {text.LANGING_PAGE_BUTTON_PATROCINIO_TEXT}  </a>
-            </button>
+          <div className="row section-sponsoring__title">
+            <TitleChip>{text.HOME.SPONSORING.TITLE}</TitleChip>
           </div>
+          <button>
+            <a className="link-sponsor" href={file}>
+              {text.HOME.SPONSORING.BUTTON}
+            </a>
+          </button>
         </div>
         <img src={SponsoringBackground} className="background" alt="" />
       </section>
@@ -143,7 +165,7 @@ const HomePage = ({ text }) => {
         <div className="container">
           <TitleChip>Medidas sobre a COVID-19</TitleChip>
           <ul className="row">
-            {covidCards.map(card => (
+            {covidCards.map((card) => (
               <li className="col-12 col-sm-4 col-md-4">
                 <div className="card">
                   <img src={card.icon} alt={card.title} />
@@ -161,10 +183,14 @@ const HomePage = ({ text }) => {
             <TitleChip>FAQ</TitleChip>
           </div>
           <div className="row">
-            <div className={`left-panel ${faqItem.response ? 'active' : ''}`}>
+            <div className={`left-panel ${faqItem.response ? "active" : ""}`}>
               <ul>
-                {faqItems.map(item => (
-                  <li className={faqItem.question === item.question ? 'active' : ''}>
+                {faqItems.map((item) => (
+                  <li
+                    className={
+                      faqItem.question === item.question ? "active" : ""
+                    }
+                  >
                     <button onClick={() => handleOnFaqQuestionClick(item)}>
                       {item.question}
                     </button>
@@ -172,7 +198,7 @@ const HomePage = ({ text }) => {
                 ))}
               </ul>
             </div>
-            <div className={`right-panel ${faqItem.response ? 'active' : ''}`}>
+            <div className={`right-panel ${faqItem.response ? "active" : ""}`}>
               {faqItem.response && (
                 <div className="right-panel-inner">
                   <h3>{faqItem.question}</h3>
@@ -183,52 +209,7 @@ const HomePage = ({ text }) => {
           </div>
         </div>
       </section>
-      <footer>
-        <div className="container">
-          <div className="row">
-            <div className="col-12 col-sm-3 logo-and-social">
-              <img className="footerLogo" src={LogoImage} alt="Logo da Python Brasil 2022" />
-
-              <ul className="social-platforms">
-                {socialPlatforms.map(platform => (
-                  <li>
-                    <a href={platform.href}>
-                      <img className="icon" src={platform.icon} alt={platform.name} />
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div className="col-12 col-sm-3">
-                <p>{text.LANDING_TEXT_RODAPE} </p>
-            </div>
-            <div className="col-12 col-sm-3">
-              <h4>Link rápidos</h4>
-
-              <ul className="links">
-                <li><a href="/">Python Brasil 2022</a></li>
-                <li><a href="/palestras">Submissão de Palestras</a></li>
-                <li><a href="/schedule">Programação</a></li>
-                <li><a href="/faq">FAQ</a></li>
-                <li><a href="/duty">Código de Conduta</a></li>
-              </ul>
-            </div>
-            <div className="col-12 col-sm-3">
-              <h4>Endereço do Evento</h4>
-
-              <p>Centro de Convenções do Amazonas Vasco Vasques</p>
-              <br />
-
-              <p>Av. Constantino Nery, 5001 - Flores, Manaus - AM, 69058-795</p>
-            </div>
-          </div>
-        </div>
-      </footer>
-      <div className="privacy-policy">
-        <div className="container">
-          <span>Política de privacidade</span>
-        </div>
-      </div>
+      <Footer text={text} />
     </div>
   );
 };

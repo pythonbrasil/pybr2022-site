@@ -1,4 +1,10 @@
-import { TEXT_PTBR, TEXT_ES, TEXT_EN } from './texts';
+import { TEXT_PTBR } from './text-ptbr';
+import { TEXT_ES } from './text-es';
+import { TEXT_EN } from './text-en';
+
+import SponsoringDetailsPTBR from "@files/patrocinio_python_brasil_ptbr.pdf";
+import SponsoringDetailsES from "@files/patrocinio_python_brasil_es.pdf";
+import SponsoringDetailsEN from "@files/patrocinio_python_brasil_en.pdf";
 
 const LANGUAGES = [
   {
@@ -14,6 +20,12 @@ const LANGUAGES = [
     label: "EN"
   },
 ]
+
+export const LANGUAGES_SPONSORING_FILES = {
+  "pt-br": SponsoringDetailsPTBR,
+  "es": SponsoringDetailsES,
+  "en": SponsoringDetailsEN
+}
 
 export const LANGUAGES_TEXTS = {
   "pt-br": TEXT_PTBR,

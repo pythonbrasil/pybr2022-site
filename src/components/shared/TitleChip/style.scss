@@ -3,10 +3,14 @@ h3.chip-title {
   margin: 0 auto 24px;
   color: #fff;
   font-family: "Montserrat", sans-serif;
-  font-size: 32px;
+  font-size: calc(32 / 16 * 1rem);
   font-weight: 700;
   display: inline-block;
   padding: 10px 20px;
   border-radius: 10px;
   width: auto;
+
+  @media (max-width: ($tablet)) {
+    font-size: calc(24 / 16 * 1rem);
+  }
 }

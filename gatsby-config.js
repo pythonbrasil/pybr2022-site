@@ -20,7 +20,7 @@ module.exports = {
     options: {
       "icon": "src/assets/images/icon.png"
     }
-  }, "gatsby-plugin-sharp", "gatsby-transformer-sharp", 
+  }, "gatsby-plugin-sharp", "gatsby-transformer-sharp",
   {
     resolve: 'gatsby-source-filesystem',
     options: {
@@ -33,6 +33,7 @@ module.exports = {
     resolve: `gatsby-plugin-alias-imports`,
     options: {
       alias: {
+        "@files": path.resolve(__dirname, "src/assets/files"),
         "@components": path.resolve(__dirname, "src/components"),
         "@images": path.resolve(__dirname, "src/assets/images"),
         "@configs": path.resolve(__dirname, "src/configs"),
