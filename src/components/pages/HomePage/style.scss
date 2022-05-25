@@ -50,7 +50,6 @@ section {
       color: white;
       max-width: 450px;
       // to avoid not centralized
-      margin-top: -80px;
       justify-content: center;
     }
 
@@ -148,6 +147,21 @@ section {
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
     margin-top: 20px;
+  }
+
+  .section-sponsoring__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media (max-width: ($tablet)) {
+    .section-sponsoring__title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0 20px;
+    }
   }
 }
 #section-covid {
@@ -447,5 +461,11 @@ footer {
   }
   100% {
     opacity: 1;
+  }
+}
+
+@media (max-width: ($tablet)) {
+  #section-landing-page {
+    margin-top:-125px;
   }
 }

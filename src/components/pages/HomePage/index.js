@@ -143,14 +143,14 @@ const HomePage = ({ text, file }) => {
       </section>
       <section id="section-sponsoring">
         <div className="container">
-          <div className="row">
+          <div className="row section-sponsoring__title">
             <TitleChip>{text.HOME.SPONSORING.TITLE}</TitleChip>
-            <button>
-              <a className="link-sponsor" href={file}>
-                {text.HOME.SPONSORING.BUTTON}
-              </a>
-            </button>
           </div>
+          <button>
+            <a className="link-sponsor" href={file}>
+              {text.HOME.SPONSORING.BUTTON}
+            </a>
+          </button>
         </div>
         <img src={SponsoringBackground} className="background" alt="" />
       </section>
