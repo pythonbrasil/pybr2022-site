@@ -15,7 +15,7 @@ const LanguageSwitch = () => {
     <GeneralContext.Consumer>
       {theme => (
         <div id="language-switch">
-          <ul>
+          <ul className='language-switch__list'>
             {LANGUAGES.map(({id, label}) => (
               <li className={id === theme.state.languageId ? 'active' : ''}>
                   <button onClick={() => onLanguageChangeHandler(id, theme)}>

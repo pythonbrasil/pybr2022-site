@@ -11,7 +11,7 @@ section {
 
 #section-landing-page {
   position: relative;
-  padding: 80px 0 12%;
+  padding: 80px 20px 12%;
 
   .background {
     position: absolute;
@@ -26,11 +26,36 @@ section {
     background: $button-color;
     color: #fff;
     border-radius: 3px;
-    font-size: 12px;
+    font-size: calc(14 / 16 * 1rem);
     border: none;
     box-shadow: 0 0 3px 1px #00000030;
     font-weight: 700;
     text-transform: uppercase;
+  }
+
+  // #section-landing-page responsiviness
+  @media (max-width: ($tablet)) {
+    background-image: url("../../../assets/images/home/bg_landing_page-mobile.svg");
+    background-position: top top;
+    background-size: cover;
+    min-height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .section-landing-page__content {
+      display: flex;
+      flex-direction: column;
+      color: white;
+      max-width: 450px;
+      // to avoid not centralized
+      justify-content: center;
+    }
+
+    button {
+      height: 40px;
+    }
   }
 }
 #section-info {
@@ -50,7 +75,6 @@ section {
   }
 
   @media (max-width: ($tablet)) {
-   
     padding: 80px 20px;
 
     .info {
@@ -80,7 +104,7 @@ section {
       align-items: center;
     }
 
-    h3{
+    h3 {
       text-align: center;
     }
   }
@@ -123,6 +147,21 @@ section {
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
     margin-top: 20px;
+  }
+
+  .section-sponsoring__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media (max-width: ($tablet)) {
+    .section-sponsoring__title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0 20px;
+    }
   }
 }
 #section-covid {
@@ -171,15 +210,15 @@ section {
         margin-right: 0;
       }
 
-      @media (max-width: ($tablet)) { 
-        &{
-          margin-bottom: .5em;
+      @media (max-width: ($tablet)) {
+        & {
+          margin-bottom: 0.5em;
         }
       }
 
-      @media (max-width: ($mobile)) { 
-        &{
-          margin-bottom: .5em;
+      @media (max-width: ($mobile)) {
+        & {
+          margin-bottom: 0.5em;
         }
       }
     }
@@ -239,7 +278,7 @@ section {
 
         button {
           border: none;
-          outline: none;
+          // outline: none;
           font-size: 18px;
           padding: 20px calc(8% + 20px);
           background: #fff;
@@ -323,100 +362,13 @@ section {
   }
 }
 
-footer {
-  padding: 70px 0 50px;
-
-  .logo-and-social,
-  .social-platforms {
-    padding: 0 40px 0 0;
-  }
-
-  .logo-and-social {
-    display: flex;
-    flex-flow: column nowrap;
-
-    img.footerLogo {
-      width: 200px;
-    }
-    img.icon {
-      width: 24px;
-    }
-  }
-  .social-platforms {
-    margin-top: 40px;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-  }
-
-  .links li {
-    margin: 10px auto;
-
-    a {
-      color: #047f4d;
-      text-decoration: none;
-      font-family: "Manrope", sans-serif;
-    }
-  }
-
-  h4 {
-    font-family: "Manrope", sans-serif;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 3px;
-    color: #3a3a3c;
-    margin-bottom: 30px;
-  }
-
-  p {
-    font-size: 14px;
-    padding: 0 24px;
-  }
-  
-  @media (max-width: ($tablet)) { 
-    .espacamento-responsivo{
-      margin-bottom: 2em;
-    }
-
-    p {
-      padding: 0 2em;
-    }
-    .links li {
-      padding: 0 2em;
-    }
-
-    .card-1-responsivo{
-      margin-left: 2.2em;
-    }
-  }
-  
-  @media (max-width: ($mobile)) { 
-    .espacamento-responsivo {
-      margin-bottom: 2em;
-    }
-
-    h4{
-      padding: 0 2em;
-    }
-
-    .links li {
-      padding: 0 2em;
-    }
-
-    .card-1-responsivo{
-      margin-left: 2.2em;
-    }
-  }
-}
-
-
 .privacy-policy {
   background: #f4eddb;
   padding: 50px 0 60px;
   color: #3a3a3c;
   font-family: "Roboto", sans-serif;
 }
+
 @keyframes fadeOut {
   0% {
     opacity: 0;
@@ -424,5 +376,10 @@ footer {
   100% {
     opacity: 1;
   }
-  
+}
+
+@media (max-width: ($tablet)) {
+  #section-landing-page {
+    margin-top: -125px;
+  }
 }
