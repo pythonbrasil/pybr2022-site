@@ -1,33 +1,37 @@
 import React from "react";
 
-import LogoImage from '@images/logo.svg';
+import LogoImage from "@images/logo.svg";
 import YoutubeIcon from "@images/home/footer/youtube.svg";
 import TwitterIcon from "@images/home/footer/twitter.svg";
 import LinkedinIcon from "@images/home/footer/linkedin.svg";
 import FacebookIcon from "@images/home/footer/facebook.svg";
 import InstagramIcon from "@images/home/footer/instagram.svg";
 
+import "./style.scss";
+
 const Footer = ({ text }) => {
   const socialPlatforms = [
-    { name: 'Instagram', icon: InstagramIcon, href: '' },
-    { name: 'Facebook', icon: FacebookIcon, href: '' },
-    { name: 'Linkedin', icon: LinkedinIcon, href: '' },
-    { name: 'Twitter', icon: TwitterIcon, href: '' },
-    { name: 'Youtube', icon: YoutubeIcon, href: '' },
-  ]
+    { name: "Instagram", icon: InstagramIcon, href: "" },
+    { name: "Facebook", icon: FacebookIcon, href: "" },
+    { name: "Linkedin", icon: LinkedinIcon, href: "" },
+    { name: "Twitter", icon: TwitterIcon, href: "" },
+    { name: "Youtube", icon: YoutubeIcon, href: "" },
+  ];
 
   return (
     <>
       <footer>
         <div className="container">
-          <div className="row">
-            <div className="col-12 col-sm-4 logo-and-social espacamento-responsivo card-1-responsivo">
+          <div className="footer__body">
+            <div className="footer_logo-social">
               <img
                 className="footerLogo"
                 src={LogoImage}
                 alt="Logo da Python Brasil 2022"
               />
-
+              <div>
+                <p>{text.HOME.FOOTER.ABOUT_TEXT} </p>
+              </div>
               <ul className="social-platforms">
                 {socialPlatforms.map((platform) => (
                   <li>
@@ -42,10 +46,8 @@ const Footer = ({ text }) => {
                 ))}
               </ul>
             </div>
-            <div className="col-12 col-sm-4 espacamento-responsivo">
-              <p>{text.HOME.FOOTER.ABOUT_TEXT} </p>
-            </div>
-            <div className="col-12 col-sm-4 espacamento-responsivo">
+
+            <div>
               <h4>Link rápidos</h4>
 
               <ul className="links">

@@ -43,3 +43,26 @@
     }
   }
 }
+
+@media (max-width: ($tablet)) {
+  #language-switch .language-switch__list {
+    display: flex;
+    // usando !important porque está havendo conflito com o links ul {flex-direction: column}
+    // no mobile
+    flex-direction: row !important;
+    gap: 0;
+    li {
+      border-radius: 0;
+      border: none;
+      &:first-child {
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+      }
+
+      &:last-child {
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+      }
+    }
+  }
+}
