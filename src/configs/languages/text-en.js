@@ -1,3 +1,7 @@
+import VirusIcon from "@images/home/covid/virus.svg";
+import GearIcon from "@images/home/covid/gear.svg";
+import BookIcon from "@images/home/covid/book.svg";
+
 export const TEXT_EN = {
   HOME: {
     LANDING: {
@@ -5,8 +9,48 @@ export const TEXT_EN = {
       INFO: 'Lecture submission to Python Brazil 2022 can be done by the button below.',
       BUTTON: 'Submit your talk here'
     },
+    ABOUT: {
+      TITLE: "Sobre a Python BR",
+      CONTENT: [
+        "A Python Brasil 2022 é a maior conferência sobre linguagem de \
+        programação Python do Brasil e da América Latina.",
+        "Serão 6 dias de imersão onde os participantes poderão \
+        contribuir para projetos de software livre, participar de \
+        treinamentos e adquirir novos conhecimentos com \
+        desenvolvedores renomados da comunidade. A programação está \
+        organizada da seguinte forma: Tutoriais (15.10 e 16.10), \
+        Palestras e Keynotes(17.10 a 22.10) e Sprints (23.10).",
+        "A edição de 2022 está sendo organizada pela comunidade Python \
+        de Manaus/AM (PyNorte) com o apoio da APyB (Associação Python \
+        Brasil)."
+      ]
+    },
     SPONSORING: {
+      TITLE: `Why sponsor Python Brasil 2022?`,
       BUTTON: 'See Sponsorship Options and Apply'
+    },
+    COVID: {
+      TITLE: "Medidas sobre a COVID-19",
+      CONTENT: [
+        {
+          title: "Vacine-se!",
+          description:
+            "Acesse site do Conecte SUS e procure uma unidade básica de saúde para atualizar seu cartão de vacina.",
+          icon: VirusIcon,
+        },
+        {
+          title: "Temperatura",
+          description:
+            "Manaus é uma cidade úmida, logo durante o mês de Outubro a Temperatura vai em torno de 30° a 38°. Venham com roupas leves!",
+          icon: GearIcon,
+        },
+        {
+          title: "Código de Conduta",
+          description:
+            "Fique atento ao código de conduta pois nosso objetivo é criar um ambiente seguro para todas as pessoas",
+          icon: BookIcon,
+        },
+      ]
     },
     FOOTER: {
       ABOUT_TEXT: 'PythonBrasil is a non-profit volunteer-driven conference for promoting the open-source Python programming language. It is supported by the Brazilian Python Association (APyB) and by the Python Software Foundation (PSF).'

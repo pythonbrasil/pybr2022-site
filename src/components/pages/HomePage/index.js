@@ -38,26 +38,6 @@ const HomePage = ({ text, file }) => {
         "Sim! A apresentação do comprovante de vacina será necessário para a participação do evento.",
     },
   ];
-  const covidCards = [
-    {
-      title: "Vacine-se!",
-      description:
-        "Acesse site do Conecte SUS e procure uma unidade básica de saúde para atualizar seu cartão de vacina.",
-      icon: VirusIcon,
-    },
-    {
-      title: "Temperatura",
-      description:
-        "Manaus é uma cidade úmida, logo durante o mês de Outubro a Temperatura vai em torno de 30° a 38°. Venham com roupas leves!",
-      icon: GearIcon,
-    },
-    {
-      title: "Código de Conduta",
-      description:
-        "Fique atento ao código de conduta pois nosso objetivo é criar um ambiente seguro para todas as pessoas",
-      icon: BookIcon,
-    },
-  ];
 
   const handleOnFaqQuestionClick = (item) => {
     setFaqItem(faqItem.question === item.question ? emptyFaqItem : item);
@@ -103,14 +83,14 @@ const HomePage = ({ text, file }) => {
         <div className="container">
           <div className="row section-info__content">
             <div className="tablet-only section-info__title">
-              <TitleChip>Sobre a Python Brasil</TitleChip>
+              <TitleChip>{text.HOME.ABOUT.TITLE}</TitleChip>
             </div>
             <div className="col-6 image-column desktop-only">
               <img src={GirlImage} alt="" />
             </div>
             <div className="col-6 section-info__about">
               <div className="desktop-only">
-                <TitleChip>Sobre a Python Brasil</TitleChip>
+                <TitleChip>{text.HOME.ABOUT.TITLE}</TitleChip>
               </div>
               <div className="info">
                 <img
@@ -118,16 +98,7 @@ const HomePage = ({ text, file }) => {
                   alt=""
                   className="section-info__image tablet-only"
                 />
-
-                <p>
-                  A Python Brasil 2022 é a maior conferência sobre linguagem de programação Python do Brasil e da América Latina.
-                </p>
-                <p>
-                  Serão 7 dias de imersão onde os participantes poderão contribuir para projetos de software livre, participar de treinamentos e adquirir novos conhecimentos com desenvolvedores renomados da comunidade. A programação está organizada da seguinte forma: Tutoriais e Sṕrints (17.10 a 19.10) e Palestras e Keynotes(20.10 a 23.10).
-                </p>
-                <p>
-                  A edição de 2022 está sendo organizada pela comunidade Python de Manaus/AM (PyNorte) com o apoio da APyB (Associação Python Brasil).
-                </p>
+                {text.HOME.ABOUT.CONTENT.map((item) => <p>{item} </p>)}
               </div>
             </div>
           </div>
@@ -148,9 +119,9 @@ const HomePage = ({ text, file }) => {
       </section>
       <section id="section-covid">
         <div className="container">
-          <TitleChip>Medidas sobre a COVID-19</TitleChip>
+          <TitleChip>{text.HOME.COVID.TITLE}</TitleChip>
           <ul className="row">
-            {covidCards.map((card) => (
+            {text.HOME.COVID.CONTENT.map((card) => (
               <li className="col-12 col-sm-4 col-md-4">
                 <div className="card">
                   <img src={card.icon} alt={card.title} />
