@@ -17,7 +17,7 @@ export const TEXT_PTBR = {
         "Serão 6 dias de imersão onde os participantes poderão \
         contribuir para projetos de software livre, participar de \
         treinamentos e adquirir novos conhecimentos com \
-        desenvolvedores renomados da comunidade.A programação está organizada da seguinte forma: Tutoriais e Sṕrints (17.10 a 19.10), \
+        desenvolvedores renomados da comunidade.A programação está organizada da seguinte forma: Tutoriais e Sprints (17.10 a 19.10), \
         e Palestras e Keynotes(20.10 a 23.10).",
         "A edição de 2022 está sendo organizada pela comunidade Python \
         de Manaus/AM com o apoio da APyB (Associação Python \

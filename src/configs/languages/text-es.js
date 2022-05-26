@@ -18,10 +18,10 @@ export const TEXT_ES = {
         contribuir en proyectos de software libre, participar en  \
         capacitaciones y adquirir nuevos conocimientos con desarrolladores  \
         de renombre dentro de la comunidad. El programa está organizado  \
-        de la siguiente manera: Tutoriales (15.10 y 16.10), Lectures &  \
-        Keynotes (17.10 a 22.10) y Sprints (23.10)",
+        de la siguiente manera: Tutoriales y Sprints (17.10 a 19.10), Lectures &  \
+        Keynotes (20.10 a 23.10)",
         "La edición de 2022 está organizada por la comunidad Python de   \
-        Manaus/AM (PyNorte) con el apoyo de APyB (Asociación Python Brasil)."
+        Manaus/AM con el apoyo de APyB (Asociación Python Brasil)."
       ]
     },
     SPONSORING: {
