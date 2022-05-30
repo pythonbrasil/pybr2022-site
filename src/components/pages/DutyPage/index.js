@@ -31,7 +31,9 @@ const DutyPage = ({ text }) => {
           </div>
           <div className="row">
             <div className="col-12 col-sm-9">
-              <DutyContent text={text.CDC.LANDING.INFO}/>
+              <div className="content">
+                <DutyContent text={text.CDC.LANDING.INFO}/>
+              </div>
               <span className="last-update">
                 Última atualização: 29 de Março de 2022
               </span>

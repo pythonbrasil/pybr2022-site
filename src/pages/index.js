@@ -2,7 +2,6 @@ import React from "react";
 import Header from "@components/shared/Header";
 import { Router } from "@reach/router";
 import GeneralContext from "@configs/context";
-import ProgramacaoPage from "@components/pages/ProgramacaoPage";
 import DutyPage from "@components/pages/DutyPage";
 import {
   LANGUAGES_TEXTS,
@@ -36,8 +35,7 @@ const IndexPage = () => (
             Component={DutyPage}
           />
 
-          {/* <LazyComponent Component={About} path="about-us" />
-          <LazyComponent Component={ProgramacaoPage} path="/programacao" />*/}
+          {/* <LazyComponent Component={About} path="about-us" />*/}
         </Router>
       </div>
     )}
