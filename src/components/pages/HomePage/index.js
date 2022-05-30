@@ -14,34 +14,57 @@ import BookIcon from "@images/home/covid/book.svg";
 
 import "./style.scss";
 
-const emptyFaqItem = {
-  question: "",
-  response: "",
-};
-
 const HomePage = ({ text, file }) => {
-  const [faqItem, setFaqItem] = useState(emptyFaqItem);
 
   const redirectToSponsor = () =>
     window.location.replace("https://pretalx.com/python-brasil-2022/cfp");
 
   const faqItems = [
     {
-      question: "Evento será presencial ou on-line?",
-      response:
-        "Em 2022 teremos a primeira Python Brasil em formato híbrido, iremos transmitir online e ao vivo todas as palestras, keynotes, mesas redondas e palestras relâmpago.",
+      question: "O evento será presencial ou on-line?",
+      response: "Em 2022 teremos a primeira Python Brasil em formato híbrido, iremos transmitir online e ao vivo todas as palestras, keynotes, mesas redondas e palestras relâmpago.",
     },
     {
-      question:
-        "Preciso estar vacinado para participar presencialmente do evento?",
-      response:
-        "Sim! A apresentação do comprovante de vacina será necessário para a participação do evento.",
+      question: "Preciso estar vacinado para participar presencialmente do evento?",
+      response: "Sim! A apresentação do comprovante de vacina será necessário para a participação do evento.",
+    },
+    {
+      question: "Onde e quando será realizado o Python Brasil 2022?",
+      response: "O evento irá ocorrer presencialmente em Manaus, no Centro de Convênções Vasco Vasques nas datas entre 15 à 23 de Outubro 2022.",
+    },
+    {
+      question: "Quais as medidas de segurança sanitária adotadas pelo evento?",
+      response: "A obrigatoriedade de comprovante de vacinações, regras de distanciamento, higienização dos espaços, cuidados com a boa ventilação dos ambientes, uma equipe dedicada ao controle de fluxo de pessoas e kits de higiene acessíveis, colocaremos os cuidados com a saúde das participantes como prioridade.",
+    },
+    {
+      question: "Até quando posso enviar minha apresentação para Python Brasil 2022?",
+      response: "Você pode submeter sua palestra até 01/06/22",
+    },
+    {
+      question: "O que é Python Brasil 2022?",
+      response: "Python Brasil é o maior evento sobre a linguagem de programação Python da América Latina. É suportado por diversos eventos locais e regionais, culminando em um encontro nacional e tinerante.",
+    },
+    {
+      question: "Qual a programação do evento?",
+      response: "A programação do evento estará disponível a partir de 15/07/22 no site e nas redes sociais.",
+    },
+    {
+      question: "O evento é apenas em português?",
+      response: "O evento contará com tradução simultânea espanhol-português e intérpretes de Libras em palestras, keynotes e mesas redondas.",
+    },
+    {
+      question: "O que é Job Fair?",
+      response: "Job Fair é uma feira de empregos, onde as empresas mostram como e onde elas atuam, além de conversar sobre vagas e o que esperam de quem submete.",
+    },
+    {
+      question: "Como participar do Job Fair?",
+      response: "Basta olhar o horário da empresa que você deseja participar e entrar no canal de voz Job Fair",
+    },
+    {
+      question: "O Job Fair fica gravado?",
+      response: "Não, acontece ao vivo pelo Discord. Caso não consiga participar em um dia, olhe o horário dos dias seguintes.",
     },
   ];
-
-  const handleOnFaqQuestionClick = (item) => {
-    setFaqItem(faqItem.question === item.question ? emptyFaqItem : item);
-  };
 
   return (
     <div id="home">
@@ -136,32 +159,22 @@ const HomePage = ({ text, file }) => {
       <section id="section-faq">
         <div className="container">
           <div className="row">
-            <TitleChip>FAQ</TitleChip>
+            <div className="col-12">
+              <TitleChip>FAQ</TitleChip>
+            </div>
           </div>
           <div className="row">
-            <div className={`left-panel ${faqItem.response ? "active" : ""}`}>
-              <ul>
-                {faqItems.map((item) => (
-                  <li
-                    className={
-                      faqItem.question === item.question ? "active" : ""
-                    }
-                  >
-                    <button onClick={() => handleOnFaqQuestionClick(item)}>
-                      {item.question}
-                    </button>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div className={`right-panel ${faqItem.response ? "active" : ""}`}>
-              {faqItem.response && (
-                <div className="right-panel-inner">
-                  <h3>{faqItem.question}</h3>
-                  <p>{faqItem.response}</p>
-                </div>
-              )}
-            </div>
+            <ul>
+              {faqItems.map((item) => (
+                <li>
+                  <details class="expander">
+                    <summary class="summary">{item.question}</summary>
+                    <div className="content">{item.response}</div>
+                  </details>
+                  <hr />
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </section>

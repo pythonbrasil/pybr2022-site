@@ -239,125 +239,89 @@ section {
     margin-left: 0;
   }
 
-  .left-panel,
-  .right-panel {
-    position: absolute;
-    transform: translateX(-50%);
-
-    &.active {
-      transform: none;
-    }
-  }
-
-  .left-panel {
-    left: 52.5%;
-    max-width: 55%;
-    z-index: 10;
-    padding: 0;
+  ul {
+    background: #fff;
     margin: 0 auto;
-    transition: left 500ms ease, transform 500ms ease, margin-top 500ms ease;
+    padding: 0;
+    max-width: 700px;
+    width: 100%;
+    border-radius: 25px;
 
-    &.active {
-      left: 0;
-      transform: none;
+    @media (max-width: ($mobile)) {
+      max-width: 400px;
     }
 
-    ul {
-      display: flex;
-      flex-flow: column nowrap;
+    li {
+      text-align: center;
 
-      li {
-        &.active button {
-          background: #fafbff;
-          color: #3a3a3c;
+      &:first-child .expander .summary {
+        padding: 30px calc(8% + 20px) 20px;
+      }
+      &:last-child .expander .summary {
+        padding: 20px calc(8% + 20px) 30px;
+      }
+      &:last-child hr {
+        display: none;
+      }
 
-          &::before {
-            background: $dark-green;
-          }
+      .expander {
+        border: none;
+        font-size: 18px;
+        display: inline-block;
+        font-weight: 400;
+        position: relative;
+        transition: color 250ms ease-in-out, background 250ms ease-in-out;
+        width: 100%;
+        text-align: left;
+        font-family: "Montserrat", sans-serif;
+        line-height: 28px;
+        text-align: left;
+  
+        &[open] .summary {
+          color: #27A058;
         }
 
-        button {
-          border: none;
-          // outline: none;
-          font-size: 18px;
+        .summary {
+          text-align: inherit;
           padding: 20px calc(8% + 20px);
-          background: #fff;
-          color: #6b7588;
-          font-weight: 400;
           position: relative;
-          transition: color 250ms ease-in-out, background 250ms ease-in-out;
-          width: 100%;
-          text-align: left;
+          color: #3A3A3C;
+          cursor: pointer;
+          list-style: none;
+          outline: none;
 
-          &:hover,
-          &:active {
-            background: #fafbff;
+          &::-webkit-details-marker {
+            display: none;
           }
-
-          &::before {
-            content: "";
-            display: inline-block;
-            background: #93d0ac;
-            width: 20px;
-            height: 20px;
-            position: absolute;
-            left: 17.5px;
-            top: 50%;
-            transform: translateY(-50%);
-            border-radius: 10px;
-            transition: background 250ms ease-in-out;
-          }
-          &:after {
-            content: "";
-            background: url("../../../assets/images/home/faq/arrow.svg");
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            right: 25px;
-            width: 10px;
-            height: 20px;
-          }
+        }
+ 
+        .content {
+          color: #6b6c90;
+          text-align: inherit;
+          padding: 0 calc(8% + 20px) 30px;
         }
       }
-    }
-  }
-
-  .right-panel {
-    width: 100%;
-    background: #51a55c;
-    display: inline-block;
-    padding: 4% 0 12% 8%;
-    max-width: 30%;
-    border-radius: 12px;
-    left: 50%;
-    transform: translateX(-50%);
-    transition: left 500ms ease, transform 500ms ease, max-width 500ms ease,
-      height 500ms ease;
-
-    .right-panel-inner {
-      width: 68.5%;
-      margin: 0 auto;
-    }
-
-    &.active {
-      animation: fadeOut 1000ms;
-      max-width: 55%;
-      height: 405px;
-      transform: none;
-      left: 42.5%;
-      margin-top: -27.5px;
-    }
-
-    h3 {
-      font-size: 22px;
-      line-height: 26px;
-      font-family: "Montserrat", sans-serif;
-      margin-bottom: 32px;
-    }
-
-    h3,
-    p {
-      color: #fff;
+      hr {
+        width: 90%;
+        display: inline-block;
+        height: 0.75px;
+        border: 0;
+        border-top: 1px solid #ccc;
+        margin: 10px auto 10px;
+        padding: 0;
+      }
+  
+      h3 {
+        font-size: 22px;
+        line-height: 26px;
+        font-family: "Montserrat", sans-serif;
+        margin-bottom: 32px;
+      }
+  
+      h3,
+      p {
+        color: #fff;
+      }
     }
   }
 }
