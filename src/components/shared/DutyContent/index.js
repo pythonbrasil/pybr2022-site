@@ -3,21 +3,23 @@ import React from "react";
 import "./style.scss";
 
 const DutyContent = ({ text }) => {
-    return (
-      <>
-        {
-            text.map(function(text) {
-                if (text.type === "paragraph") {
-                    return <p>{text.content}</p>
-                }
+  return (
+    <>
+      {text.map((text) => {
+        const content =
+          text.type === "paragraph" ? (
+            <p>{text.content}</p>
+          ) : (
+            <ul>
+              {text.content.map((item) => (
+                <li key={item}>{item} </li>
+              ))}
+            </ul>
+          );
+        return content;
+      })}
+    </>
+  );
+};
 
-                if (text.type === "list") {
-                    return <ul>{text.content.map((item) => <li>{item} </li>)}</ul>
-                }
-            })
-        }
-      </>
-    );
-  };
-  
-  export default DutyContent;
+export default DutyContent;
