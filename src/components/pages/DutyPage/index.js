@@ -1,10 +1,10 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 
 import BookIcon from "@images/duty/book.svg";
 import BackgroundImage from "@images/duty/background.svg";
 
 import DutyContent from "@components/shared/DutyContent";
-
 import Footer from "@components/shared/Footer";
 import IconTitle from "@components/shared/IconTitle";
 
@@ -13,6 +13,7 @@ import "./style.scss";
 const DutyPage = ({ text }) => {
   return (
     <div id="duty">
+      <Helmet title={`Python Brasil 2022 | ${text.CDC.LANDING.TITLE}`} />
       <main>
         <div className="duty__adornment">
           <img

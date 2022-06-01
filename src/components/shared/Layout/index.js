@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 import GeneralContext from '@configs/context'
 import Header from '@components/Header'
+import { Helmet } from 'react-helmet'
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -19,6 +20,7 @@ const Layout = ({ children }) => (
       <GeneralContext.Consumer>
         {theme => (
           <div>
+            <Helmet title={data.site.siteMetadata.title} />
             <Header siteTitle={data.site.siteMetadata.title} language={theme.language} />
             <div>
               {children}
