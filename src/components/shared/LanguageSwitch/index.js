@@ -17,7 +17,7 @@ const LanguageSwitch = () => {
         <div id="language-switch">
           <ul className='language-switch__list'>
             {LANGUAGES.map(({id, label}) => (
-              <li className={id === theme.state.languageId ? 'active' : ''}>
+              <li key={id} className={id === theme.state.languageId ? 'active' : ''}>
                   <button onClick={() => onLanguageChangeHandler(id, theme)}>
                     {label}
                   </button>

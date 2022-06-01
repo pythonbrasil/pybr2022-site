@@ -7,7 +7,6 @@ import MenuImageGreen from "@images/menu-green.svg";
 
 import LanguageSwitch from "@components/shared/LanguageSwitch";
 import "./style.scss";
-import { window, document } from "browser-monads";
 
 const Header = () => {
   let location = useLocation();
@@ -19,7 +18,6 @@ const Header = () => {
 
   React.useEffect(() => {
     setIsMenuOpen(false);
-    console.log(location);
   }, [location]);
 
   const links = [
@@ -44,7 +42,10 @@ const Header = () => {
         <nav className="links desktop-only">
           <ul>
             {links.map(({ href, label }) => (
-              <li className={href === window.location.pathname ? "active" : ""}>
+              <li
+                className={href === window.location.pathname ? "active" : ""}
+                key={href}
+              >
                 <Link to={href}>{label}</Link>
               </li>
             ))}
@@ -86,7 +87,10 @@ const Header = () => {
         >
           <ul>
             {links.map(({ href, label }) => (
-              <li className={href === window.location.pathname ? "active" : ""}>
+              <li
+                className={href === window.location.pathname ? "active" : ""}
+                key={href}
+              >
                 <Link to={href}>{label}</Link>
               </li>
             ))}

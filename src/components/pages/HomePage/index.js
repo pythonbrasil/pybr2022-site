@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 import TitleChip from "@components/shared/TitleChip";
 import Footer from "@components/shared/Footer";
@@ -8,9 +8,6 @@ import SponsoringBackground from "@images/home/bg_cta.svg";
 import GirlImage from "@images/home/girl.svg";
 import CalendarIcon from "@images/home/calendar.svg";
 
-import VirusIcon from "@images/home/covid/virus.svg";
-import GearIcon from "@images/home/covid/gear.svg";
-import BookIcon from "@images/home/covid/book.svg";
 
 import "./style.scss";
 
@@ -78,7 +75,7 @@ const HomePage = ({ text, file }) => {
                 isHome
               />
               <p>{text.HOME.LANDING.INFO}</p>
-              <button onClick={redirectToSponsor}>
+              <button type="button" onClick={redirectToSponsor}>
                 {text.HOME.LANDING.BUTTON}
               </button>
             </div>
@@ -121,7 +118,9 @@ const HomePage = ({ text, file }) => {
                   alt=""
                   className="section-info__image tablet-only"
                 />
-                {text.HOME.ABOUT.CONTENT.map((item) => <p>{item} </p>)}
+                {text.HOME.ABOUT.CONTENT.map((item) => (
+                  <p key={item}>{item} </p>
+                ))}
               </div>
             </div>
           </div>
@@ -145,7 +144,7 @@ const HomePage = ({ text, file }) => {
           <TitleChip>{text.HOME.COVID.TITLE}</TitleChip>
           <ul className="row">
             {text.HOME.COVID.CONTENT.map((card) => (
-              <li className="col-12 col-sm-4 col-md-4">
+              <li className="col-12 col-sm-4 col-md-4" key={card.title}>
                 <div className="card">
                   <img src={card.icon} alt={card.title} />
                   <h2>{card.title}</h2>
@@ -166,9 +165,9 @@ const HomePage = ({ text, file }) => {
           <div className="row">
             <ul>
               {faqItems.map((item) => (
-                <li>
-                  <details class="expander">
-                    <summary class="summary">{item.question}</summary>
+                <li key={item.question}>
+                  <details className="expander">
+                    <summary className="summary">{item.question}</summary>
                     <div className="content">{item.response}</div>
                   </details>
                   <hr />
