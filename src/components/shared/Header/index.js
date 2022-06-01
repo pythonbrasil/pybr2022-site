@@ -7,6 +7,7 @@ import MenuImageGreen from "@images/menu-green.svg";
 
 import LanguageSwitch from "@components/shared/LanguageSwitch";
 import "./style.scss";
+import { window } from "browser-monads";
 
 const Header = () => {
   let location = useLocation();
