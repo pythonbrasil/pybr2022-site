@@ -6,13 +6,15 @@ const DutyContent = ({ text }) => {
   return (
     <>
       {text.map((text) => {
+        const isArray = text.content[0].length > 1;
+        const contentKey = (isArray && text.content[0]) || text.content;
         const content =
           text.type === "paragraph" ? (
-            <p>{text.content}</p>
+            <p key={contentKey}>{text.content}</p>
           ) : (
-            <ul>
+            <ul key={`list-${contentKey}`}>
               {text.content.map((item) => (
-                <li key={item}>{item} </li>
+                <li key={`item-${item}`}>{item} </li>
               ))}
             </ul>
           );
