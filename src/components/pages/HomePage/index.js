@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Helmet } from "react-helmet";
 
 import TitleChip from "@components/shared/TitleChip";
 import Footer from "@components/shared/Footer";
@@ -68,6 +69,8 @@ const HomePage = ({ text, file }) => {
 
   return (
     <div id="home">
+      <Helmet title="Python Brasil 2022" />
+
       <section id="section-landing-page">
         <div className="container">
           <div className="row desktop-only">
