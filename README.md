@@ -3,10 +3,10 @@
 
 ## 🚀 Como contribuir
 
-Sua versão do nodejs deve estar entre **v14.19.3 < v17.0.0**. Logo verifique se a sua versão é compatível.
+Sua versão do nodejs deve estar entre **>=v14.19.3 <= v16.4.2**. Logo verifique se a sua versão é compatível.
 
 **NVM**
-Se você estiver usando o nvm, na pasta raíz do projeto há um arquivo `.nvrmc`
+Se você estiver usando o `nvm`, na pasta raíz do projeto há um arquivo `.nvrmc`
 > Execute `nvm use` dentro da pasta para instalar a versão especificada no arquivo .nvrmc
 
 
