@@ -12,7 +12,6 @@ Se você estiver usando o `nvm`, na pasta raíz do projeto há um arquivo `.nvrm
 
 1.  **Configuração do ambiente local**
 
-
 ```shell
 $ git clone https://github.com/pythonbrasil/pybr2022-site.git
 $ cd pybr2022-site
