@@ -11,11 +11,31 @@ import "./style.scss";
 
 const Footer = ({ text }) => {
   const socialPlatforms = [
-    { name: "Instagram", icon: InstagramIcon, href: "https://instagram.com/pythonbrasil" },
-    { name: "Facebook", icon: FacebookIcon, href: "https://www.facebook.com/pythonbrasil" },
-    { name: "LinkedIn", icon: LinkedinIcon, href: "https://www.linkedin.com/company/33193243/" },
-    { name: "Twitter", icon: TwitterIcon, href: "https://twitter.com/pythonbrasil/" },
-    { name: "Youtube", icon: YoutubeIcon, href: "https://www.youtube.com/c/pythonbrasiloficial" },
+    {
+      name: "Instagram",
+      icon: InstagramIcon,
+      href: "https://instagram.com/pythonbrasil",
+    },
+    {
+      name: "Facebook",
+      icon: FacebookIcon,
+      href: "https://www.facebook.com/pythonbrasil",
+    },
+    {
+      name: "LinkedIn",
+      icon: LinkedinIcon,
+      href: "https://www.linkedin.com/company/33193243/",
+    },
+    {
+      name: "Twitter",
+      icon: TwitterIcon,
+      href: "https://twitter.com/pythonbrasil/",
+    },
+    {
+      name: "Youtube",
+      icon: YoutubeIcon,
+      href: "https://www.youtube.com/c/pythonbrasiloficial",
+    },
   ];
 
   return (
@@ -34,7 +54,7 @@ const Footer = ({ text }) => {
               </div>
               <ul className="social-platforms">
                 {socialPlatforms.map((platform) => (
-                  <li>
+                  <li key={platform.name}>
                     <a href={platform.href}>
                       <img
                         className="icon"
@@ -55,7 +75,9 @@ const Footer = ({ text }) => {
                   <a href="/">Python Brasil 2022</a>
                 </li>
                 <li>
-                  <a href="https://pretalx.com/python-brasil-2022/cfp">Submissão de Palestras</a>
+                  <a href="https://pretalx.com/python-brasil-2022/cfp">
+                    Submissão de Palestras
+                  </a>
                 </li>
                 <li>
                   <a href="/cdc">Código de Conduta</a>

@@ -16,10 +16,16 @@ module.exports = {
       "trackingId": "123456"
     }
   }, "gatsby-plugin-image", "gatsby-plugin-react-helmet", "gatsby-plugin-sitemap", {
-    resolve: 'gatsby-plugin-manifest',
+    resolve: "gatsby-plugin-manifest",
     options: {
-      "icon": "src/assets/images/icon.png"
-    }
+      name: "Python Brasil 2022",
+      short_name: "PythonBrasil2022",
+      start_url: "/",
+      background_color: "#fff",
+      theme_color: "#047f4d",
+      display: "standalone",
+      icon: "src/assets/images/favicon/android-chrome-512x512.png",
+    },
   }, "gatsby-plugin-sharp", "gatsby-transformer-sharp",
   {
     resolve: 'gatsby-source-filesystem',
