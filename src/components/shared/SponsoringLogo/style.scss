@@ -1,0 +1,56 @@
+$button-color: #e88c27;
+$orange: #ea9d24;
+$white: #fff;
+
+#section-sponsoring-logos {
+    text-align: center;
+    position: relative;
+    background: $white;
+    padding: 64px 0;
+    overflow: hidden;
+
+    a {
+      width: auto;
+    }
+  
+    h3 {
+      text-align: center;
+    }
+  
+    > div {
+      position: relative;
+      z-index: 1;
+    }
+  
+    .background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 0;
+    }
+  
+    button {
+      background: none;
+      border: none;
+      text-transform: uppercase;
+      color: #fff;
+      font-family: "Montserrat", sans-serif;
+      font-size: 16px;
+      margin-top: 20px;
+    }
+  
+    .section-sponsoring-logos__title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    @media (max-width: ($tablet)) {
+      .section-sponsoring-logos__title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 20px;
+      }
+    }
+  }
