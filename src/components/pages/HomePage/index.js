@@ -8,6 +8,7 @@ import LandingBackground from "@images/home/bg_landing_page.svg";
 import SponsoringBackground from "@images/home/bg_cta.svg";
 import GirlImage from "@images/home/girl.svg";
 import CalendarIcon from "@images/home/calendar.svg";
+import SponsoringLogo from "@components/shared/SponsoringLogo";
 
 
 import "./style.scss";
@@ -142,6 +143,9 @@ const HomePage = ({ text, file }) => {
         </div>
         <img src={SponsoringBackground} className="background" alt="" />
       </section>
+
+      <SponsoringLogo text={text} />
+
       <section id="section-covid">
         <div className="container">
           <TitleChip>{text.HOME.COVID.TITLE}</TitleChip>
