@@ -28,6 +28,9 @@ export const TEXT_PTBR = {
       TITLE: "Saiba como patrocinar o evento",
       BUTTON: `Veja nosso plano de patrocínio`,
     },
+    SPONSORINGLOGO: {
+      TITLE: "Patrocinadores",
+    },
     COVID: {
       TITLE: "Medidas sobre a COVID-19",
       CONTENT: [
