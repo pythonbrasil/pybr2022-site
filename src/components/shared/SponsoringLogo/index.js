@@ -16,13 +16,13 @@ const SponsoringLogo = ({ text }) => {
             <h2>platina</h2>
             <h2>ouro</h2>
             <h2>prata</h2>
-            <h2>cobre</h2>
-            <a href="https://getstream.io/">
-              <img src={Stream} alt="Stream" width="400px" height="100px"/>
-            </a>
             <h2>bronze</h2>
             <a href="https://www.jusbrasil.com.br/">
               <img src={JusBrasilLogo} alt="JusBrasil" width="400px" height="100px"/>
+            </a>
+            <h2>cobre</h2>
+            <a href="https://getstream.io/">
+              <img src={Stream} alt="Stream" width="400px" height="100px"/>
             </a>
           </div>
         </div>
