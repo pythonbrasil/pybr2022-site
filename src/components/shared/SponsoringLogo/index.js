@@ -12,8 +12,6 @@ const SponsoringLogo = ({ text }) => {
         <div className="container">
           <div className="row section-sponsoring-logos__title">
             <TitleChip>{text.HOME.SPONSORINGLOGO.TITLE}</TitleChip>
-            <h2>diamante</h2>
-            <h2>platina</h2>
             <h2>ouro</h2>
             <h2>prata</h2>
             <h2>bronze</h2>
