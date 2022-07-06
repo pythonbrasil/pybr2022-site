@@ -6,8 +6,18 @@ import TwitterIcon from "@images/home/footer/twitter.svg";
 import LinkedinIcon from "@images/home/footer/linkedin.svg";
 import FacebookIcon from "@images/home/footer/facebook.svg";
 import InstagramIcon from "@images/home/footer/instagram.svg";
+import LocationIcon from "@images/home/footer/location.svg";
 
 import "./style.scss";
+
+const locationIconStyles = {
+  display: "inline-block",
+  float: "left",
+}
+
+const locationParagraphStyles = {
+  marginLeft: "1.5rem",
+}
 
 const Footer = ({ text }) => {
   const socialPlatforms = [
@@ -83,6 +93,15 @@ const Footer = ({ text }) => {
                   <a href="/cdc">Código de Conduta</a>
                 </li>
               </ul>
+            </div>
+            <div className="col-12 col-sm-3">
+              <h4>Endereço do Evento</h4>
+              <a href="https://goo.gl/maps/doWbFrWvkLsopkiE7">
+                <img src={LocationIcon} style={locationIconStyles}/>
+              </a>
+              <p style={locationParagraphStyles}>Centro de Convenções do Amazonas Vasco Vasques</p>
+              <br />
+              <p style={locationParagraphStyles}>Av. Constantino Nery, 5001 - Flores, Manaus - AM, 69058-795</p>
             </div>
           </div>
         </div>
