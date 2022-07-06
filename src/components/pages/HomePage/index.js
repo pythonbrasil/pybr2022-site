@@ -37,7 +37,7 @@ const HomePage = ({ text, file }) => {
     },
     {
       question: "Até quando posso enviar minha apresentação para Python Brasil 2022?",
-      response: "Você pode submeter sua palestra até 01/06/22",
+      response: "Você pode submeter sua palestra até 03/07/22",
     },
     {
       question: "O que é Python Brasil 2022?",
