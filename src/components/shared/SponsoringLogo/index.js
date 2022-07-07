@@ -12,8 +12,6 @@ const SponsoringLogo = ({ text }) => {
         <div className="container">
           <div className="row section-sponsoring-logos__title">
             <TitleChip>{text.HOME.SPONSORINGLOGO.TITLE}</TitleChip>
-            <h2>ouro</h2>
-            <h2>prata</h2>
             <h2>bronze</h2>
             <a href="https://www.jusbrasil.com.br/">
               <img src={JusBrasilLogo} alt="JusBrasil" width="400px" height="100px"/>
