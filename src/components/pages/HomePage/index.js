@@ -29,7 +29,7 @@ const HomePage = ({ text, file }) => {
     },
     {
       question: "Onde e quando será realizado o Python Brasil 2022?",
-      response: "O evento irá ocorrer presencialmente em Manaus, no Centro de Convênções Vasco Vasques nas datas entre 15 à 23 de Outubro 2022.",
+      response: "O evento irá ocorrer presencialmente em Manaus, no Centro de Convênções Vasco Vasques nas datas entre 17 à 23 de Outubro 2022.",
     },
     {
       question: "Quais as medidas de segurança sanitária adotadas pelo evento?",
