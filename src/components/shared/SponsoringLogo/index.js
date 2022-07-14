@@ -14,11 +14,11 @@ const SponsoringLogo = ({ text }) => {
             <TitleChip>{text.HOME.SPONSORINGLOGO.TITLE}</TitleChip>
             <h2>bronze</h2>
             <a href="https://www.jusbrasil.com.br/">
-              <img src={JusBrasilLogo} alt="JusBrasil" width="400px" height="100px"/>
+              <img src={JusBrasilLogo} alt="JusBrasil"/>
             </a>
             <h2>cobre</h2>
             <a href="https://getstream.io/">
-              <img src={Stream} alt="Stream" width="400px" height="100px"/>
+              <img src={Stream} alt="Stream"/>
             </a>
           </div>
         </div>

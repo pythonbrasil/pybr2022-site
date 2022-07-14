@@ -12,6 +12,11 @@ $white: #fff;
     a {
       width: auto;
     }
+
+    img {
+      width: 400px;
+      height: 100px;
+    }
   
     h3 {
       text-align: center;
@@ -44,6 +49,16 @@ $white: #fff;
       display: flex;
       justify-content: center;
       align-items: center;
+    }
+
+    @media only screen and (max-width: 414px) {
+
+      img {
+        width: 200px;
+        height: 60px;
+        padding: 0;
+      }
+
     }
   
     @media (max-width: ($tablet)) {
