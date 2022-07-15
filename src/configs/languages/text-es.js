@@ -28,6 +28,9 @@ export const TEXT_ES = {
       TITLE: `¿Cómo patrocinar el evento?`,
       BUTTON: 'Acceda a nuestros Planes de Patrocinio'
     },
+    SPONSORINGLOGO: {
+      TITLE: "Patrocinadores",
+    },
     COVID: {
       TITLE: "Medidas sobre a COVID-19",
       CONTENT: [

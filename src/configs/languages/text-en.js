@@ -29,6 +29,9 @@ export const TEXT_EN = {
       TITLE: `Why sponsor Python Brasil 2022?`,
       BUTTON: 'See Sponsorship Options and Apply'
     },
+    SPONSORINGLOGO: {
+      TITLE: "OUR SPONSORS",
+    },
     COVID: {
       TITLE: "Medidas sobre a COVID-19",
       CONTENT: [
