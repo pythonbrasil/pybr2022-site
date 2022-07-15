@@ -6,8 +6,8 @@ export const TEXT_EN = {
   HOME: {
     LANDING: {
       TITLE: 'From 17 to oct 23 2022',
-      INFO: 'Lecture submission to Python Brazil 2022 can be done by the button below.',
-      BUTTON: 'Submit your talk here'
+      INFO: 'Registration for Python Brazil 2022 can be done by the button below.',
+      BUTTON: 'Event registration here'
     },
     ABOUT: {
       TITLE: "Sobre a Python BR",
@@ -28,6 +28,9 @@ export const TEXT_EN = {
     SPONSORING: {
       TITLE: `Why sponsor Python Brasil 2022?`,
       BUTTON: 'See Sponsorship Options and Apply'
+    },
+    SPONSORINGLOGO: {
+      TITLE: "OUR SPONSORS",
     },
     COVID: {
       TITLE: "Medidas sobre a COVID-19",
