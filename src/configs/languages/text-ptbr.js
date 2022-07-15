@@ -6,8 +6,8 @@ export const TEXT_PTBR = {
   HOME: {
     LANDING: {
       TITLE: `17 a 23 de Outubro 2022`,
-      INFO: `A submissão de palestras para o Python Brasil 2022 pode ser feita pelo botão abaixo.`,
-      BUTTON: `Submeta sua palestra aqui`,
+      INFO: `As inscrições para a Python Brasil 2022 pode ser feita pelo botão abaixo.`,
+      BUTTON: `Inscreva-se para o evento aqui`,
     },
     ABOUT: {
       TITLE: "Sobre a Python BR",
