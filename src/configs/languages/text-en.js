@@ -6,7 +6,7 @@ export const TEXT_EN = {
   HOME: {
     LANDING: {
       TITLE: 'From 17 to oct 23 2022',
-      INFO: 'Registration for Python Brasil 2022 can be done by the button below.',
+      INFO: 'Registration for Python Brazil 2022 can be done by the button below.',
       BUTTON: 'Event registration here'
     },
     ABOUT: {
