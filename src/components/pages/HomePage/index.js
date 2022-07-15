@@ -16,7 +16,7 @@ import "./style.scss";
 const HomePage = ({ text, file }) => {
 
   const redirectToSponsor = () =>
-    window.location.replace("https://pretalx.com/python-brasil-2022/cfp");
+    window.location.replace("https://www.eventbrite.com/e/python-brasil-2022-registration-356802725557");
 
   const faqItems = [
     {
