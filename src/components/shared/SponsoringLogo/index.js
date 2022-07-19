@@ -28,7 +28,7 @@ const SponsoringLogo = ({ text }) => {
             </a>
           </div>
         </div>
-        <SupportLogo/>
+        <SupportLogo text={text}/>
       </section>
     </>
   );

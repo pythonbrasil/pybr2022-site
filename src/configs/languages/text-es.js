@@ -3,7 +3,7 @@ import GearIcon from "@images/home/covid/gear.svg";
 import BookIcon from "@images/home/covid/book.svg";
 
 export const TEXT_ES = {
-  HOME: { 
+  HOME: {
     LANDING: {
       TITLE: `17 al 23 de octubre 2022`,
       INFO: `El registro para Python Brasil 2022 se puede hacer con el botón abajo.`,
@@ -30,6 +30,9 @@ export const TEXT_ES = {
     },
     SPONSORINGLOGO: {
       TITLE: "Patrocinadores",
+    },
+    SUPPORTINGLOGO: {
+      TITLE: "Apoyo",
     },
     COVID: {
       TITLE: "Medidas sobre a COVID-19",

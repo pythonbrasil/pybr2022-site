@@ -10,7 +10,7 @@ const SupportLogo = ({ text }) => {
       <section id="section-sponsoring-logos">
         <div className="container">
           <div className="row section-sponsoring-logos__title">
-            <TitleChip>Apoio</TitleChip>
+            <TitleChip>{text.HOME.SUPPORTINGLOGO.TITLE}</TitleChip>
             <h2></h2>
             <a href="https://www.packtpub.com/">
               <img src={Packt} alt="Packt"/>

@@ -32,6 +32,9 @@ export const TEXT_EN = {
     SPONSORINGLOGO: {
       TITLE: "OUR SPONSORS",
     },
+    SUPPORTINGLOGO: {
+      TITLE: "Supporting",
+    },
     COVID: {
       TITLE: "Medidas sobre a COVID-19",
       CONTENT: [

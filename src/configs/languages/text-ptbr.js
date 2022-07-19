@@ -31,6 +31,9 @@ export const TEXT_PTBR = {
     SPONSORINGLOGO: {
       TITLE: "Patrocinadores",
     },
+    SUPPORTINGLOGO: {
+      TITLE: "Apoio",
+    },
     COVID: {
       TITLE: "Medidas sobre a COVID-19",
       CONTENT: [
