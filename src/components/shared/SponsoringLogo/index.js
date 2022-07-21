@@ -23,7 +23,7 @@ const SponsoringLogo = ({ text }) => {
               <img src={JusBrasilLogo} alt="JusBrasil"/>
             </a>
             <h2>cobre</h2>
-            <a href="https://getstream.io/">
+            <a href="https://getstream.io/try-for-free/?utm_source=PythonBrasil&utm_medium=Whole_Event_L&utm_content=Developer&utm_campaign=PythonBrasil_Oct2022">
               <img src={Stream} alt="Stream"/>
             </a>
           </div>
