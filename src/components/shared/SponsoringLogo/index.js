@@ -5,6 +5,10 @@ import TitleChip from "@components/shared/TitleChip";
 import JusBrasilLogo from "@images/sponsoring/jusbrasil.svg";
 import Stream from "@images/sponsoring/stream.svg";
 import Google from "@images/sponsoring/google.png";
+import Vinta from "@images/sponsoring/vinta.png";
+import Luizalabs from "@images/sponsoring/luizalabs.png";
+import Globo from "@images/sponsoring/globo.png";
+import INDT from "@images/sponsoring/indt.png";
 import SupportLogo from "@components/shared/SupportLogo";
 
 const SponsoringLogo = ({ text }) => {
@@ -22,9 +26,22 @@ const SponsoringLogo = ({ text }) => {
             <a href="https://www.jusbrasil.com.br/">
               <img src={JusBrasilLogo} alt="JusBrasil"/>
             </a>
+            <a href="https://vempraglobo.g.globo/#pt-BR/sites/CX_4001">
+              <img src={Globo} alt="Globo"/>
+            </a>
             <h2>cobre</h2>
             <a href="https://getstream.io/try-for-free/?utm_source=PythonBrasil&utm_medium=Whole_Event_L&utm_content=Developer&utm_campaign=PythonBrasil_Oct2022">
               <img src={Stream} alt="Stream"/>
+            </a>
+            <a href="https://carreiras.magazineluiza.com.br/times/Luizalabs/vagas">
+              <img src={Luizalabs} alt="Luizalabs"/>
+            </a>
+            <a href="https://www.vinta.com.br/careers/">
+              <img src={Vinta} alt="Vinta"/>
+            </a>
+            <h2>cupuaçu</h2>
+            <a href="https://www.indt.org.br/">
+              <img src={INDT} alt="INDT"/>
             </a>
           </div>
         </div>
