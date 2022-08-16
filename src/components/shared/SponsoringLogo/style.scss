@@ -15,25 +15,26 @@ $white: #fff;
 
     img {
       width: 400px;
+      padding: 20px;
     }
-  
+
     h3 {
       text-align: center;
       color: #3a3a3c;
     }
-  
+
     > div {
       position: relative;
       z-index: 1;
     }
-  
+
     .background {
       position: absolute;
       top: 0;
       left: 0;
       z-index: 0;
     }
-  
+
     button {
       background: none;
       border: none;
@@ -43,7 +44,7 @@ $white: #fff;
       font-size: 16px;
       margin-top: 20px;
     }
-  
+
     .section-sponsoring-logos__title {
       display: flex;
       justify-content: center;
@@ -58,7 +59,7 @@ $white: #fff;
       }
 
     }
-  
+
     @media (max-width: ($tablet)) {
       .section-sponsoring-logos__title {
         display: flex;
