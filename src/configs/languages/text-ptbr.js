@@ -24,6 +24,9 @@ export const TEXT_PTBR = {
         Brasil)."
       ]
     },
+    KEYNOTES: {
+      TITLE: "Keynotes",
+    },
     SPONSORING: {
       TITLE: "Saiba como patrocinar o evento",
       BUTTON: `Veja nosso plano de patrocínio`,

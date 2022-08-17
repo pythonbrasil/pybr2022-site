@@ -24,6 +24,9 @@ export const TEXT_ES = {
         Manaus/AM con el apoyo de APyB (Asociación Python Brasil)."
       ]
     },
+    KEYNOTES: {
+      TITLE: "Keynotes",
+    },
     SPONSORING: {
       TITLE: `¿Cómo patrocinar el evento?`,
       BUTTON: 'Acceda a nuestros Planes de Patrocinio'
