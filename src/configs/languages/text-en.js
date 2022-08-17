@@ -14,7 +14,7 @@ export const TEXT_EN = {
       CONTENT: [
         "A Python Brasil 2022 é a maior conferência sobre linguagem de \
         programação Python do Brasil e da América Latina.",
-        "Serão 6 dias de imersão onde os participantes poderão \
+        "Serão 7 dias de imersão onde os participantes poderão \
         contribuir para projetos de software livre, participar de \
         treinamentos e adquirir novos conhecimentos com \
         desenvolvedores renomados da comunidade. A programação está \

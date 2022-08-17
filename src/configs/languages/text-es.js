@@ -14,7 +14,7 @@ export const TEXT_ES = {
       CONTENT: [
         "Python Brasil 2022 es una importante conferencia  \
         sobre el lenguaje de programación Python de Brasil y América Latina.",
-        "Serán 6 días de inmersión donde los participantes podrán  \
+        "Serán 7 días de inmersión donde los participantes podrán  \
         contribuir en proyectos de software libre, participar en  \
         capacitaciones y adquirir nuevos conocimientos con desarrolladores  \
         de renombre dentro de la comunidad. El programa está organizado  \
