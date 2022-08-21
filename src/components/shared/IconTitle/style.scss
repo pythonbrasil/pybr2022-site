@@ -4,6 +4,7 @@
   position: relative;
 
   h2 {
+    width: 301px;
     font-family: "Montserrat", sans-serif;
     font-weight: 900;
     font-size: var(--h2-size-desktop);
@@ -48,6 +49,7 @@
     }
 
     h2 {
+      width: auto;
       font-size: var(--h2-size-mobile);
     }
     h4 {

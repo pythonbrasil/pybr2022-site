@@ -10,6 +10,18 @@
       z-index: -1;
     }
   }
+  button {
+    margin-top: 36px;
+    padding: 10px 23px;
+    background: #e88c27;
+    color: #fff;
+    border-radius: 3px;
+    font-size: calc(14 / 16 * 1rem);
+    border: none;
+    box-shadow: 0 0 3px 1px #00000030;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
 
   .heading {
     margin: 70px 0;

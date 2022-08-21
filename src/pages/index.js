@@ -37,7 +37,7 @@ const IndexPage = () => (
           />
           <LazyComponent
             path="/programa-auxilio-financeiro"
-            text={LANGUAGES_TEXTS[state.languageId]}
+            text={LANGUAGES_TEXTS["pt-br"]}
             Component={FinancialAid}
           />
 
