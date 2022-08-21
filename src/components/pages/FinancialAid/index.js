@@ -10,7 +10,7 @@ import IconTitle from "@components/shared/IconTitle";
 
 import "./style.scss";
 
-const DutyPage = ({ text }) => {
+const FinancialAid = ({ text }) => {
   return (
     <div id="duty">
       <Helmet title={`Python Brasil 2022 | ${text.FINANCIALAID.LANDING.TITLE}`} />
