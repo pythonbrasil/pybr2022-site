@@ -241,7 +241,7 @@ export const TEXT_PTBR = {
         },
         {
           type: "title",
-          content: "Cotato"},
+          content: "Contato"},
         {
           type: "paragraph",
           content: "Este programa está sendo organizado por PyLadies Brasil, AfroPython e Organização da Python Brasil 2022."},
