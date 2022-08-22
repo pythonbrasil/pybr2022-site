@@ -29,7 +29,7 @@ const FinancialAid = ({ text }) => {
         <div className="container">
           <div className="row">
             <div className="heading col-12 col-sm-9">
-              <IconTitle title={text.FINANCIALAID.LANDING.TITLE}/>
+              <IconTitle title={text.FINANCIALAID.LANDING.TITLE} iconTitle={BookIcon}/>
             </div>
           </div>
           <div className="row">
