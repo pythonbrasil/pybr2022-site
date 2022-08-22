@@ -163,17 +163,17 @@ export const TEXT_PTBR = {
           de diversidade e inclusão."}, 
         {
           type: "paragraph",
-          content: "Diversidade: Queremos que a Python Brasil seja um evento mais diversificado \
+          content: "**Diversidade:** Queremos que a Python Brasil seja um evento mais diversificado \
           e inclusivo possível, e queremos especialmente ajudar aquelas pessoas de grupos \
           sub-representados em tecnologia a se sentirem bem-vindas, estarem presentes e \
           participarem da comunidade Python."},
         {
           type: "paragraph",
-          content: "Fatores econômicos: Entendemos que todas as pessoas devem ter a chance \
+          content: "**Fatores econômicos:** Entendemos que todas as pessoas devem ter a chance \
           de participar da Python Brasil, independentemente de sua situação econômica."},
         {
           type: "paragraph",
-          content: "Ministrante de atividades: Queremos apoiar aquelas pessoas que fazem \
+          content: "**Ministrante de atividades:** Queremos apoiar aquelas pessoas que fazem \
           da comunidade Python um espaço positivo, inclusivo e acolhedor, incluindo \
           ministrantes de atividades (palestras, tutoriais e sprints)."},    
         {
@@ -231,7 +231,7 @@ export const TEXT_PTBR = {
         {
           type: "list",
           content: [
-              "21 ago. 2022 - Abertura do período para solicitação de auxílio financeiro",
+              "22 ago. 2022 - Abertura do período para solicitação de auxílio financeiro",
               "03 set. 2022 - Encerramento do período para solicitação de auxílio financeiro",
               "06 set. 2022 - As pessoas solicitantes receberão uma notificação sobre a \
               aceitação ou rejeição",
