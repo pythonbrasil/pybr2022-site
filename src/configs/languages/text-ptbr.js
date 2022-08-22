@@ -131,4 +131,124 @@ export const TEXT_PTBR = {
     ],
     },
   },
+  FINANCIALAID: {
+    LANDING: {
+      TITLE: `Programa de Auxílio Financeiro`,
+      BUTTON: `Solicite auxílio financeiro aqui`,
+      INFO: [
+        {
+          type: "paragraph",
+          content: "O auxílio financeiro tem como objetivo apoiar a participação de grupos \
+            historicamente sub representados nas edições presenciais do evento Python Brasil. \
+            Ela é fornecida para aquelas pessoas, residentes em território nacional, que necessitam \
+            de apoio financeiro para comparecer ao evento e que de outra maneira não poderiam \
+            participar."},
+        {
+          type: "paragraph",
+          content: "As pessoas beneficiárias de ajuda financeira recebem apoio para algumas de \
+          suas despesas, incluindo transporte, hospedagem, alimentação e valor do ingresso. \
+          Incentivamos ativamente as pessoas a solicitarem ajuda financeira. Embora desejemos \
+          poder dar subsídios a todas que se candidatarem, nossos fundos são limitados. Então, \
+          nosso objetivo é levar o maior número de pessoas para o evento, otimizando os fundos \
+          que temos."},
+        {
+          type: "paragraph",
+          content: "O processo de concessão de ajuda financeira foi projetado para fomentar \
+          maior diversidade do público da Python Brasil, incluindo integrantes de grupos \
+          historicamente sub representados nas edições anteriores do evento e ministrantes \
+          de atividades (palestras, tutoriais e sprints)."},
+        {
+          type: "paragraph",
+          content: "O programa de ajuda financeira é sobre a comunidade reafirmar seus valores \
+          de diversidade e inclusão."}, 
+        {
+          type: "paragraph",
+          content: "**Diversidade:** Queremos que a Python Brasil seja um evento mais diversificado \
+          e inclusivo possível, e queremos especialmente ajudar aquelas pessoas de grupos \
+          sub-representados em tecnologia a se sentirem bem-vindas, estarem presentes e \
+          participarem da comunidade Python."},
+        {
+          type: "paragraph",
+          content: "**Fatores econômicos:** Entendemos que todas as pessoas devem ter a chance \
+          de participar da Python Brasil, independentemente de sua situação econômica."},
+        {
+          type: "paragraph",
+          content: "**Ministrante de atividades:** Queremos apoiar aquelas pessoas que fazem \
+          da comunidade Python um espaço positivo, inclusivo e acolhedor, incluindo \
+          ministrantes de atividades (palestras, tutoriais e sprints)."},    
+        {
+          type: "paragraph",
+          content: "Nossas bolsas estão abertas a todas as pessoas que precisam de apoio \
+          financeiro para participar da Python Brasil. Analisaremos os seguintes critérios \
+          para ajudar a decidir quem se qualifica para um subsídio:"},
+        {
+          type: "title",
+          content: "Tipos de auxílio"},
+        {
+          type: "paragraph",
+          content: "Embora desejemos poder dar subsídios a todas que se candidatarem, nossos \
+          fundos são limitados. Então, encorajamos que seja solicitado apenas o tipo de auxílio \
+          financeiro essencial para a viabilização da participação no evento, desta forma \
+          otimizamos o uso dos recursos e um maior número de pessoas poderão ser beneficiadas."},
+        {
+          type: "title",
+          content: "Ingresso"},
+        {
+          type: "paragraph",
+          content: "Disponibilização do ingresso individual gratuito para o evento presencial. \
+          Não sendo possível reembolso de ingresso adquirido previamente, ou seja, caso a \
+          participante já tenha adquirido o ingresso para o evento não será elegível para esse \
+          tipo de auxílio."},  
+        {
+          type: "title",
+          content: "Auxílio alimentação"},
+        {
+          type: "paragraph",
+          content: "Disponibilização de auxílio alimentação no valor de R$ 31,91/dia*, sendo o \
+          valor máximo requerido o total de 15 refeições."},
+        {
+          type: "paragraph",
+          content: "* Valor referente da Pesquisa Preço Médio ABBT, 2022, realizado pela \
+          Associação Brasileira das Empresas de Benefícios ao Trabalhador, disponível em \
+          https://www.pesquisaprecomedio.com.br/preco-medio-refeicao/am/manaus "},
+        {
+          type: "title",
+          content: "Transporte aéreo/terrestre"},
+        {
+          type: "paragraph",
+          content: "Fornecimento de passagem aérea ou terrestre ida e/ou volta para pessoa \
+          participante com inscrição confirmada ou solicitante do tipo de auxílio “Ingresso”."},
+        {
+          type: "title",
+          content: "Hospedagem"},
+        {
+          type: "paragraph",
+          content: "Fornecimento de hospedagem para pessoa participante com inscrição confirmada \
+          ou solicitante do tipo de auxílio “Ingresso”."},
+        {
+          type: "title",
+          content: "Cronograma"},
+        {
+          type: "list",
+          content: [
+              "22 ago. 2022 - Abertura do período para solicitação de auxílio financeiro",
+              "03 set. 2022 - Encerramento do período para solicitação de auxílio financeiro",
+              "06 set. 2022 - As pessoas solicitantes receberão uma notificação sobre a \
+              aceitação ou rejeição",
+              "10 set. 2022 - Data limite para as pessoas beneficiadas pelo auxílio responda \
+              ao contato"
+          ]
+        },
+        {
+          type: "title",
+          content: "Cotato"},
+        {
+          type: "paragraph",
+          content: "Este programa está sendo organizado por PyLadies Brasil, AfroPython e Organização da Python Brasil 2022."},
+        {
+          type: "paragraph",
+          content: "Para mais informações entre em contato com eventos@python.org.br."},
+    ],
+    },
+  },
 };
