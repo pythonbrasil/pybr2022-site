@@ -24,6 +24,7 @@ const Header = () => {
   const links = [
     { href: "/", label: "Home" },
     { href: "/cdc", label: "Código de Conduta" },
+    { href: "/programa-auxilio-financeiro", label: "Programa de Auxílio Financeiro" },
   ];
 
   const isHome = location.pathname === "/";

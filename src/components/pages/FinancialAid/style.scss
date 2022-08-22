@@ -1,0 +1,80 @@
+#duty {
+  main {
+    position: relative;
+    padding-bottom: 190px;
+
+    img.background {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      z-index: -1;
+    }
+  }
+  
+  button {
+    margin-top: 36px;
+    padding: 10px 23px;
+    background: #e88c27;
+    color: #fff;
+    border-radius: 3px;
+    font-size: calc(14 / 16 * 1rem);
+    border: none;
+    box-shadow: 0 0 3px 1px #00000030;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .heading {
+    margin: 70px 0;
+  }
+
+  .content {
+    ul li,
+    p {
+      font-size: 20px;
+      line-height: 28px;
+      color: #3a3a3c;
+      font-family: "Manrope", sans-serif;
+      margin: 20px 0;
+    }
+    ul li {
+      list-style: disc;
+      margin-left: 20px;
+    }
+  }
+
+  .last-update {
+    color: #6b7588;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Manrope", sans-serif;
+  }  
+
+  @media (max-width: ($tablet)) {
+    main {
+      padding: 0 28px 190px;
+      // Overflow hidden para poder escalar a imagem de adereço
+      overflow: hidden;
+    }
+
+    .heading {
+      margin-top: 55px;
+      margin-bottom: 25px;
+    }
+
+    .duty__adornment {
+      width: fit-content;
+      margin: 0 -28px;
+
+      img.background {
+        width: 165%;
+        object-fit: contain;
+        object-position: left bottom;
+      }
+    }
+    p,
+    .content ul li {
+      font-size: var(--p-size-mobile);
+    }
+
+  }
+}
