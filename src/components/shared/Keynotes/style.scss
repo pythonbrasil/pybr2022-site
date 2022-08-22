@@ -2,6 +2,14 @@
   h3 {
     background: #269fa2;
   }
+  a {
+    color: #269fa2;
+    padding-right: 20px;
+    svg {
+      width: 32px;
+      height: 32px;
+    }
+  }
   .content-section {
     width: 100%;
     display: flex;
