@@ -1,7 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 
-import BookIcon from "@images/duty/book.svg";
 import BackgroundImage from "@images/duty/background.svg";
 
 import DutyContent from "@components/shared/DutyContent";
@@ -27,7 +26,7 @@ const FinancialAid = ({ text }) => {
         <div className="container">
           <div className="row">
             <div className="heading col-12 col-sm-9">
-              <IconTitle title={text.FINANCIALAID.LANDING.TITLE} icon={BookIcon} />
+              <IconTitle title={text.FINANCIALAID.LANDING.TITLE}/>
             </div>
           </div>
           <div className="row">
@@ -35,7 +34,7 @@ const FinancialAid = ({ text }) => {
               <div className="content">
                 <DutyContent text={text.FINANCIALAID.LANDING.INFO}/>
               </div>
-              <button type="button" onClick="window.open('https://forms.gle/qPkPYFHCRPG1JnpFA')">
+              <button type="button" onClick={window.open('https://forms.gle/qPkPYFHCRPG1JnpFA')}>
                 {text.FINANCIALAID.LANDING.BUTTON}
               </button>
             </div>
