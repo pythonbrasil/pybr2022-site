@@ -6,6 +6,7 @@ import BackgroundImage from "@images/duty/background.svg";
 import DutyContent from "@components/shared/DutyContent";
 import Footer from "@components/shared/Footer";
 import IconTitle from "@components/shared/IconTitle";
+import BookIcon from "@images/duty/book.svg";
 
 import "./style.scss";
 
@@ -29,7 +30,7 @@ const FinancialAid = ({ text }) => {
         <div className="container">
           <div className="row">
             <div className="heading col-12 col-sm-9">
-              <IconTitle title={text.FINANCIALAID.LANDING.TITLE} iconTitle={BookIcon}/>
+              <IconTitle title={text.FINANCIALAID.LANDING.TITLE} icon={BookIcon}/>
             </div>
           </div>
           <div className="row">
