@@ -10,6 +10,9 @@ import IconTitle from "@components/shared/IconTitle";
 import "./style.scss";
 
 const FinancialAid = ({ text }) => {
+  const redirectToLink = () =>
+  window.location.replace("https://forms.gle/qPkPYFHCRPG1JnpFA");
+
   return (
     <div id="duty">
       <Helmet title={`Python Brasil 2022 | ${text.FINANCIALAID.LANDING.TITLE}`} />
@@ -34,7 +37,7 @@ const FinancialAid = ({ text }) => {
               <div className="content">
                 <DutyContent text={text.FINANCIALAID.LANDING.INFO}/>
               </div>
-              <button type="button" onClick={window.open('https://forms.gle/qPkPYFHCRPG1JnpFA')}>
+              <button type="button" onClick={redirectToLink}>
                 {text.FINANCIALAID.LANDING.BUTTON}
               </button>
             </div>
