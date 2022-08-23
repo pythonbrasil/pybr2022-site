@@ -14,7 +14,7 @@ export const TEXT_EN = {
       CONTENT: [
         "A Python Brasil 2022 é a maior conferência sobre linguagem de \
         programação Python do Brasil e da América Latina.",
-        "Serão 6 dias de imersão onde os participantes poderão \
+        "Serão 7 dias de imersão onde os participantes poderão \
         contribuir para projetos de software livre, participar de \
         treinamentos e adquirir novos conhecimentos com \
         desenvolvedores renomados da comunidade. A programação está \
@@ -24,6 +24,9 @@ export const TEXT_EN = {
         de Manaus/AM (PyNorte) com o apoio da APyB (Associação Python \
         Brasil)."
       ]
+    },
+    KEYNOTES: {
+      TITLE: "Keynotes",
     },
     SPONSORING: {
       TITLE: `Why sponsor Python Brasil 2022?`,

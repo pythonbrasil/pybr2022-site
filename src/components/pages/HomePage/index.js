@@ -9,7 +9,7 @@ import SponsoringBackground from "@images/home/bg_cta.svg";
 import GirlImage from "@images/home/girl.svg";
 import CalendarIcon from "@images/home/calendar.svg";
 import SponsoringLogo from "@components/shared/SponsoringLogo";
-
+import Keynotes from "@components/shared/Keynotes";
 
 import "./style.scss";
 
@@ -130,6 +130,9 @@ const HomePage = ({ text, file }) => {
           </div>
         </div>
       </section>
+
+      <Keynotes text={text} />
+
       <section id="section-sponsoring">
         <div className="container">
           <div className="row section-sponsoring__title">
