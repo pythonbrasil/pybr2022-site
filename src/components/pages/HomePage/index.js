@@ -12,6 +12,7 @@ import SponsoringLogo from "@components/shared/SponsoringLogo";
 import Keynotes from "@components/shared/Keynotes";
 
 import "./style.scss";
+import HotelSection from "../../shared/HotelSection";
 
 const HomePage = ({ text, file }) => {
 
@@ -148,6 +149,8 @@ const HomePage = ({ text, file }) => {
       </section>
 
       <SponsoringLogo text={text} />
+
+      <HotelSection text={text}/>
 
       <section id="section-covid">
         <div className="container">
