@@ -113,7 +113,9 @@ tr:nth-child(odd) {
 
   .hotel__wrapper{
     margin: 20px;
+
     h3{
+      width: fit-content;
       text-align: left;
       font-size: calc(24/16 *1rem);
       margin-bottom:5px;
@@ -122,6 +124,7 @@ tr:nth-child(odd) {
 
   .table-wrapper{
         overflow-x: auto;
+    width: 100%;
   }
 
   .section-hotel__content{
@@ -164,8 +167,9 @@ tr:nth-child(odd) {
 }
 
   .hotel-grid{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+     grid-template-columns:
+      repeat(auto-fill, minmax(min(400px, 100%), 1fr));
     justify-content: center;
   }
   }
