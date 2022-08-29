@@ -1,0 +1,176 @@
+$button-color: #e88c27;
+$orange: #ea9d24;
+$white: #fff;
+
+#section-hotel {
+    text-align: center;
+    position: relative;
+    background: $white;
+    padding: 64px 0;
+    overflow: hidden;
+
+    a {
+      width: auto;
+    }
+
+    img {
+      width: 400px;
+    }
+  
+    h3 {
+      text-align: center;
+      color: #3a3a3c;
+    }
+  
+    > div {
+      position: relative;
+      z-index: 1;
+    }
+  
+    .background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 0;
+    }
+  
+    button {
+      background: none;
+      border: none;
+      text-transform: uppercase;
+      color: #fff;
+      font-family: "Montserrat", sans-serif;
+      font-size: 16px;
+      margin-top: 20px;
+    }
+  
+    .section-sponsoring-logos__title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    @media only screen and (max-width: 414px) {
+
+      img {
+        width: 200px;
+        padding: 0;
+      }
+
+    }
+  
+    @media (max-width: ($tablet)) {
+      .section-sponsoring-logos__title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 20px;
+      }
+    }
+
+
+  a {
+    img{
+		width: 350px;
+    }
+  }
+
+  table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+    max-width: 500px;
+    min-width: 500px;
+    margin: 0 auto;
+}
+
+td, th {
+  border: 1px solid #f2f2f6;
+  text-align: left;
+  padding: 8px;
+}
+
+
+tr:nth-child(odd) {
+  background-color: #f2f2f6;
+}
+
+  .hotel__tarifa{
+    text-align: center;
+  }
+
+  .hotel__tarifa__room{
+    text-align: right;
+    width: fit-content;
+  }
+
+  .hotel__tarifa__room__name{
+     text-align: right;
+    width: fit-content;
+  }
+
+
+
+  .hotel__wrapper{
+    margin: 20px;
+
+    h3{
+      width: fit-content;
+      text-align: left;
+      font-size: calc(24/16 *1rem);
+      margin-bottom:5px;
+    }
+  }
+
+  .table-wrapper{
+        overflow-x: auto;
+    width: 100%;
+  }
+
+  .section-hotel__content{
+    margin: 30px 0;
+  }
+
+  .section-hotel{
+   width: 100%;
+  }
+
+
+  .section-hotel__button{
+    background: #269fa2;
+          color: #fff;
+          font-family: "Montserrat", sans-serif;
+          font-size: calc(32 / 16 * 1rem);
+          font-weight: 700;
+          display: block;
+          padding: 10px 20px;
+          border-radius: 10px;
+          width: fit-content;
+
+
+          @media (max-width: ($tablet)) {
+            font-size: calc(24 / 16 * 1rem);
+          }
+  }
+
+  .section-hotel__button--gray{
+  @extend .section-hotel__button;
+  background: rgba(0, 0, 0,0.4);
+}
+
+.section-hotel__button-wrapper{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top:30px;
+  margin-bottom: 60px;
+}
+
+  .hotel-grid{
+    display: grid;
+     grid-template-columns:
+      repeat(auto-fill, minmax(min(400px, 100%), 1fr));
+    justify-content: center;
+  }
+  }
+
