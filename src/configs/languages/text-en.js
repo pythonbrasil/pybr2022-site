@@ -78,7 +78,7 @@ export const TEXT_EN = {
           github: "",
           twitter: "",
           site: "",
-          linkedin: "",
+          linkedin: "https://www.linkedin.com/in/guilhermefelitti",
         },
         {
           name: "Eulanda Miranda",
@@ -86,7 +86,7 @@ export const TEXT_EN = {
           img: Eulanda,
           github: "",
           twitter: "",
-          site: "",
+          site: "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4766289H3",
           linkedin: "",
         },
         {
@@ -96,7 +96,7 @@ export const TEXT_EN = {
           github: "",
           twitter: "",
           site: "",
-          linkedin: "",
+          linkedin: "https://www.linkedin.com/in/valcl%C3%A9ia-solidade-8713942b",
         },
       ]
     },
