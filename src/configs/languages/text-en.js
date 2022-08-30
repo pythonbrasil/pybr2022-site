@@ -102,7 +102,8 @@ export const TEXT_EN = {
     },
     SPONSORING: {
       TITLE: `Why sponsor Python Brasil 2022?`,
-      BUTTON: 'See Sponsorship Options and Apply'
+      BUTTON: 'See Sponsorship Options and Apply',
+      LINK: "https://drive.google.com/file/d/1Ndp8HHYjX1eol-Hzj6tvJMyT8K4TAxCw/view",
     },
     SPONSORINGLOGO: {
       TITLE: "OUR SPONSORS",
