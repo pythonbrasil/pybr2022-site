@@ -102,7 +102,8 @@ export const TEXT_PTBR = {
     },
     SPONSORING: {
       TITLE: "Saiba como patrocinar o evento",
-      BUTTON: `Veja nosso plano de patrocínio`,
+      BUTTON: "Veja nosso plano de patrocínio",
+      LINK: "https://drive.google.com/file/d/1EzVbd1sfw4Lkb7g5ovnrHRH7Hg4ybpTL/view",
     },
     SPONSORINGLOGO: {
       TITLE: "Patrocinadores",

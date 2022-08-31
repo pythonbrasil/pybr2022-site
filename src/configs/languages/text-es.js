@@ -101,7 +101,8 @@ export const TEXT_ES = {
     },
     SPONSORING: {
       TITLE: `¿Cómo patrocinar el evento?`,
-      BUTTON: 'Acceda a nuestros Planes de Patrocinio'
+      BUTTON: 'Acceda a nuestros Planes de Patrocinio',
+      LINK: "https://drive.google.com/file/d/1Ndp8HHYjX1eol-Hzj6tvJMyT8K4TAxCw/view",
     },
     SPONSORINGLOGO: {
       TITLE: "Patrocinadores",

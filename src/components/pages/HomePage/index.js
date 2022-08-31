@@ -14,7 +14,7 @@ import Keynotes from "@components/shared/Keynotes";
 import "./style.scss";
 import HotelSection from "../../shared/HotelSection";
 
-const HomePage = ({ text, file }) => {
+const HomePage = ({ text }) => {
 
   const redirectToSponsor = () =>
     window.location.replace("https://www.eventbrite.com/e/python-brasil-2022-registration-356802725557");
@@ -140,8 +140,8 @@ const HomePage = ({ text, file }) => {
             <TitleChip>{text.HOME.SPONSORING.TITLE}</TitleChip>
           </div>
           <button>
-            <a className="link-sponsor" href={file}>
-              {text.HOME.SPONSORING.BUTTON}
+            <a className="link-sponsor" href={text.HOME.SPONSORING.LINK} target="_blank">
+              <strong>{text.HOME.SPONSORING.BUTTON}</strong>
             </a>
           </button>
         </div>
