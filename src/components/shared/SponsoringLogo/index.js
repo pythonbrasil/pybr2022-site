@@ -32,7 +32,7 @@ const SponsoringLogo = ({ text }) => {
             </a>
 
             <h2>bronze</h2>
-            <a href="">
+            <a href="https://botcity.dev/">
               <img src={Botcity} alt="BotCity"/>
             </a>
             <a href="https://vempraglobo.g.globo/#pt-BR/sites/CX_4001">
