@@ -75,7 +75,7 @@ export const TEXT_ES = {
           description: "Fundador da Novelo Data e anfitrião do podcast Tecnocracia. Jornalista e programador. Python nasceu como hobby e virou profissão.",
           img: Guilherme,
           github: "",
-          twitter: "",
+          twitter: "https://twitter.com/gfelitti",
           site: "",
           linkedin: "https://www.linkedin.com/in/guilhermefelitti",
         },
