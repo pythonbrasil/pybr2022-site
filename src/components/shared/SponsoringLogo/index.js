@@ -7,6 +7,7 @@ import Stream from "@images/sponsoring/stream.svg";
 import Google from "@images/sponsoring/google.png";
 import Vinta from "@images/sponsoring/vinta.png";
 import Luizalabs from "@images/sponsoring/luizalabs.png";
+import Labcodes from "@images/sponsoring/labcodes.png";
 import Globo from "@images/sponsoring/globo.png";
 import INDT from "@images/sponsoring/indt.png";
 import SupportLogo from "@components/shared/SupportLogo";
@@ -48,6 +49,9 @@ const SponsoringLogo = ({ text }) => {
             </a>
 
             <h2>cobre</h2>
+            <a href="https://labcodes.com.br/">
+              <img src={Labcodes} alt="Labcodes - Studio de Software Recifense que projeta, implementa e escala produtos digitais customizados e que entregam experiências únicas para seus usuários."/>
+            </a>
             <a href="https://carreiras.magazineluiza.com.br/times/Luizalabs/vagas">
               <img src={Luizalabs} alt="Luizalabs"/>
             </a>
