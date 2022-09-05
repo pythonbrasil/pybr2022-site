@@ -211,7 +211,7 @@ export const TEXT_PTBR = {
   FINANCIALAID: {
     LANDING: {
       TITLE: `Programa de Auxílio Financeiro`,
-      BUTTON: `Solicite auxílio financeiro aqui`,
+      BUTTON: `Plano de apoio para empresas`,
       INFO: [
         {
           type: "paragraph",
@@ -290,7 +290,7 @@ export const TEXT_PTBR = {
           https://www.pesquisaprecomedio.com.br/preco-medio-refeicao/am/manaus "},
         {
           type: "title",
-          content: "Transporte aéreo/terrestre"},
+          content: "Transporte aéreo/terrestre interestadual, ida e/ou volta"},
         {
           type: "paragraph",
           content: "Fornecimento de passagem aérea ou terrestre ida e/ou volta para pessoa \
