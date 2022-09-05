@@ -12,7 +12,7 @@ import "./style.scss";
 
 const FinancialAid = ({ text }) => {
   const redirectToLink = () =>
-  window.location.replace("https://forms.gle/qPkPYFHCRPG1JnpFA");
+  window.location.replace("https://drive.google.com/file/d/1wIaDsg95uf55Z7y1bUVyes3vgJPrAT1J/view");
 
   return (
     <div id="duty">
