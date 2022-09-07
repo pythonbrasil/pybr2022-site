@@ -13,6 +13,7 @@ import INDT from "@images/sponsoring/indt.png";
 import SupportLogo from "@components/shared/SupportLogo";
 import Tw from "@images/sponsoring/tw.png";
 import Botcity from "@images/sponsoring/botcity.svg";
+import TwilioLogo from "@images/sponsoring/twilio.png";
 
 const SponsoringLogo = ({ text }) => {
   return (
@@ -41,6 +42,9 @@ const SponsoringLogo = ({ text }) => {
             </a>
             <a href="https://www.jusbrasil.com.br/">
               <img src={JusBrasilLogo} alt="JusBrasil"/>
+            </a>
+            <a href="https://www.twilio.com/pt-br/">
+              <img src={TwilioLogo} alt="Twilio"/>
             </a>
 
             <h2>cupuaçu</h2>
