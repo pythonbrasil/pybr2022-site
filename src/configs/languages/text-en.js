@@ -14,7 +14,7 @@ export const TEXT_EN = {
     LANDING: {
       TITLE: 'From 17 to oct 23 2022',
       INFO: 'Registration for Python Brazil 2022 can be done by the button below.',
-      BUTTON: 'Event registration here'
+      BUTTON: 'Event registration here (In person and Online)'
     },
     ABOUT: {
       TITLE: "Sobre a Python BR",
