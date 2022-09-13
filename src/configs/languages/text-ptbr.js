@@ -15,7 +15,7 @@ export const TEXT_PTBR = {
     LANDING: {
       TITLE: `17 a 23 de Outubro 2022`,
       INFO: `As inscrições para a Python Brasil 2022 podem ser feitas pelo botão abaixo.`,
-      BUTTON: `Inscreva-se para o evento aqui`,
+      BUTTON: `Inscreva-se para o evento aqui (Presencial e Online)`,
     },
     ABOUT: {
       TITLE: "Sobre a Python BR",
