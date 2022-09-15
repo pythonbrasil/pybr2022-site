@@ -132,8 +132,6 @@ const HomePage = ({ text }) => {
         </div>
       </section>
 
-      <Keynotes text={text} />
-
       <section id="section-agenda">
         <div className="container">
           <div className="row">
@@ -163,6 +161,8 @@ const HomePage = ({ text }) => {
           </div>
         </div>
       </section>
+
+      <Keynotes text={text} />
 
       <section id="section-sponsoring">
         <div className="container">
