@@ -16,6 +16,15 @@ export const TEXT_ES = {
       INFO: `El registro para Python Brasil 2022 se puede hacer con el botón abajo.`,
       BUTTON: `Regístrese para el evento aquí (Presencial y Online) `,
     },
+    MENU: {
+      CONTENT: [
+        { href: "/", label: "Home" },
+        { href: "/cdc", label: "Codigo de Conducta" },
+        { href: "#section-keynotes", label: "Keynotes" },
+        { href: "#section-agenda", label: "Agenda" },
+        { href: "/programa-auxilio-financeiro", label: "Programa de ayuda financiera" },
+      ]
+    },
     ABOUT: {
       TITLE: "Sobre el Python BR",
       CONTENT: [

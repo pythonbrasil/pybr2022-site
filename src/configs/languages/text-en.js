@@ -16,6 +16,15 @@ export const TEXT_EN = {
       INFO: 'Registration for Python Brazil 2022 can be done by the button below.',
       BUTTON: 'Event registration here (In person and Online)'
     },
+    MENU: {
+      CONTENT: [
+        { href: "/", label: "Home" },
+        { href: "/cdc", label: "Code of Conduct" },
+        { href: "#section-keynotes", label: "Keynotes" },
+        { href: "#section-agenda", label: "Schedule" },
+        { href: "/programa-auxilio-financeiro", label: "Financial Aid Program" },
+      ]
+    },
     ABOUT: {
       TITLE: "Sobre a Python BR",
       CONTENT: [

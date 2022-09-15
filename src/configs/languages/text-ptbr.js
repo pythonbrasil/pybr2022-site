@@ -17,6 +17,15 @@ export const TEXT_PTBR = {
       INFO: `As inscrições para a Python Brasil 2022 podem ser feitas pelo botão abaixo.`,
       BUTTON: `Inscreva-se para o evento aqui (Presencial e Online)`,
     },
+    MENU: {
+      CONTENT: [
+        { href: "/", label: "Home" },
+        { href: "/cdc", label: "Código de Conduta" },
+        { href: "#section-keynotes", label: "Keynotes" },
+        { href: "#section-agenda", label: "Agenda" },
+        { href: "/programa-auxilio-financeiro", label: "Programa de Auxílio Financeiro" },
+      ]
+    },
     ABOUT: {
       TITLE: "Sobre a Python BR",
       CONTENT: [
