@@ -111,6 +111,10 @@ export const TEXT_EN = {
     SUPPORTINGLOGO: {
       TITLE: "Supporting",
     },
+    SCHEDULE: {
+      TITLE: "Event schedule",
+      DESCRIPTION: "Timeline",
+    },
     COVID: {
       TITLE: "Medidas sobre a COVID-19",
       CONTENT: [

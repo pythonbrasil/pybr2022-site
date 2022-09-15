@@ -225,6 +225,31 @@ section {
   }
 }
 
+#section-agenda {
+  text-align: center;
+  background: #eee;
+
+  h3 {
+    background: #047f4d;
+  }
+
+  .section-agenda__button {
+    background: #269fa2;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: calc(32 / 16 * 1rem);
+    font-weight: 700;
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+
+    @media (max-width: ($tablet)) {
+      font-size: calc(24 / 16 * 1rem);
+    }
+  }
+}
+
 #section-faq {
   background: $light-green;
   min-height: 100vh;
