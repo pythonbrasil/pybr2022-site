@@ -120,6 +120,10 @@ export const TEXT_PTBR = {
     SUPPORTINGLOGO: {
       TITLE: "Apoio",
     },
+    SCHEDULE: {
+      TITLE: "Programação do Evento",
+      DESCRIPTION: "Cronograma",
+    },
     COVID: {
       TITLE: "Medidas sobre a COVID-19",
       CONTENT: [
