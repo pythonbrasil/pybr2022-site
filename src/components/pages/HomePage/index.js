@@ -13,6 +13,7 @@ import Keynotes from "@components/shared/Keynotes";
 
 import "./style.scss";
 import HotelSection from "../../shared/HotelSection";
+import EspacoOcean from "../../shared/EspacoOcean";
 
 const HomePage = ({ text }) => {
 
@@ -163,6 +164,8 @@ const HomePage = ({ text }) => {
       </section>
 
       <Keynotes text={text} />
+
+      <EspacoOcean text={text} />
 
       <section id="section-sponsoring">
         <div className="container">

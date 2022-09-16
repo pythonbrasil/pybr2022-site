@@ -39,7 +39,9 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
-    "sass": "^1.54.5"
+    "react-slick": "^0.29.0",
+    "sass": "^1.54.5",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "npm-check-updates": "^16.0.5"

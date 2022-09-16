@@ -109,6 +109,10 @@ export const TEXT_EN = {
         },
       ]
     },
+    ESPCACOOCEAN: {
+      TITLE: "Tutorials and Sprints",
+      DESCRIPTION: "Tutorials and sprints will take place in the Samsung OCEAN Manaus space.",
+    },
     SPONSORING: {
       TITLE: `Why sponsor Python Brasil 2022?`,
       BUTTON: 'See Sponsorship Options and Apply',
