@@ -108,6 +108,10 @@ export const TEXT_ES = {
         },
       ]
     },
+    ESPCACOOCEAN: {
+      TITLE: "Tutoriales y Sprints",
+      DESCRIPTION: "Los tutoriales y sprints se realizarán en el espacio Samsung OCEAN Manaus.",
+    },
     SPONSORING: {
       TITLE: `¿Cómo patrocinar el evento?`,
       BUTTON: 'Acceda a nuestros Planes de Patrocinio',

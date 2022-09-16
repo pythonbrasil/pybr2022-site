@@ -98,10 +98,19 @@ const Footer = ({ text }) => {
               <h4>Endereço do Evento</h4>
               <a href="https://goo.gl/maps/doWbFrWvkLsopkiE7">
                 <img src={LocationIcon} style={locationIconStyles}/>
+                <p style={locationParagraphStyles}>Centro de Convenções do Amazonas Vasco Vasques</p>
+                <p style={locationParagraphStyles}>Av. Constantino Nery, 5001 - Flores, Manaus - AM, 69058-795</p>
               </a>
-              <p style={locationParagraphStyles}>Centro de Convenções do Amazonas Vasco Vasques</p>
               <br />
-              <p style={locationParagraphStyles}>Av. Constantino Nery, 5001 - Flores, Manaus - AM, 69058-795</p>
+              <a href="https://goo.gl/maps/CoZQgWi4kVfjLaUo8">
+                <img src={LocationIcon} style={locationIconStyles}/>
+                <p style={locationParagraphStyles}>
+                  Samsung OCEAN Manaus
+                </p>
+                <p style={locationParagraphStyles}>
+                  Av. Darcy Vargas, 1200 - Parque Dez de Novembro, Manaus - AM, 69055-035
+                </p>
+              </a>
             </div>
           </div>
         </div>
