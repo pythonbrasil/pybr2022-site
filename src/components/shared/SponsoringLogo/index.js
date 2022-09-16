@@ -9,6 +9,8 @@ import Vinta from "@images/sponsoring/vinta.png";
 import Luizalabs from "@images/sponsoring/luizalabs.png";
 import Labcodes from "@images/sponsoring/labcodes.png";
 import Globo from "@images/sponsoring/globo.png";
+import Gsbf from "@images/sponsoring/gsbf.png";
+import Saks from "@images/sponsoring/saks.png";
 import INDT from "@images/sponsoring/indt.png";
 import SupportLogo from "@components/shared/SupportLogo";
 import Tw from "@images/sponsoring/tw.png";
@@ -40,6 +42,9 @@ const SponsoringLogo = ({ text }) => {
             <a href="https://vempraglobo.g.globo/#pt-BR/sites/CX_4001">
               <img src={Globo} alt="Globo"/>
             </a>
+            <a href="https://ri.gruposbf.com.br/">
+              <img src={Gsbf} alt="Grupo SBF"/>
+            </a>
             <a href="https://www.jusbrasil.com.br/">
               <img src={JusBrasilLogo} alt="JusBrasil"/>
             </a>
@@ -50,6 +55,9 @@ const SponsoringLogo = ({ text }) => {
             <h2>cupuaçu</h2>
             <a href="https://www.indt.org.br/">
               <img src={INDT} alt="INDT"/>
+            </a>
+            <a href="https://hellosaks.com/?utm_source=evento&utm_medium=referral&utm_campaign=phyton-brasil">
+              <img src={Saks} alt="Saks"/>
             </a>
 
             <h2>cobre</h2>
