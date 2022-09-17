@@ -42,7 +42,7 @@ const SponsoringLogo = ({ text }) => {
             <a href="https://vempraglobo.g.globo/#pt-BR/sites/CX_4001">
               <img src={Globo} alt="Globo"/>
             </a>
-            <a href="https://ri.gruposbf.com.br/">
+            <a href="https://www.linkedin.com/company/grupo-sbf-s-a-/">
               <img src={Gsbf} alt="Grupo SBF"/>
             </a>
             <a href="https://www.jusbrasil.com.br/">
