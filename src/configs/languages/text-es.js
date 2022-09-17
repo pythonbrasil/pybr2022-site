@@ -108,6 +108,10 @@ export const TEXT_ES = {
         },
       ]
     },
+    VASCOVASQUES: {
+      TITLE: "Discursos",
+      DESCRIPTION: "Las conferencias serán en el Centro de Convenciones de Amazonas - Vasco Vasques.",
+    },
     ESPCACOOCEAN: {
       TITLE: "Tutoriales y Sprints",
       DESCRIPTION: "Los tutoriales y sprints se realizarán en el espacio Samsung OCEAN Manaus.",

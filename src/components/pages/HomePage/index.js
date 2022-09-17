@@ -14,6 +14,7 @@ import Keynotes from "@components/shared/Keynotes";
 import "./style.scss";
 import HotelSection from "../../shared/HotelSection";
 import EspacoOcean from "../../shared/EspacoOcean";
+import VascoVasques from "../../shared/VascoVasques";
 
 const HomePage = ({ text }) => {
 
@@ -164,6 +165,8 @@ const HomePage = ({ text }) => {
       </section>
 
       <Keynotes text={text} />
+
+      <VascoVasques text={text} />
 
       <EspacoOcean text={text} />
 
