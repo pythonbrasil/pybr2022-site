@@ -115,7 +115,7 @@ export const TEXT_PTBR = {
     },
     ESPCACOOCEAN: {
       TITLE: "Tutoriais e Sprints",
-      DESCRIPTION: "Os tutoriais e sprints acontecerão no espaço Samsung OCEAN Manaus.",
+      DESCRIPTION: "Os tutoriais e sprints acontecerão na Escola Superior de Tecnologia - EST/UEA e no espaço Samsung OCEAN Manaus.",
     },
     SPONSORING: {
       TITLE: "Saiba como patrocinar o evento",

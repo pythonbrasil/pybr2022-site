@@ -115,7 +115,7 @@ export const TEXT_EN = {
     },
     ESPCACOOCEAN: {
       TITLE: "Tutorials and Sprints",
-      DESCRIPTION: "Tutorials and sprints will take place in the Samsung OCEAN Manaus space.",
+      DESCRIPTION: "Tutorials and sprints will take place at the Escola Superior de Tecnologia - EST/UEA and at the Samsung OCEAN Manaus space.",
     },
     SPONSORING: {
       TITLE: `Why sponsor Python Brasil 2022?`,
