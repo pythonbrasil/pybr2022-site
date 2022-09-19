@@ -1,0 +1,28 @@
+#section-espaco-ocean {
+  background: #fcf7eb;
+
+  h3 {
+    background: #269fa2;
+  }
+  h2 {
+    color: #269fa2;
+  }
+  p {
+    display: flow;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 20px;
+  }
+  a {
+    color: black;
+    background: lightgrey;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  slider {
+    padding: 100px;
+    border-radius: 100px;
+    margin: 150px;
+    background: red;
+  }
+}

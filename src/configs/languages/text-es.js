@@ -108,6 +108,14 @@ export const TEXT_ES = {
         },
       ]
     },
+    VASCOVASQUES: {
+      TITLE: "Discursos",
+      DESCRIPTION: "Las conferencias serán en el Centro de Convenciones de Amazonas - Vasco Vasques.",
+    },
+    ESPCACOOCEAN: {
+      TITLE: "Tutoriales y Sprints",
+      DESCRIPTION: "Los tutoriales y sprints se realizarán en la Escola Superior de Tecnologia - EST/UEA y en el espacio Samsung OCEAN Manaus.",
+    },
     SPONSORING: {
       TITLE: `¿Cómo patrocinar el evento?`,
       BUTTON: 'Acceda a nuestros Planes de Patrocinio',

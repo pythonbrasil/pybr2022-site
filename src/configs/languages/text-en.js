@@ -109,6 +109,14 @@ export const TEXT_EN = {
         },
       ]
     },
+    VASCOVASQUES: {
+      TITLE: "Speeches",
+      DESCRIPTION: "The lectures will be at the Amazonas Convention Center - Vasco Vasques.",
+    },
+    ESPCACOOCEAN: {
+      TITLE: "Tutorials and Sprints",
+      DESCRIPTION: "Tutorials and sprints will take place at the Escola Superior de Tecnologia - EST/UEA and at the Samsung OCEAN Manaus space.",
+    },
     SPONSORING: {
       TITLE: `Why sponsor Python Brasil 2022?`,
       BUTTON: 'See Sponsorship Options and Apply',
