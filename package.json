@@ -16,7 +16,7 @@
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
-    "build": "gatsby build && cp CNAME public/",
+    "build": "gatsby clean && gatsby build && cp CNAME public/",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "deploy": "gatsby build && gh-pages -d public"
