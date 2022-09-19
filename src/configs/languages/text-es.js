@@ -74,7 +74,7 @@ export const TEXT_ES = {
         },
         {
           name: "Mariatta",
-          description: "Mariatta is a Senior Developer Programs Engineer at Google. Through her role in the Google Cloud Native Database SDK team, she helps improve developer experience through developer engagement and open source tools. She is a long-time open source contributor and is one of the Python core developers. For her contributions in Python, she received the Python Community Service Award in 2018.",
+          description: "Mariatta es una Ingeniera de Desarrollo de Programas Senior en Google. A través de su rol en el equipo Google Cloud Native Database SDK, ella ayuda a mejorar la experiencia de desarrollo por medio del compromiso del desarrollador y herramientas open source. Ella es una colaboradora open source veterana y es una de las desarrolladoras del núcleo de Python. Por sus contribuciones en Python, ella recibió el Premio Python Community Service en 2018.",
           img: Mariatta,
           github: "",
           twitter: "https://twitter.com/mariatta?t=b2s0LfsxqsgOVUufUgF1Rw&s=09",
@@ -92,7 +92,7 @@ export const TEXT_ES = {
         },
         {
           name: "Eulanda Miranda",
-          description: "Eulanda Miranda dos Santos concluiu o doutorado em Engenharia na Université du Québec - École de Technologie Superiéure, Montreal-Canadá. Atua nas linhas de pesquisa de Aprendizagem de Máquina e Reconhecimento de Padrões, especialmente em aplicações médicas, ambientais e industriais. É Professora Associada do IComp da UFAM, onde também atua no Programa de Pós-Graduação em Informática (PPGI) orientando alunos de mestrado e de doutorado.",
+          description: "Eulanda Miranda es doctora en Ingeniería por la Université du Québec - École de Technologie Superiéure, Montreal-Canadá. Actúa en las líneas de investigación de Aprendizaje de Máquina y Reconocimiento de Padrones, especialmente en aplicaciones médicas, ambientales e industriales. Es Profesora Asociada en el Instituto de Computación (IComp) de la Universidad Federal de Amazonas, donde también actúa en el Programa de Posgraduación en Informática (PPGI) orientando alumnos de maestría y doctorado.",
           img: Eulanda,
           github: "",
           twitter: "",
@@ -101,7 +101,7 @@ export const TEXT_ES = {
         },
         {
           name: "Valcléia Solidade",
-          description: "Trabalha a 27 anos em projetos socioambientais na Amazonia. Formada em Gestão de Politicas Públicas com Pós graduação em Inovação e Difusão Tecnológica. Atualmente é Superintendente de Desenvolvimento Sustentável de Comunidades na Fundação Amazonia Sustentável, onde trabalha desde outubro de 2008. Mora em Manaus desde 2004, é natural de uma comunidade Quilombola denominada de Murumuru em Santarém/Pará. É apaixona pelo trabalho que realiza junto as comunidades da Amazonia profunda.",
+          description: "Valcléia dos Santos Lima Solidade, trabaja hace 27 años en proyectos socioambientales en la Amazonía. Es formada en gestión de políticas públicas con posgrado en Innovación y difusión tecnológica. Actualmente es superintendente de desarrollo sustentable de comunidades en la Fundación Amazonía Sustentable, donde actúa desde octubre de 2008. Vive en Manaus desde 2004, pero es natural de una comunidade quilombola denominada Murumuru en Santarém/Pará. Es apasionada por el trabajo que realiza junto a las comunidades de la Amazonía profunda. Le gusta viajar por las calles y en los fines de semana disfrutar con su familia y sus mascotas (Obama, Macron, Anita y Kamala), además de ver series y documentales.",
           img: Valcleia,
           github: "",
           twitter: "",

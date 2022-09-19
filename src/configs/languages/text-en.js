@@ -85,7 +85,7 @@ export const TEXT_EN = {
         },
         {
           name: "Eulanda Miranda",
-          description: "Eulanda Miranda dos Santos concluiu o doutorado em Engenharia na Université du Québec - École de Technologie Superiéure, Montreal-Canadá. Atua nas linhas de pesquisa de Aprendizagem de Máquina e Reconhecimento de Padrões, especialmente em aplicações médicas, ambientais e industriais. É Professora Associada do IComp da UFAM, onde também atua no Programa de Pós-Graduação em Informática (PPGI) orientando alunos de mestrado e de doutorado.",
+          description: "Eulanda Miranda is a PhD in Engineering from Université du Québec - École de Technologie Superiéure, Montreal-Canada. She works in the research lines of Machine Learning and Pattern Recognition, especially in medical, environmental, and industrial applications. She is an Associate Professor at the Computer Institute (IComp) of the Federal University of Amazonas, where she also works in the Graduate Program in Informatics (PPGI) guiding master and doctoral students.",
           img: Eulanda,
           github: "",
           twitter: "",
@@ -94,7 +94,7 @@ export const TEXT_EN = {
         },
         {
           name: "Valcléia Solidade",
-          description: "Trabalha a 27 anos em projetos socioambientais na Amazonia. Formada em Gestão de Politicas Públicas com Pós graduação em Inovação e Difusão Tecnológica. Atualmente é Superintendente de Desenvolvimento Sustentável de Comunidades na Fundação Amazonia Sustentável, onde trabalha desde outubro de 2008. Mora em Manaus desde 2004, é natural de uma comunidade Quilombola denominada de Murumuru em Santarém/Pará. É apaixona pelo trabalho que realiza junto as comunidades da Amazonia profunda.",
+          description: "Valcléia dos Santos Lima Solidade has been working for 27 years in socio-environmental projects in the Amazon. She is trained in public policy management with a postgraduate degree in innovation and technological diffusion. She is currently superintendent of sustainable development of communities at the Sustainable Amazon Foundation, where she has been working since October 2008. She has lived in Manaus since 2004, but is a native of a quilombola community called Murumuru in Santarém/Pará. She is passionate about the work she does with the communities of the deep Amazon. She likes to travel the streets and on the weekends she enjoys spending time with her family and pets (Obama, Macron, Anita and Kamala), as well as watching series and documentaries.",
           img: Valcleia,
           github: "",
           twitter: "",
