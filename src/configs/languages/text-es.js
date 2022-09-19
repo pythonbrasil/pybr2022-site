@@ -8,6 +8,8 @@ import Leticia from "@images/keynotes/leticia.png";
 import Mariatta from "@images/keynotes/mariatta.png";
 import Eulanda from "@images/keynotes/eulanda.png";
 import Valcleia from "@images/keynotes/valcleia.png";
+import Lidiane from "@images/keynotes/lidiane.png";
+
 
 export const TEXT_ES = {
   HOME: {
@@ -105,6 +107,15 @@ export const TEXT_ES = {
           twitter: "",
           site: "",
           linkedin: "https://www.linkedin.com/in/valcl%C3%A9ia-solidade-8713942b",
+        },
+        {
+          name: "Lidiane Monteiro",
+          description: "Hace 8 años fundó InspirAda na Computação. Desarrollador de software en LuizaLabs, 84% graduado en Informática por la UFRPE y Profesor de Informática. Disfruta de CS 1.6, Universo de Juego de Tronos, mierda de Twitter, fútbol, ​​cerveza y movimientos sociales. Pernambucana, hincha de raíz del Sport Club do Recife y tía de Joana. Co-fundadora de comunidades tecnológicas como PyLadies Recife y Women Who Code Recife, participante de PyLadies Brasil, PUG-PE y Django Girls.",
+          img: Lidiane,
+          github: "",
+          twitter: "https://twitter.com/Lidy_Monteiro",
+          site: "",
+          linkedin: "https://www.linkedin.com/in/lidymonteiro/",
         },
       ]
     },
