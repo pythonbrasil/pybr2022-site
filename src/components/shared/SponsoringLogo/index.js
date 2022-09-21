@@ -53,7 +53,7 @@ const SponsoringLogo = ({ text }) => {
             </a>
 
             <h2>cupuaçu</h2>
-            <a href="https://www.indt.org.br/">
+            <a href="https://www.linkedin.com/company/indt-instituto/mycompany/">
               <img src={INDT} alt="INDT"/>
             </a>
             <a href="https://hellosaks.com/?utm_source=evento&utm_medium=referral&utm_campaign=phyton-brasil">
