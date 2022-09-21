@@ -8,6 +8,8 @@ import Leticia from "@images/keynotes/leticia.png";
 import Mariatta from "@images/keynotes/mariatta.png";
 import Eulanda from "@images/keynotes/eulanda.png";
 import Valcleia from "@images/keynotes/valcleia.png";
+import Lidiane from "@images/keynotes/lidiane.png";
+
 
 export const TEXT_EN = {
   HOME: {
@@ -28,17 +30,9 @@ export const TEXT_EN = {
     ABOUT: {
       TITLE: "Sobre a Python BR",
       CONTENT: [
-        "A Python Brasil 2022 é a maior conferência sobre linguagem de \
-        programação Python do Brasil e da América Latina.",
-        "Serão 7 dias de imersão onde os participantes poderão \
-        contribuir para projetos de software livre, participar de \
-        treinamentos e adquirir novos conhecimentos com \
-        desenvolvedores renomados da comunidade. A programação está \
-        organizada da seguinte forma: Tutoriais (15.10 e 16.10), \
-        Palestras e Keynotes(17.10 a 22.10) e Sprints (23.10).",
-        "A edição de 2022 está sendo organizada pela comunidade Python \
-        de Manaus/AM (PyNorte) com o apoio da APyB (Associação Python \
-        Brasil)."
+        "Python Brasil 2022 is the largest conference on Python programming language in Brazil and Latin America.",
+        "There will be 7 days of immersion where participants will be able to contribute to free software projects, participate in training and acquire new knowledge with renowned developers from the community. The schedule is organized as follows: Tutorials and Sprints (10/17 to 10/19), Keynotes(10/20 to 10/23).",
+        "The 2022 edition is being organized by the Python community of Manaus/AM with the support of APyB (Python Brasil Association)."
       ]
     },
     KEYNOTES: {
@@ -91,7 +85,7 @@ export const TEXT_EN = {
         },
         {
           name: "Eulanda Miranda",
-          description: "Eulanda Miranda dos Santos concluiu o doutorado em Engenharia na Université du Québec - École de Technologie Superiéure, Montreal-Canadá. Atua nas linhas de pesquisa de Aprendizagem de Máquina e Reconhecimento de Padrões, especialmente em aplicações médicas, ambientais e industriais. É Professora Associada do IComp da UFAM, onde também atua no Programa de Pós-Graduação em Informática (PPGI) orientando alunos de mestrado e de doutorado.",
+          description: "Eulanda Miranda is a PhD in Engineering from Université du Québec - École de Technologie Superiéure, Montreal-Canada. She works in the research lines of Machine Learning and Pattern Recognition, especially in medical, environmental, and industrial applications. She is an Associate Professor at the Computer Institute (IComp) of the Federal University of Amazonas, where she also works in the Graduate Program in Informatics (PPGI) guiding master and doctoral students.",
           img: Eulanda,
           github: "",
           twitter: "",
@@ -100,12 +94,21 @@ export const TEXT_EN = {
         },
         {
           name: "Valcléia Solidade",
-          description: "Trabalha a 27 anos em projetos socioambientais na Amazonia. Formada em Gestão de Politicas Públicas com Pós graduação em Inovação e Difusão Tecnológica. Atualmente é Superintendente de Desenvolvimento Sustentável de Comunidades na Fundação Amazonia Sustentável, onde trabalha desde outubro de 2008. Mora em Manaus desde 2004, é natural de uma comunidade Quilombola denominada de Murumuru em Santarém/Pará. É apaixona pelo trabalho que realiza junto as comunidades da Amazonia profunda.",
+          description: "Valcléia dos Santos Lima Solidade has been working for 27 years in socio-environmental projects in the Amazon. She is trained in public policy management with a postgraduate degree in innovation and technological diffusion. She is currently superintendent of sustainable development of communities at the Sustainable Amazon Foundation, where she has been working since October 2008. She has lived in Manaus since 2004, but is a native of a quilombola community called Murumuru in Santarém/Pará. She is passionate about the work she does with the communities of the deep Amazon. She likes to travel the streets and on the weekends she enjoys spending time with her family and pets (Obama, Macron, Anita and Kamala), as well as watching series and documentaries.",
           img: Valcleia,
           github: "",
           twitter: "",
           site: "",
           linkedin: "https://www.linkedin.com/in/valcl%C3%A9ia-solidade-8713942b",
+        },
+        {
+          name: "Lidiane Monteiro",
+          description: "8 years ago she founded InspirAda na Computação. She is a Software Developer at LuizaLabs, 84% graduated in Computer Science from UFRPE and a professor of Computing. Enjoy CS 1.6, Game of Thrones Universe, Twitter bullshit, football, beer and social movements. Pernambucana, root fan of Sport Club do Recife and Joana's aunt. Co-founder of technology communities such as PyLadies Recife and Women Who Code Recife, participant of PyLadies Brasil, PUG-PE and Django Girls.",
+          img: Lidiane,
+          github: "",
+          twitter: "https://twitter.com/Lidy_Monteiro",
+          site: "",
+          linkedin: "https://www.linkedin.com/in/lidymonteiro/",
         },
       ]
     },
