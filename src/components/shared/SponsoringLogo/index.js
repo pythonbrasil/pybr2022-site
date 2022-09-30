@@ -16,6 +16,7 @@ import SupportLogo from "@components/shared/SupportLogo";
 import Tw from "@images/sponsoring/tw.png";
 import Botcity from "@images/sponsoring/botcity.svg";
 import TwilioLogo from "@images/sponsoring/twilio.png";
+import Eldorado from "@images/sponsoring/eldorado.svg";
 
 const SponsoringLogo = ({ text }) => {
   return (
@@ -53,6 +54,9 @@ const SponsoringLogo = ({ text }) => {
             </a>
 
             <h2>cupuaçu</h2>
+            <a href="https://www.eldorado.org.br/">
+              <img src={Eldorado} alt="Eldorado"/>
+            </a>
             <a href="https://www.linkedin.com/company/indt-instituto/mycompany/">
               <img src={INDT} alt="INDT"/>
             </a>
