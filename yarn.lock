@@ -9257,7 +9257,7 @@ token-types@^4.1.1:
 
 tr46@~0.0.3:
   version "0.0.3"
-  resolved "https://registry.npmjs.org/tr46/-/tr46-0.0.3.tgz"
+  resolved "https://registry.yarnpkg.com/tr46/-/tr46-0.0.3.tgz#8184fd347dac9cdc185992f3a6622e14b9d9ab6a"
 
 trim-repeated@^1.0.0:
   version "1.0.0"
@@ -9605,7 +9605,7 @@ web-vitals@^1.1.2:
 
 webidl-conversions@^3.0.0:
   version "3.0.1"
-  resolved "https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-3.0.1.tgz"
+  resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-3.0.1.tgz#24534275e2a7bc6be7bc86611cc16ae0a5654871"
 
 webpack-dev-middleware@^4.3.0:
   version "4.3.0"
@@ -9677,7 +9677,7 @@ webpack@^5.61.0:
 
 whatwg-url@^5.0.0:
   version "5.0.0"
-  resolved "https://registry.npmjs.org/whatwg-url/-/whatwg-url-5.0.0.tgz"
+  resolved "https://registry.yarnpkg.com/whatwg-url/-/whatwg-url-5.0.0.tgz#966454e8765462e37644d3626f6742ce8b70965d"
   dependencies:
     tr46 "~0.0.3"
     webidl-conversions "^3.0.0"
