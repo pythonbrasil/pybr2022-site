@@ -2,6 +2,8 @@ import React from "react";
 
 import "./style.scss";
 import TitleChip from "@components/shared/TitleChip";
+import Slider from "react-slick";
+import VascoVasques1 from "@images/vasco-vasques/vasco_vasques.jpg";
 
 
 const VascoVasques = ({ text }) => {
@@ -23,6 +25,11 @@ const VascoVasques = ({ text }) => {
                       </a>
                   </p>
               </div>
+              <br />
+              <br />
+              <Slider className="overflow-hidden">
+                  <img src={VascoVasques1} alt="Vasco Vasques" />
+              </Slider>
           </div>
       </section>
     );
