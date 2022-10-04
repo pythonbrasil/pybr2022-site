@@ -17,6 +17,7 @@ import Tw from "@images/sponsoring/tw.png";
 import Botcity from "@images/sponsoring/botcity.svg";
 import TwilioLogo from "@images/sponsoring/twilio.png";
 import Eldorado from "@images/sponsoring/eldorado.svg";
+import Psf from "@images/sponsoring/psf.png";
 
 const SponsoringLogo = ({ text }) => {
   return (
@@ -27,6 +28,9 @@ const SponsoringLogo = ({ text }) => {
             <TitleChip>{text.HOME.SPONSORINGLOGO.TITLE}</TitleChip>
 
             <h2>ouro</h2>
+            <a href="https://www.python.org/psf/">
+              <img src={Psf} alt="Python Software Foundation"/>
+            </a>
             <a href="https://www.linkedin.com/company/thoughtworks/">
               <img src={Tw} alt="A Thoughtworks é uma consultoria global de tecnologia que integra estratégia, design e engenharia para alavancar a inovação digital. Há mais de 27 anos, trabalhamos com clientes e organizações parceiras para criar impacto extraordinário no mundo. Hoje, somos mais de 10 mil pessoas, distribuídas entre 17 países e 48 escritórios."/>
             </a>
