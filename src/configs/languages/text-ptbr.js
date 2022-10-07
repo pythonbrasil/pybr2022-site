@@ -101,7 +101,7 @@ export const TEXT_PTBR = {
         },
         {
           name: "Valcléia Solidade",
-          description: "Trabalha a 27 anos em projetos socioambientais na Amazonia. Formada em Gestão de Politicas Públicas com Pós graduação em Inovação e Difusão Tecnológica. Atualmente é Superintendente de Desenvolvimento Sustentável de Comunidades na Fundação Amazonia Sustentável, onde trabalha desde outubro de 2008. Mora em Manaus desde 2004, é natural de uma comunidade Quilombola denominada de Murumuru em Santarém/Pará. É apaixona pelo trabalho que realiza junto as comunidades da Amazonia profunda.",
+          description: "Trabalha há 27 anos em projetos socioambientais na Amazonia. Formada em Gestão de Politicas Públicas com Pós graduação em Inovação e Difusão Tecnológica. Atualmente é Superintendente de Desenvolvimento Sustentável de Comunidades na Fundação Amazonia Sustentável, onde trabalha desde outubro de 2008. Mora em Manaus desde 2004, é natural de uma comunidade Quilombola denominada de Murumuru em Santarém/Pará. É apaixona pelo trabalho que realiza junto as comunidades da Amazonia profunda.",
           img: Valcleia,
           github: "",
           twitter: "",
