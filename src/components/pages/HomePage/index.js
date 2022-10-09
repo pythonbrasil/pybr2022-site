@@ -27,6 +27,12 @@ const HomePage = ({ text }) => {
       response: "Em 2022 teremos a primeira Python Brasil em formato híbrido, iremos transmitir online e ao vivo todas as palestras, keynotes, mesas redondas e palestras relâmpago.",
     },
     {
+      question: "Preciso estar vacinado contra febre amarela?",
+      response: "Segundo a Secretaria Municipal de Saúde (Semsa Manaus), a Região Amazônica é endêmica para Febre Amarela, por isso, o turista deverá ser vacinado contra esta doença com pelo menos 10 dias de antecedência da viagem." +
+        " Mais informações aqui <a target='_blank' href='https://semsa.manaus.am.gov.br/servico_cidadao/guia-de-saude-para-o-turista/#:~:text=A%20Regi%C3%A3o%20Amaz%C3%B4nica%20%C3%A9%20end%C3%AAmica,dias%20de%20anteced%C3%AAncia%20da%20viagem'>" +
+        "GUIA DE SAÚDE PARA O TURISTA - SEMSA</a>",
+    },
+    {
       question: "Preciso estar vacinado para participar presencialmente do evento?",
       response: "Sim! A apresentação do comprovante de vacina será necessário para a participação do evento.",
     },
@@ -218,7 +224,13 @@ const HomePage = ({ text }) => {
                 <li key={item.question}>
                   <details className="expander">
                     <summary className="summary">{item.question}</summary>
-                    <div className="content">{item.response}</div>
+                    <div className="content">
+                      <div
+                        dangerouslySetInnerHTML={{
+                          __html: item.response,
+                        }}
+                      />
+                    </div>
                   </details>
                   <hr />
                 </li>
