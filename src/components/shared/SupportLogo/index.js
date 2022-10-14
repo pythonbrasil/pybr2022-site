@@ -5,6 +5,7 @@ import TitleChip from "@components/shared/TitleChip";
 import GenLtc from "@images/supporting/gen-ltc.png";
 import Novatec from "@images/supporting/novatec.svg";
 import Ocean from "@images/supporting/ocean.png";
+import Uea from "@images/supporting/uea.png";
 import Psf from "@images/supporting/psf.svg";
 import SebraeLab from "@images/supporting/sebraelab.png";
 
@@ -23,16 +24,20 @@ const SupportLogo = ({ text }) => {
 
             <div></div>
 
-            <a href="https://www.grupogen.com.br/exatas/computac-o">
+            <a href="https://www.oceanbrasil.com/">
+              <img src={Ocean} alt="O Ocean é o programa de capacitação e inovação tecnológica da Samsung, em parceria com universidades brasileiras de referência."/>
+            </a>
+
+            <a href="https://www2.uea.edu.br/">
+              <img src={Uea} alt=""/>
+            </a>
+
+            <a href="https://bit.ly/python-cupom25">
               <img src={GenLtc} alt="Encontre os melhores livros, e-books e cursos científicos, técnicos e profissionais das editoras Método, Forense, Guanabara Koogan, Roca, Santos, Atlas e LTC."/>
             </a>
 
             <a href="https://www.novatec.com.br/ ">
               <img src={Novatec} alt="A Novatec Editora é especializada em livros de informática, marketing digital, negócios, finanças e investimentos."/>
-            </a>
-
-            <a href="https://www.oceanbrasil.com/">
-              <img src={Ocean} alt="O Ocean é o programa de capacitação e inovação tecnológica da Samsung, em parceria com universidades brasileiras de referência."/>
             </a>
 
             <a href="https://bit.ly/sebraelabam">
