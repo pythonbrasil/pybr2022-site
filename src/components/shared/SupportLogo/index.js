@@ -32,7 +32,7 @@ const SupportLogo = ({ text }) => {
               <img src={Uea} alt=""/>
             </a>
 
-            <a href="https://www.grupogen.com.br/exatas/computac-o">
+            <a href="https://bit.ly/python-cupom25">
               <img src={GenLtc} alt="Encontre os melhores livros, e-books e cursos científicos, técnicos e profissionais das editoras Método, Forense, Guanabara Koogan, Roca, Santos, Atlas e LTC."/>
             </a>
 
