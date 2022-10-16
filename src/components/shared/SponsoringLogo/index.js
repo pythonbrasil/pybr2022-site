@@ -7,6 +7,7 @@ import Stream from "@images/sponsoring/stream.svg";
 import Google from "@images/sponsoring/google.png";
 import Vinta from "@images/sponsoring/vinta.png";
 import Luizalabs from "@images/sponsoring/luizalabs.png";
+import Auth0 from "@images/sponsoring/auth0.svg";
 import Labcodes from "@images/sponsoring/labcodes.png";
 import Globo from "@images/sponsoring/globo.png";
 import Gsbf from "@images/sponsoring/gsbf.png";
@@ -65,6 +66,9 @@ const SponsoringLogo = ({ text }) => {
             </a>
 
             <h2>cobre</h2>
+            <a href="https://auth0.com">
+              <img src={Auth0} alt="Auth0 fornece uma plataforma de autenticação e autorização pronta para uso para qualquer aplicativo, com apenas algumas linhas de código."/>
+            </a>
             <a href="https://labcodes.com.br/">
               <img src={Labcodes} alt="Labcodes - Studio de Software Recifense que projeta, implementa e escala produtos digitais customizados e que entregam experiências únicas para seus usuários."/>
             </a>
