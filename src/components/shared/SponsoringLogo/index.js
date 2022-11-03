@@ -17,6 +17,7 @@ import Tw from "@images/sponsoring/tw.png";
 import Botcity from "@images/sponsoring/botcity.svg";
 import TwilioLogo from "@images/sponsoring/twilio.png";
 import Eldorado from "@images/sponsoring/eldorado.svg";
+import Lincoln from "@images/sponsoring/lincolnloop.svg";
 
 const SponsoringLogo = ({ text }) => {
   return (
@@ -67,6 +68,9 @@ const SponsoringLogo = ({ text }) => {
             <h2>cobre</h2>
             <a href="https://labcodes.com.br/">
               <img src={Labcodes} alt="Labcodes - Studio de Software Recifense que projeta, implementa e escala produtos digitais customizados e que entregam experiências únicas para seus usuários."/>
+            </a>
+            <a href="https://lincolnloop.com/">
+              <img src={Lincoln} alt="Lincoln Loop"/>
             </a>
             <a href="https://carreiras.magazineluiza.com.br/times/Luizalabs/vagas">
               <img src={Luizalabs} alt="Luizalabs"/>
